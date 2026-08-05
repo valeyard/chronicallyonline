@@ -7,6 +7,7 @@
 // session), so pick a window deliberately:
 //   node scraper/backfill.mjs --days=14
 //   node scraper/backfill.mjs --since=2026-07-01 --until=2026-07-31
+//   node scraper/backfill.mjs --days=7 --only=zack-polanski
 //
 // By default it won't overwrite a day that already has "ok" data for a
 // politician (e.g. from the daily scrape) — pass --force to redo those too.
@@ -49,7 +50,7 @@ function parseArgs() {
   );
   const until = args.until || yesterdayLondonDateStr();
   const since = args.since || addDaysToDateStr(until, -(Number(args.days || 14) - 1));
-  return { since, until, force: args.force === "true" };
+  return { since, until, force: args.force === "true", only: args.only || null };
 }
 
 async function loadPoliticians() {
@@ -130,10 +131,17 @@ function loadExistingDay(date) {
 }
 
 async function main() {
-  const { since, until, force } = parseArgs();
+  const { since, until, force, only } = parseArgs();
   console.log(`[backfill] window: ${since} to ${until} (inclusive, UK calendar days)`);
 
-  const politicians = await loadPoliticians();
+  let politicians = await loadPoliticians();
+  if (only) {
+    politicians = politicians.filter((p) => p.id === only || p.handle === only);
+    if (politicians.length === 0) {
+      console.error(`[backfill] --only=${only} matched no one in config/politicians.json`);
+      process.exit(1);
+    }
+  }
   const fullRange = {
     start: londonDateRangeUtc(since).start,
     end: londonDateRangeUtc(until).end,

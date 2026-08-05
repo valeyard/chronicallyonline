@@ -1,0 +1,99 @@
+name: Historical backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Number of days back from yesterday (ignored if 'since' is set)"
+        type: string
+        default: "7"
+      since:
+        description: "Start date YYYY-MM-DD (optional, overrides 'days')"
+        type: string
+        default: ""
+      until:
+        description: "End date YYYY-MM-DD (optional, defaults to yesterday)"
+        type: string
+        default: ""
+      only:
+        description: "Politician id or handle to limit to (optional, default: everyone)"
+        type: string
+        default: ""
+      force:
+        description: "Re-scrape days that already have data"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  backfill-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: Backfill
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.since }}" ]; then
+            ARGS="--since=${{ inputs.since }}"
+            if [ -n "${{ inputs.until }}" ]; then ARGS="$ARGS --until=${{ inputs.until }}"; fi
+          else
+            ARGS="--days=${{ inputs.days }}"
+          fi
+          if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only=${{ inputs.only }}"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          echo "Running: node scraper/backfill.mjs $ARGS"
+          node scraper/backfill.mjs $ARGS
+        env:
+          AUTH_STORAGE_STATE_B64: ${{ secrets.AUTH_STORAGE_STATE_B64 }}
+          DEBUG_SCRAPE_DIR: debug-artifacts
+
+      - name: Upload debug screenshots/DOM dumps
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-artifacts
+          path: debug-artifacts
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Commit new data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Backfill scrape data: $(git diff --cached --name-only | tr '\n' ' ')"
+          git push
+
+      - name: Build site
+        run: npm run build
+        env:
+          GITHUB_PAGES: "true"
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+      - uses: actions/deploy-pages@v4
+        id: deployment
