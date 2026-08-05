@@ -85,6 +85,64 @@ export function classify(rec) {
   };
 }
 
+// Turns a `seen` Map (id -> record, in feed order — most recent first,
+// since each scroll only appends newly-revealed items after the previous
+// batch) into classified tweets whose timestamp falls in [start, end).
+//
+// Reposts have no real repost timestamp available (see isRepostRecord), so
+// each one is anchored to whichever neighboring original/reply is CLOSER by
+// feed position — checking both directions, not just the preceding one.
+// Anchoring only backward would drop e.g. evening reposts that appear above
+// (more recent than) the day's own original posts in feed order.
+export function extractTweets(seen, { start, end }) {
+  const entries = [...seen.values()];
+  const n = entries.length;
+  const ownMs = entries.map((rec) => {
+    if (isPinnedRecord(rec) || isRepostRecord(rec) || !rec.timestamp) return null;
+    return new Date(rec.timestamp).getTime();
+  });
+
+  const beforeIdx = new Array(n).fill(-1); // nearest known anchor at a smaller index (more recent)
+  for (let i = 0, last = -1; i < n; i++) {
+    beforeIdx[i] = last;
+    if (ownMs[i] != null) last = i;
+  }
+  const afterIdx = new Array(n).fill(-1); // nearest known anchor at a larger index (older)
+  for (let i = n - 1, last = -1; i >= 0; i--) {
+    afterIdx[i] = last;
+    if (ownMs[i] != null) last = i;
+  }
+
+  const startMs = start.getTime();
+  const endMs = end.getTime();
+  const tweets = [];
+
+  for (let i = 0; i < n; i++) {
+    const rec = entries[i];
+    if (isPinnedRecord(rec)) continue;
+
+    let effectiveMs;
+    if (isRepostRecord(rec)) {
+      const b = beforeIdx[i];
+      const a = afterIdx[i];
+      if (b === -1 && a === -1) continue; // no anchor at all — can't place it
+      if (b === -1) effectiveMs = ownMs[a];
+      else if (a === -1) effectiveMs = ownMs[b];
+      else effectiveMs = i - b <= a - i ? ownMs[b] : ownMs[a];
+    } else {
+      effectiveMs = ownMs[i];
+    }
+    if (effectiveMs == null || effectiveMs < startMs || effectiveMs >= endMs) continue;
+
+    const tweet = classify(rec);
+    if (!tweet) continue;
+    tweet.timestamp = new Date(effectiveMs).toISOString();
+    tweets.push(tweet);
+  }
+
+  return tweets;
+}
+
 export function summarize(tweets) {
   const counts = { original: 0, retweet: 0, reply: 0, total: tweets.length };
   for (const t of tweets) counts[t.type]++;

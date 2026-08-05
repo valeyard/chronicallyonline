@@ -27,10 +27,10 @@ import {
   buildContext,
   isLoginWalled,
   collectArticles,
-  classify,
   summarize,
   isPinnedRecord,
   isRepostRecord,
+  extractTweets,
 } from "./lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -110,36 +110,7 @@ async function scrapeRange(page, url, { start, end }) {
     await sleep(1200 + Math.random() * 1000);
   }
 
-  // seen's insertion order tracks feed order (top/most-recent first), since
-  // each scroll only appends newly-revealed items after the previous batch.
-  const tweets = [];
-  let lastKnownTimestamp = null;
-  for (const rec of seen.values()) {
-    if (isPinnedRecord(rec)) continue;
-
-    if (isRepostRecord(rec)) {
-      // Its own timestamp is the ORIGINAL tweet's post time, not repost
-      // time, so it can't be bucketed by day directly. Anchor it to the
-      // nearest more-recent original/reply instead — close enough by feed
-      // position — and skip it if we haven't seen one yet to anchor to.
-      if (!lastKnownTimestamp) continue;
-      const tweet = classify(rec);
-      if (tweet) {
-        tweet.timestamp = lastKnownTimestamp;
-        tweets.push(tweet);
-      }
-      continue;
-    }
-
-    if (!rec.timestamp) continue;
-    const ts = new Date(rec.timestamp);
-    if (ts < start) break; // scrolled past the target window; everything after is older still
-    if (ts >= end) continue; // outside the window on the newer end
-    lastKnownTimestamp = rec.timestamp;
-    const tweet = classify(rec);
-    if (tweet) tweets.push(tweet);
-  }
-  return tweets;
+  return extractTweets(seen, { start, end });
 }
 
 function bucketByLondonDay(tweets) {
