@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-03",
+  "scrapedAt": "2026-08-05T22:16:35.050Z",
+  "range": {
+    "start": "2026-08-02T23:00:00.000Z",
+    "end": "2026-08-03T23:00:00.000Z"
+  },
+  "politicians": {
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 2,
+        "reply": 0,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2084169010371789282",
+          "type": "original",
+          "timestamp": "2026-08-03T06:46:28.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084169010371789282",
+          "textSnippet": "Very disappointing from the new Prime Minister, very much sounding like the previous PM. \n\nThese are among the world’s most vulnerable and desparate people. They need safe routes and humanity from responsible politicians, not grandstanding.\n\nThis isn’t doing politics differently."
+        },
+        {
+          "id": "2084280970610364781",
+          "type": "retweet",
+          "timestamp": "2026-08-03T14:11:22.000Z",
+          "url": "https://x.com/_BoldPolitics/status/2084280970610364781",
+          "textSnippet": "Every new oil and gas project that gets approved will make the heatwaves more unbearable."
+        },
+        {
+          "id": "2084295023055471032",
+          "type": "original",
+          "timestamp": "2026-08-03T15:07:12.000Z",
+          "url": "https://x.com/C_C_Ioannou/status/2084295023055471032",
+          "textSnippet": "The saying 'never meet your heroes' apparently doesn't apply to \n@ZackPolanski\n, who turns out to be even more impressive in real life!"
+        },
+        {
+          "id": "2084297036950581288",
+          "type": "original",
+          "timestamp": "2026-08-03T15:15:12.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084297036950581288",
+          "textSnippet": "Thank you to Green Gathering - such a wonderful weekend!\n\nI'll be at lots of other festivals this summer - we're building our movement and creating an alternative to the old party politics.\n\n\nhttp://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2084298211649261579",
+          "type": "original",
+          "timestamp": "2026-08-03T15:19:52.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084298211649261579",
+          "textSnippet": "Up next this weekend is the Edinburgh Fringe where you can catch me live in conversation with Iain Dale.\n\n\nhttps://\nedfringe.com/tickets/whats-\non/iain-dale-all-talk-with-zack-polanski\n…"
+        },
+        {
+          "id": "2084298390041501887",
+          "type": "retweet",
+          "timestamp": "2026-08-03T15:20:35.000Z",
+          "url": "https://x.com/GreenPartyJay/status/2084298390041501887",
+          "textSnippet": "Join a movement that is truly antiestablishment. \n\nTake power back from millionaires and corporations and into the hands of the people. \n\nMake Hope normal again!"
+        },
+        {
+          "id": "2084298499915411769",
+          "type": "original",
+          "timestamp": "2026-08-03T15:21:01.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084298499915411769",
+          "textSnippet": "Great to meet you! "
+        }
+      ]
+    }
+  }
+}

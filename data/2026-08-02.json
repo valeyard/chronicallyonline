@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-02",
+  "scrapedAt": "2026-08-05T22:16:35.050Z",
+  "range": {
+    "start": "2026-08-01T23:00:00.000Z",
+    "end": "2026-08-02T23:00:00.000Z"
+  },
+  "politicians": {
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 2,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2083845161813938594",
+          "type": "retweet",
+          "timestamp": "2026-08-02T09:19:37.000Z",
+          "url": "https://x.com/carolecadwalla/status/2083845161813938594",
+          "textSnippet": "NEW: The Abramovich connection. How convicted money launderer George Cottrell - & close aide to Nigel Farage - ‘signed documents’ for one of Putin’s closest allies.\n\nMy latest for \n@thenerve_news\n \n1/"
+        },
+        {
+          "id": "2083925096222101607",
+          "type": "retweet",
+          "timestamp": "2026-08-02T14:37:15.000Z",
+          "url": "https://x.com/ZoeJardiniere/status/2083925096222101607",
+          "textSnippet": "Hey lads!\n\nA fresh new idea from this new government & our new PM \n\nCUTS! "
+        }
+      ]
+    }
+  }
+}
