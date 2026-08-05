@@ -64,9 +64,17 @@ export function isPinnedRecord(rec) {
   return Boolean(rec.socialContext && /pinned/i.test(rec.socialContext));
 }
 
+// X displays a repost with the ORIGINAL tweet's post time, not the time it
+// was reposted — there is no repost timestamp anywhere in the page markup.
+// So a record's own `timestamp` cannot be trusted for date-bucketing or
+// scroll-boundary decisions when this is true.
+export function isRepostRecord(rec) {
+  return Boolean(rec.socialContext && /repost/i.test(rec.socialContext));
+}
+
 export function classify(rec) {
   if (isPinnedRecord(rec)) return null;
-  const isRepost = Boolean(rec.socialContext && /repost/i.test(rec.socialContext));
+  const isRepost = isRepostRecord(rec);
   const type = isRepost ? "retweet" : rec.isReply ? "reply" : "original";
   return {
     id: rec.id,

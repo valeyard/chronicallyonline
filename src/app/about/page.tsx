@@ -18,8 +18,8 @@ export default function AboutPage() {
         <li>
           This relies on browser automation against X&apos;s public web interface rather than an
           official API, since read access is prohibitively expensive at the API&apos;s current
-          pricing. Data can be incomplete on days X changes its page layout or blocks the
-          scraper.
+          pricing. Data can be incomplete on days X changes its page layout or the automation
+          otherwise fails to load a page.
         </li>
         <li>
           Classification of retweet vs. reply vs. original post is done by pattern-matching the
@@ -27,6 +27,13 @@ export default function AboutPage() {
         </li>
         <li>Deleted posts and posts from accounts that go private will not appear.</li>
         <li>Times are bucketed by UK time (Europe/London), not each poster&apos;s local time.</li>
+        <li>
+          X shows a retweet with the <em>original</em> tweet&apos;s post time, not when the
+          account actually reposted it, and doesn&apos;t expose the real repost time anywhere in
+          the page. Retweets are dated by their position relative to nearby original posts
+          instead, which is usually right but can occasionally misdate one, especially on days
+          with very few original posts to anchor against.
+        </li>
       </ul>
       <h2 className="text-lg font-medium mt-4">Who&apos;s tracked</h2>
       <p className="text-[var(--color-text-secondary)]">

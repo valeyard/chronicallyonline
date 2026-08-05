@@ -16,6 +16,7 @@ import {
   classify,
   summarize,
   isPinnedRecord,
+  isRepostRecord,
 } from "./lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -88,10 +89,15 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
       if (seen.has(rec.id)) continue;
       seen.set(rec.id, rec);
       newCount++;
-      // A pinned tweet's real timestamp can be far older than the target
-      // day even though it's rendered at the very top — don't let it look
-      // like we've scrolled past the target day before we've even started.
-      if (!isPinnedRecord(rec) && rec.timestamp && new Date(rec.timestamp) < start) {
+      // Pinned tweets can be old regardless of position, and reposts carry
+      // the ORIGINAL tweet's timestamp, not repost time — neither is a
+      // trustworthy signal that we've scrolled past the target day.
+      if (
+        !isPinnedRecord(rec) &&
+        !isRepostRecord(rec) &&
+        rec.timestamp &&
+        new Date(rec.timestamp) < start
+      ) {
         hitOlder = true;
       }
     }
@@ -117,11 +123,32 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
   console.log(`  ...${scrollsUsed} scroll(s), ${seen.size} unique posts seen`);
   await dumpDebug(page, `${debugLabel}-final`);
 
+  // seen's insertion order tracks feed order (top/most-recent first), since
+  // each scroll only appends newly-revealed items after the previous batch.
   const tweets = [];
+  let lastKnownTimestamp = null;
   for (const rec of seen.values()) {
+    if (isPinnedRecord(rec)) continue;
+
+    if (isRepostRecord(rec)) {
+      // Its own timestamp is the ORIGINAL tweet's post time, not repost
+      // time, so it can't be date-checked directly. Anchor it to the
+      // nearest more-recent original/reply instead — close enough by feed
+      // position — and skip it if we haven't seen one yet to anchor to.
+      if (!lastKnownTimestamp) continue;
+      const tweet = classify(rec);
+      if (tweet) {
+        tweet.timestamp = lastKnownTimestamp;
+        tweets.push(tweet);
+      }
+      continue;
+    }
+
     if (!rec.timestamp) continue;
     const ts = new Date(rec.timestamp);
-    if (ts < start || ts >= end) continue;
+    if (ts < start) break; // scrolled past the target day; everything after is older still
+    if (ts >= end) continue; // still "today", not yet in the target window
+    lastKnownTimestamp = rec.timestamp;
     const tweet = classify(rec);
     if (tweet) tweets.push(tweet);
   }
