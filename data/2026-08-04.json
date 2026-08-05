@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "scrapedAt": "2026-08-05T21:49:37.372Z",
+  "scrapedAt": "2026-08-05T21:56:57.708Z",
   "range": {
     "start": "2026-08-03T23:00:00.000Z",
     "end": "2026-08-04T23:00:00.000Z"
@@ -13,9 +13,9 @@
       "status": "ok",
       "counts": {
         "original": 1,
-        "retweet": 1,
+        "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 1
       },
       "tweets": [
         {
@@ -24,13 +24,6 @@
           "timestamp": "2026-08-04T11:28:38.000Z",
           "url": "https://x.com/andyburnham/status/2084602406122274994",
           "textSnippet": "Britain’s prisons crisis has its roots in a failure to add sufficient new places between 2010 and 2024. Just 500 places were added and 23 prisons were closed. As a result, the system is now dangerously close to capacity and we are running the risk of new offenders not being"
-        },
-        {
-          "id": "2084295259970797989",
-          "type": "retweet",
-          "timestamp": "2026-08-04T11:28:38.000Z",
-          "url": "https://x.com/savechildrenuk/status/2084295259970797989",
-          "textSnippet": "We were delighted to welcome Prime Minister Andy Burnham to the Meadows Nursery in Sheffield, a pioneering partnership between Save the Children, Sheffield Hallam, Sheffield City Council and Watercliffe Meadow Primary School. \n\nAs well as meeting some of the feistiest toddlers"
         }
       ]
     },
@@ -41,9 +34,9 @@
       "status": "ok",
       "counts": {
         "original": 2,
-        "retweet": 1,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 2
       },
       "tweets": [
         {
@@ -52,13 +45,6 @@
           "timestamp": "2026-08-04T06:03:57.000Z",
           "url": "https://x.com/KemiBadenoch/status/2084520695698964676",
           "textSnippet": "Andy Burnham wants a round of applause for agreeing not to release rapists and child sex offenders. He's not getting one.\n\nThis is only a partial climbdown. Killers, violent offenders, men who have terrorised their partners and more will all still walk out of prison in October"
-        },
-        {
-          "id": "2084156716082438245",
-          "type": "retweet",
-          "timestamp": "2026-08-04T06:03:57.000Z",
-          "url": "https://x.com/CPhilpOfficial/status/2084156716082438245",
-          "textSnippet": "92% of crimes aren’t solved \n\nWe’ve all heard of information being handed to the police & not followed up\n\nThis is wrong - crime must have consequences \n\nThe next Conservative government will mandate the police to always follow up three key leads:"
         },
         {
           "id": "2084623092119151083",
@@ -146,25 +132,11 @@
       "status": "ok",
       "counts": {
         "original": 2,
-        "retweet": 7,
+        "retweet": 4,
         "reply": 0,
-        "total": 9
+        "total": 6
       },
       "tweets": [
-        {
-          "id": "2084648072026509569",
-          "type": "retweet",
-          "timestamp": "2026-08-04T10:29:51.000Z",
-          "url": "https://x.com/TheGreenParty/status/2084648072026509569",
-          "textSnippet": "BP's quarterly profits more than doubled to £4.2 billion in the three months to the end of June.\n\nThese are the profits of war and climate chaos.\n\nIt's time to make the biggest polluters pay."
-        },
-        {
-          "id": "2084602788160368865",
-          "type": "retweet",
-          "timestamp": "2026-08-04T10:29:51.000Z",
-          "url": "https://x.com/TheGreenParty/status/2084602788160368865",
-          "textSnippet": "Our prisons are overcrowded because the system is broken.\n\nThe answer isn't endless emergency releases. It's investing in prevention, rehabilitation and giving people the support they need to rebuild their lives."
-        },
         {
           "id": "2084587613416034784",
           "type": "original",
@@ -173,25 +145,32 @@
           "textSnippet": "Crop yields down, our countryside scorched and over 2800 people are dead due to this summer's heatwaves.\n\nMeanwhile fossil fuel giants are raking in record profits. \n\nWe must end this rampant profiteering, and cut fossil fuels from our energy mix as soon as possible."
         },
         {
-          "id": "2084298390041501887",
+          "id": "2084596190042038391",
           "type": "retweet",
-          "timestamp": "2026-08-04T10:29:51.000Z",
-          "url": "https://x.com/GreenPartyJay/status/2084298390041501887",
-          "textSnippet": "Join a movement that is truly antiestablishment. \n\nTake power back from millionaires and corporations and into the hands of the people. \n\nMake Hope normal again!"
+          "timestamp": "2026-08-04T11:03:56.000Z",
+          "url": "https://x.com/ZoeJardiniere/status/2084596190042038391",
+          "textSnippet": "I dunno it just feels like there might be SOMEWHERE other than in cuts to the welfare state where we could POSSIBLY find money to support our communities…"
         },
         {
-          "id": "2084957599469117604",
+          "id": "2084602788160368865",
           "type": "retweet",
-          "timestamp": "2026-08-04T20:08:37.000Z",
-          "url": "https://x.com/TheGreenParty/status/2084957599469117604",
-          "textSnippet": "This is what climate failure looks like. Nature, homes and livelihoods are being destroyed. \n\nThe Government must act now."
+          "timestamp": "2026-08-04T11:30:09.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084602788160368865",
+          "textSnippet": "Our prisons are overcrowded because the system is broken.\n\nThe answer isn't endless emergency releases. It's investing in prevention, rehabilitation and giving people the support they need to rebuild their lives."
         },
         {
-          "id": "2084896944183238824",
+          "id": "2084648072026509569",
           "type": "retweet",
-          "timestamp": "2026-08-04T20:08:37.000Z",
-          "url": "https://x.com/TheGreenParty/status/2084896944183238824",
-          "textSnippet": "Zack Polanski is to deliver an urgent message to the Prime Minister.\n\nWatch on Bold Politics YouTube channel at 11am."
+          "timestamp": "2026-08-04T14:30:05.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084648072026509569",
+          "textSnippet": "BP's quarterly profits more than doubled to £4.2 billion in the three months to the end of June.\n\nThese are the profits of war and climate chaos.\n\nIt's time to make the biggest polluters pay."
+        },
+        {
+          "id": "2084663235999936774",
+          "type": "retweet",
+          "timestamp": "2026-08-04T15:30:21.000Z",
+          "url": "https://x.com/hasanthehun/status/2084663235999936774",
+          "textSnippet": "my ambush channel 4 interview."
         },
         {
           "id": "2084733264951169462",
@@ -199,20 +178,6 @@
           "timestamp": "2026-08-04T20:08:37.000Z",
           "url": "https://x.com/ZackPolanski/status/2084733264951169462",
           "textSnippet": "We need to act now."
-        },
-        {
-          "id": "2084663235999936774",
-          "type": "retweet",
-          "timestamp": "2026-08-04T20:08:37.000Z",
-          "url": "https://x.com/hasanthehun/status/2084663235999936774",
-          "textSnippet": "my ambush channel 4 interview."
-        },
-        {
-          "id": "2084596190042038391",
-          "type": "retweet",
-          "timestamp": "2026-08-04T20:08:37.000Z",
-          "url": "https://x.com/ZoeJardiniere/status/2084596190042038391",
-          "textSnippet": "I dunno it just feels like there might be SOMEWHERE other than in cuts to the welfare state where we could POSSIBLY find money to support our communities…"
         }
       ]
     },
@@ -222,10 +187,10 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 2,
         "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 2
       },
       "tweets": [
         {
@@ -234,13 +199,6 @@
           "timestamp": "2026-08-04T09:30:53.000Z",
           "url": "https://x.com/DaveDooganSNP/status/2084572774895374835",
           "textSnippet": " Good luck to everyone getting their results today in Scotland.\n\nCongratulations if your grades go your way. If they don't, that's okay too, there are many different paths ahead, and these results don't define your future."
-        },
-        {
-          "id": "2084572778548568570",
-          "type": "original",
-          "timestamp": "2026-08-04T09:30:54.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2084572778548568570",
-          "textSnippet": "If you need advice or support about your next steps, you can contact the Skills Development Scotland helpline free of charge on: 0808 100 8000"
         },
         {
           "id": "2084624666858062289",
