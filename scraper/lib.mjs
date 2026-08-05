@@ -36,15 +36,23 @@ export async function collectArticles(page) {
       const href = link ? link.getAttribute("href") : null;
       const match = href ? href.match(/\/status\/(\d+)/) : null;
       if (!match || !timeEl) continue;
-      const socialContext = article.querySelector('[data-testid="socialContext"]');
+
+      // X renders the "X reposted" label as a sibling above <article>, not
+      // nested inside it — check the article first (older markup), then
+      // widen to the enclosing timeline cell.
+      const cell = article.closest('[data-testid="cellInnerDiv"]') || article.parentElement;
+      const socialContext =
+        article.querySelector('[data-testid="socialContext"]') ||
+        (cell ? cell.querySelector('[data-testid="socialContext"]') : null);
+
       const text = article.querySelector('[data-testid="tweetText"]');
-      const innerText = article.innerText || "";
+      const scopeText = (cell || article).innerText || "";
       out.push({
         id: match[1],
         timestamp: timeEl.getAttribute("datetime"),
         url: href.replace(/^\//, "https://x.com/"),
         socialContext: socialContext ? socialContext.innerText : null,
-        isReply: /(^|\n)Replying to @/.test(innerText),
+        isReply: /(^|\n)Replying to @/.test(scopeText),
         textSnippet: text ? text.innerText.slice(0, 280) : "",
       });
     }

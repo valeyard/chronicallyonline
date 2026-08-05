@@ -37,8 +37,10 @@ async function scrapeTimeline(page, url, { start, end }) {
 
   const seen = new Map();
   let consecutiveEmpty = 0;
+  let scrollsUsed = 0;
 
   for (let i = 0; i < MAX_SCROLLS; i++) {
+    scrollsUsed = i + 1;
     const batch = await collectArticles(page);
     let newCount = 0;
     let hitOlder = false;
@@ -58,9 +60,12 @@ async function scrapeTimeline(page, url, { start, end }) {
       consecutiveEmpty = 0;
     }
 
-    await page.mouse.wheel(0, 2200);
+    // page.mouse.wheel scrolls whatever is under the cursor, which defaults
+    // to (0,0) — not the timeline. Scroll the document directly instead.
+    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 1.8));
     await sleep(1400 + Math.random() * 1200);
   }
+  console.log(`  ...${scrollsUsed} scroll(s), ${seen.size} unique posts seen`);
 
   const tweets = [];
   for (const rec of seen.values()) {

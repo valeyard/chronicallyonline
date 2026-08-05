@@ -85,7 +85,9 @@ async function scrapeRange(page, url, { start, end }) {
       console.log(`  ...scroll ${i}, ${seen.size} posts seen so far`);
     }
 
-    await page.mouse.wheel(0, 2200);
+    // page.mouse.wheel scrolls whatever is under the cursor, which defaults
+    // to (0,0) — not the timeline. Scroll the document directly instead.
+    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 1.8));
     await sleep(1200 + Math.random() * 1000);
   }
 
