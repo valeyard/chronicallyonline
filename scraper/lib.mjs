@@ -64,10 +64,12 @@ export function isPinnedRecord(rec) {
   return Boolean(rec.socialContext && /pinned/i.test(rec.socialContext));
 }
 
-// X displays a repost with the ORIGINAL tweet's post time, not the time it
-// was reposted — there is no repost timestamp anywhere in the page markup.
-// So a record's own `timestamp` cannot be trusted for date-bucketing or
-// scroll-boundary decisions when this is true.
+// A repost's <time datetime> reflects the actual repost time (confirmed
+// against production data — a real account's reposts came back densely and
+// evenly spaced across the day, exactly matching feed position), unlike a
+// pinned tweet's, which can be arbitrarily old. Reposts are otherwise
+// treated like any other record for date filtering and scroll-boundary
+// decisions.
 export function isRepostRecord(rec) {
   return Boolean(rec.socialContext && /repost/i.test(rec.socialContext));
 }
@@ -85,59 +87,21 @@ export function classify(rec) {
   };
 }
 
-// Turns a `seen` Map (id -> record, in feed order — most recent first,
-// since each scroll only appends newly-revealed items after the previous
-// batch) into classified tweets whose timestamp falls in [start, end).
-//
-// Reposts have no real repost timestamp available (see isRepostRecord), so
-// each one is anchored to whichever neighboring original/reply is CLOSER by
-// feed position — checking both directions, not just the preceding one.
-// Anchoring only backward would drop e.g. evening reposts that appear above
-// (more recent than) the day's own original posts in feed order.
+// Turns a `seen` Map (id -> record) into classified tweets whose timestamp
+// falls in [start, end). Pinned tweets are always excluded, since a pin can
+// be arbitrarily old regardless of its position in the feed.
 export function extractTweets(seen, { start, end }) {
-  const entries = [...seen.values()];
-  const n = entries.length;
-  const ownMs = entries.map((rec) => {
-    if (isPinnedRecord(rec) || isRepostRecord(rec) || !rec.timestamp) return null;
-    return new Date(rec.timestamp).getTime();
-  });
-
-  const beforeIdx = new Array(n).fill(-1); // nearest known anchor at a smaller index (more recent)
-  for (let i = 0, last = -1; i < n; i++) {
-    beforeIdx[i] = last;
-    if (ownMs[i] != null) last = i;
-  }
-  const afterIdx = new Array(n).fill(-1); // nearest known anchor at a larger index (older)
-  for (let i = n - 1, last = -1; i >= 0; i--) {
-    afterIdx[i] = last;
-    if (ownMs[i] != null) last = i;
-  }
-
   const startMs = start.getTime();
   const endMs = end.getTime();
   const tweets = [];
 
-  for (let i = 0; i < n; i++) {
-    const rec = entries[i];
-    if (isPinnedRecord(rec)) continue;
-
-    let effectiveMs;
-    if (isRepostRecord(rec)) {
-      const b = beforeIdx[i];
-      const a = afterIdx[i];
-      if (b === -1 && a === -1) continue; // no anchor at all — can't place it
-      if (b === -1) effectiveMs = ownMs[a];
-      else if (a === -1) effectiveMs = ownMs[b];
-      else effectiveMs = i - b <= a - i ? ownMs[b] : ownMs[a];
-    } else {
-      effectiveMs = ownMs[i];
-    }
-    if (effectiveMs == null || effectiveMs < startMs || effectiveMs >= endMs) continue;
+  for (const rec of seen.values()) {
+    if (isPinnedRecord(rec) || !rec.timestamp) continue;
+    const ms = new Date(rec.timestamp).getTime();
+    if (ms < startMs || ms >= endMs) continue;
 
     const tweet = classify(rec);
-    if (!tweet) continue;
-    tweet.timestamp = new Date(effectiveMs).toISOString();
-    tweets.push(tweet);
+    if (tweet) tweets.push(tweet);
   }
 
   return tweets;

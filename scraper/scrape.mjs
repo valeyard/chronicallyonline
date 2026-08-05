@@ -89,15 +89,10 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
       if (seen.has(rec.id)) continue;
       seen.set(rec.id, rec);
       newCount++;
-      // Pinned tweets can be old regardless of position, and reposts carry
-      // the ORIGINAL tweet's timestamp, not repost time — neither is a
-      // trustworthy signal that we've scrolled past the target day.
-      if (
-        !isPinnedRecord(rec) &&
-        !isRepostRecord(rec) &&
-        rec.timestamp &&
-        new Date(rec.timestamp) < start
-      ) {
+      // A pinned tweet's real timestamp can be far older than the target
+      // day even though it's rendered at the very top — don't let it look
+      // like we've scrolled past the target day before we've even started.
+      if (!isPinnedRecord(rec) && rec.timestamp && new Date(rec.timestamp) < start) {
         hitOlder = true;
       }
     }
