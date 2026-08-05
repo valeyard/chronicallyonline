@@ -1,0 +1,521 @@
+{
+  "date": "2026-08-05",
+  "scrapedAt": "2026-08-05T22:25:23.561Z",
+  "range": {
+    "start": "2026-08-04T23:00:00.000Z",
+    "end": "2026-08-05T23:00:00.000Z"
+  },
+  "politicians": {
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 14,
+        "retweet": 57,
+        "reply": 0,
+        "total": 71
+      },
+      "tweets": [
+        {
+          "id": "2084896944183238824",
+          "type": "retweet",
+          "timestamp": "2026-08-05T06:59:01.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084896944183238824",
+          "textSnippet": "Zack Polanski is to deliver an urgent message to the Prime Minister.\n\nWatch on Bold Politics YouTube channel at 11am."
+        },
+        {
+          "id": "2084945073339240459",
+          "type": "retweet",
+          "timestamp": "2026-08-05T10:10:16.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084945073339240459",
+          "textSnippet": "Watch live as Zack Polanski delivers urgent message to the Prime Minister"
+        },
+        {
+          "id": "2084949262169784803",
+          "type": "retweet",
+          "timestamp": "2026-08-05T10:26:55.000Z",
+          "url": "https://x.com/JoeBrindle_/status/2084949262169784803",
+          "textSnippet": "Powerful intervention from \n@ZackPolanski\n today.\n\nGreens strong on the need for adaptation to the new climate realities - bringing out a firefighter and former army engineer to back his message was a masterclass \n\nBurnham needs to wake up to the world we now live in."
+        },
+        {
+          "id": "2084950775415873772",
+          "type": "retweet",
+          "timestamp": "2026-08-05T10:32:56.000Z",
+          "url": "https://x.com/SkyNews/status/2084950775415873772",
+          "textSnippet": "'We need to keep people safe from extreme temperatures.'\n \nGreen Party leader Zack Polanski delivers his message to PM Andy Burnham following the extreme weather the UK has been facing.\n \nHe adds that 'we need to bring water back into public hands'.\n\n\nhttps://\ntrib.al/DEnqpa6"
+        },
+        {
+          "id": "2084957599469117604",
+          "type": "retweet",
+          "timestamp": "2026-08-05T11:00:03.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084957599469117604",
+          "textSnippet": "This is what climate failure looks like. Nature, homes and livelihoods are being destroyed. \n\nThe Government must act now."
+        },
+        {
+          "id": "2084958719813587080",
+          "type": "retweet",
+          "timestamp": "2026-08-05T11:04:30.000Z",
+          "url": "https://x.com/rachelmillward/status/2084958719813587080",
+          "textSnippet": "This. Exactly what should happen."
+        },
+        {
+          "id": "2084960538388295719",
+          "type": "retweet",
+          "timestamp": "2026-08-05T11:11:43.000Z",
+          "url": "https://x.com/AlexTaylorNews/status/2084960538388295719",
+          "textSnippet": "Can you imagine, can you imagine if only a 𝒕𝒆𝒏𝒕𝒉 of the airtime, headlines, and sheer engagement etc devoted to, say - \"the small boats\" was spent on by far the biggest problem for all humanity - namely we're rapidly burning up our only home, this planet ...\n\n@ZackPolanski"
+        },
+        {
+          "id": "2084965222733811769",
+          "type": "retweet",
+          "timestamp": "2026-08-05T11:30:20.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084965222733811769",
+          "textSnippet": "Zack Polanski delivers ‘reality check’ to Burnham over ‘biggest crisis since WWII’ after summer of extreme heat"
+        },
+        {
+          "id": "2084965934750425300",
+          "type": "retweet",
+          "timestamp": "2026-08-05T11:33:10.000Z",
+          "url": "https://x.com/ScotNational/status/2084965934750425300",
+          "textSnippet": "Zack Polanski has challenged Andy Burnham to stick to Labour’s manifesto promise to ban new oil and gas projects \n\nHe spoke alongside a former solider who called climate change the 'greatest threat to human security we face'"
+        },
+        {
+          "id": "2084970369199255786",
+          "type": "retweet",
+          "timestamp": "2026-08-05T11:50:47.000Z",
+          "url": "https://x.com/McrGreenParty/status/2084970369199255786",
+          "textSnippet": "Andy Burnham must act now.\n\nThis is a Climate Emergency!"
+        },
+        {
+          "id": "2084970522861859285",
+          "type": "retweet",
+          "timestamp": "2026-08-05T11:51:24.000Z",
+          "url": "https://x.com/PoliticsJOE_UK/status/2084970522861859285",
+          "textSnippet": "Zack Polanski issues stark warning to Andy Burnham on climate change"
+        },
+        {
+          "id": "2084974066864152877",
+          "type": "retweet",
+          "timestamp": "2026-08-05T12:05:29.000Z",
+          "url": "https://x.com/_JamieMcIntyre/status/2084974066864152877",
+          "textSnippet": "Imagine if any Prime Minister of the last 30 years had spoken like this. Led from the front, & taken the people, civic society & businesses with them.\n\nWe wouldn't have fixed the climate crisis yet, but we'd be massively better prepared to deal with the impacts we're now seeing."
+        },
+        {
+          "id": "2084974810631737718",
+          "type": "original",
+          "timestamp": "2026-08-05T12:08:26.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084974810631737718",
+          "textSnippet": "8 fossil fuel companies made profits of $700,000 a minute in the first quarter of this year.\n\nWhilst fires rage across the world.\n\nTime to pay up."
+        },
+        {
+          "id": "2084975953252421877",
+          "type": "original",
+          "timestamp": "2026-08-05T12:12:58.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084975953252421877",
+          "textSnippet": "As politics we have a moral responsibility to do whats right for the people we serve - even when it's not politically convenient.\n\nThere must be no new oil and gas drilling in the North Sea - including Rosebank and Jackdaw."
+        },
+        {
+          "id": "2084981824715895075",
+          "type": "retweet",
+          "timestamp": "2026-08-05T12:36:18.000Z",
+          "url": "https://x.com/HounslowGreens/status/2084981824715895075",
+          "textSnippet": "Zack has unpacked the climate crisis brilliantly on #wato World at One on Radio 4. Huge corporations are making billions from the climate crisis they caused. Fury is the natural reaction!"
+        },
+        {
+          "id": "2084982254212698488",
+          "type": "retweet",
+          "timestamp": "2026-08-05T12:38:01.000Z",
+          "url": "https://x.com/GreenRupertRead/status/2084982254212698488",
+          "textSnippet": "This is very good. Zack Polanski doing a press conference on the absolute necessity now of strategic adaptation and decarbonisation in response to the extreme weather of this summer - and its consequences:"
+        },
+        {
+          "id": "2084985778040410433",
+          "type": "retweet",
+          "timestamp": "2026-08-05T12:52:01.000Z",
+          "url": "https://x.com/MetroUK/status/2084985778040410433",
+          "textSnippet": "Zack Polanski has vowed to make fossil fuel companies pay for the cost of Britain's wildfires"
+        },
+        {
+          "id": "2084988201408598378",
+          "type": "retweet",
+          "timestamp": "2026-08-05T13:01:39.000Z",
+          "url": "https://x.com/bradfordgreens/status/2084988201408598378",
+          "textSnippet": " \"We are facing the biggest threat to this country since the Second World War.\"\n\n\n@ZackPolanski\n outlines the danger we all face from the #ClimateCrisis and calls on Andy Burnham to act:\n\n Keep People Safe\n Tackle Wildfires\n Prevent Droughts & Protect Food System\n\nWatch "
+        },
+        {
+          "id": "2084992621529735600",
+          "type": "retweet",
+          "timestamp": "2026-08-05T13:19:12.000Z",
+          "url": "https://x.com/BBCWorldatOne/status/2084992621529735600",
+          "textSnippet": "Zack Polanski is calling for Prime Minister Andy Burnham to hold a Cobra meeting after recent droughts and wildfires.\n\n\n@JonnyDymond\n presses the Green Party leader over why he has chosen to make this challenge now."
+        },
+        {
+          "id": "2084993644126167058",
+          "type": "original",
+          "timestamp": "2026-08-05T13:23:16.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084993644126167058",
+          "textSnippet": "This morning I was joined by a firefighter, a medic, a former soldier and Chris Packham to call on the government to act now."
+        },
+        {
+          "id": "2084995021070090296",
+          "type": "retweet",
+          "timestamp": "2026-08-05T13:28:45.000Z",
+          "url": "https://x.com/NickHartley/status/2084995021070090296",
+          "textSnippet": "Putting people and planet before profit, closing the funding gap for our frontline services, ruling out further oil and gas drilling, ramping up renewables and protecting nature.\n\nThe new Prime Minister \n@andyburnham\n forgets the climate crisis.\n\nZack and \n@TheGreenParty\n won’t "
+        },
+        {
+          "id": "2085004073632149805",
+          "type": "original",
+          "timestamp": "2026-08-05T14:04:43.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085004073632149805",
+          "textSnippet": "My urgent message to the Prime Minister with a Q&A with journalists on our plans.\n\nJoined by a medic, a former soldier, a firefighter and Chris Packham.\n\n "
+        },
+        {
+          "id": "2085009175893905740",
+          "type": "retweet",
+          "timestamp": "2026-08-05T14:24:59.000Z",
+          "url": "https://x.com/implausibleblog/status/2085009175893905740",
+          "textSnippet": "Zack Polanski, \"Today I was in Oxfordshire, standing in the aftermath of the devastation caused by a wildfire. Trees reduced to charcoal, cars turned to burnt out wrecks. The smell of smoke still lingering in the air on the site of what was once a thriving local business now"
+        },
+        {
+          "id": "2085009304680120538",
+          "type": "retweet",
+          "timestamp": "2026-08-05T14:25:30.000Z",
+          "url": "https://x.com/LeonieGreene/status/2085009304680120538",
+          "textSnippet": "This is excellent. Still nothing serious from \n@andyburnham\n on #ClimateCrisis."
+        },
+        {
+          "id": "2085018346232131673",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:01:26.000Z",
+          "url": "https://x.com/implausibleblog/status/2085018346232131673",
+          "textSnippet": "Former soldier and engineer, Carl Benfield speaks about the danger of climate change to our security \n@carlbenfield\n \n\n\"For 16 years, I served in the Royal Engineers and deployed on operations around the world, including Bosnia, Sierra Leone, Kosovo, Iraq and Afghanistan. I left"
+        },
+        {
+          "id": "2085018753339728275",
+          "type": "original",
+          "timestamp": "2026-08-05T15:03:03.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085018753339728275",
+          "textSnippet": "It’s time to act. \n\nAnd when we do we won’t just avoid the worst effects of climate breakdown - but we will lower bills permanently, help our communities thrive - and give a grounded sense of hope for generations to come."
+        },
+        {
+          "id": "2085022754403709184",
+          "type": "original",
+          "timestamp": "2026-08-05T15:18:57.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085022754403709184",
+          "textSnippet": "Today, I'm delivering an urgent message to the Prime Minister: we are facing the greatest threat to this country since the Second World War.\n\nOur safety, our food and water supply, and our way of life are at risk. It's time to act. \n\nHere I spell out what that should look like:"
+        },
+        {
+          "id": "2085024610748129594",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:26:19.000Z",
+          "url": "https://x.com/AngelaKDunning/status/2085024610748129594",
+          "textSnippet": "\"we have still heard next to nothing from the very top of government. No emergency briefings, no new plan and precious little detail about how this government will protect people from the crisis.\""
+        },
+        {
+          "id": "2085024806278209557",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:27:06.000Z",
+          "url": "https://x.com/implausibleblog/status/2085024806278209557",
+          "textSnippet": "Firefighter James Rodgers speaking alongside Zack Polanski, on the need to address climate change\n\n\"When people talk about climate change, they often talk about the year 2050. I’m a firefighter. I want to talk about now, because for firefighters, climate change isn’t a"
+        },
+        {
+          "id": "2085025549945086133",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:30:03.000Z",
+          "url": "https://x.com/BBCPolitics/status/2085025549945086133",
+          "textSnippet": "Andy Burnham failing public over heat threats, says Green leader Zack Polanski"
+        },
+        {
+          "id": "2085025762747335027",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:30:54.000Z",
+          "url": "https://x.com/mattfinch00/status/2085025762747335027",
+          "textSnippet": "All true from \n@ZackPolanski\n. Incredible to think this speech came in the same week that \n@bp_plc\n's quarterly profits doubled (£4.2bn!). + that Gatwick's second runway was approved. + that the CEO of the nation's car trade body called for the sector to be allowed to sell fewer "
+        },
+        {
+          "id": "2085026916034114046",
+          "type": "original",
+          "timestamp": "2026-08-05T15:35:29.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085026916034114046",
+          "textSnippet": "\"People talk about 2050.\n\nI'm a firefighter.\n\nI want to talk about now.\"\n\n"
+        },
+        {
+          "id": "2085027912697172143",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:39:26.000Z",
+          "url": "https://x.com/stephen_latham/status/2085027912697172143",
+          "textSnippet": "Fantastic talk from Chris Packham at \n@ZackPolanski\n  press conference here !"
+        },
+        {
+          "id": "2085027919756234857",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:39:28.000Z",
+          "url": "https://x.com/RJSHutton/status/2085027919756234857",
+          "textSnippet": "Why has somebody chosen to mention droughts and wildfires in the midst of droughts and wildfires?"
+        },
+        {
+          "id": "2085028918629634231",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:43:26.000Z",
+          "url": "https://x.com/FT/status/2085028918629634231",
+          "textSnippet": "Reform repaid Tice loan on same day £1mn donated by mother of Farage aide Cottrell"
+        },
+        {
+          "id": "2085030017067548700",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:47:48.000Z",
+          "url": "https://x.com/implausibleblog/status/2085030017067548700",
+          "textSnippet": "GP Dr Veena Aggarwal \n@veena1992\n speaking alongside Zack Polanksi on the climate crisis,\n\n\"The climate crisis is a health crisis. As a GP, I have been seeing firsthand the health impact of the recent heatwaves. Ambulances are so stretched, we couldn’t get an ambulance for a"
+        },
+        {
+          "id": "2085032597650858095",
+          "type": "retweet",
+          "timestamp": "2026-08-05T15:58:03.000Z",
+          "url": "https://x.com/ScottishCND/status/2085032597650858095",
+          "textSnippet": "Note the UK Prime Minister does not appear to have publicly addressed this summer's environmental crisis currently scourging the whole country."
+        },
+        {
+          "id": "2085033225567576104",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:00:33.000Z",
+          "url": "https://x.com/TheGreenParty/status/2085033225567576104",
+          "textSnippet": "The science is crystal clear - there can be no new oil and gas drilling in the North Sea. Andy Burnham must stop Rosebank, stop Jackdaw and make polluters pay for the destruction they are causing."
+        },
+        {
+          "id": "2085035112782000382",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:08:03.000Z",
+          "url": "https://x.com/GreenLManston/status/2085035112782000382",
+          "textSnippet": "What will it take for the PM to listen? \nThese pleas are from the FRONT LINE - emergency services \n\nThe time for incremental change was 50 years ago. Our only hope now is urgent action."
+        },
+        {
+          "id": "2085035687867273556",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:10:20.000Z",
+          "url": "https://x.com/implausibleblog/status/2085035687867273556",
+          "textSnippet": "Powerful speech by Naturalist Chris Packham speaking alongside Zack Polanski on the subject of Climate Change,\n\n\"To the disappointment of many, football didn’t come home this summer, but to the pain and suffering of millions, climate breakdown has. And our government and media"
+        },
+        {
+          "id": "2085036121587642564",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:12:04.000Z",
+          "url": "https://x.com/McrGreenParty/status/2085036121587642564",
+          "textSnippet": "Take our water back!"
+        },
+        {
+          "id": "2085036821717696588",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:14:51.000Z",
+          "url": "https://x.com/AngelaKDunning/status/2085036821717696588",
+          "textSnippet": "Just listened to this a 2nd time, it's brilliant and Zack is spot on with every single point and issue. The time to act is NOW."
+        },
+        {
+          "id": "2085037398027587907",
+          "type": "original",
+          "timestamp": "2026-08-05T16:17:08.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085037398027587907",
+          "textSnippet": "Such a powerful speech from \n@ChrisGPackham\n "
+        },
+        {
+          "id": "2085038762837283047",
+          "type": "original",
+          "timestamp": "2026-08-05T16:22:33.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085038762837283047",
+          "textSnippet": "What we're facing:\n\nThousands of deaths\nFood shortages\nWater rationing\nInfrastructure failing\nBillions wiped off the economy\n\nBut too many are in denial at the scale of the threat coming down the tracks."
+        },
+        {
+          "id": "2085040784735162598",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:30:35.000Z",
+          "url": "https://x.com/zjaranyMysz/status/2085040784735162598",
+          "textSnippet": "Give it a few more years."
+        },
+        {
+          "id": "2085041469107187972",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:33:19.000Z",
+          "url": "https://x.com/implausibleblog/status/2085041469107187972",
+          "textSnippet": "Zack Polanksi, \"We need to look at the £2.7 billion in tax breaks that is given to  fossil fuel companies, that should go into jobs in renewables, in nature, in care\""
+        },
+        {
+          "id": "2085041894363431335",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:35:00.000Z",
+          "url": "https://x.com/ScottishCND/status/2085041894363431335",
+          "textSnippet": "This segment looks unlikely to age well.\n\nMany more people have died from unprecedented temperatures just this summer compared to terrorist incidents in Britain since 2000.\n\nPointing out that this should be considered a national security concern is perfectly objective."
+        },
+        {
+          "id": "2085043144484065348",
+          "type": "original",
+          "timestamp": "2026-08-05T16:39:58.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085043144484065348",
+          "textSnippet": "Burning fossil fuels makes wildfires more frequent and more intense.\n\nOf course those who have made record profits causing the problem should pick up the bill."
+        },
+        {
+          "id": "2085043782404210804",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:42:30.000Z",
+          "url": "https://x.com/RobNicholas17/status/2085043782404210804",
+          "textSnippet": "Thank you \n@ZackPolanski\n & \n@ChrisGPackham\n for sounding the alarm so forthrightly, showing the leadership that is so desperately needed to tackle our biggest threat."
+        },
+        {
+          "id": "2085044501068845351",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:45:21.000Z",
+          "url": "https://x.com/DarrenBar88/status/2085044501068845351",
+          "textSnippet": "In his press conference this morning \n@ZackPolanski\n talked about how the media (with some exceptions) are failing to raise the alarm on climate breakdown.\n\nEvidence right here \n\n#DontLookUp"
+        },
+        {
+          "id": "2085045501204803840",
+          "type": "original",
+          "timestamp": "2026-08-05T16:49:20.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085045501204803840",
+          "textSnippet": "\"None of England’s fire and rescue services are thought to have direct access to firefighting aircraft.\"\n\nIt's outrageous. Make the fossil fuel companies pay."
+        },
+        {
+          "id": "2085049577095184879",
+          "type": "retweet",
+          "timestamp": "2026-08-05T17:05:32.000Z",
+          "url": "https://x.com/HarrietLamb_/status/2085049577095184879",
+          "textSnippet": "We are in an emergency. \nEveryone is talking abt the heatwave, abt the crisis, abt Farmers facing huge declines in yields. It is time for the Govt to act and declare an emergency and NOT to grant new oil and gas licences."
+        },
+        {
+          "id": "2085049910647222505",
+          "type": "retweet",
+          "timestamp": "2026-08-05T17:06:51.000Z",
+          "url": "https://x.com/bradfordgreens/status/2085049910647222505",
+          "textSnippet": " Watch Zack Polanski's #ClimateCrisis 'reality check' press conference in full "
+        },
+        {
+          "id": "2085050612090089512",
+          "type": "retweet",
+          "timestamp": "2026-08-05T17:09:38.000Z",
+          "url": "https://x.com/clairemcilvenna/status/2085050612090089512",
+          "textSnippet": "Just incredible. An incredible speech and individual. Thank you Chris "
+        },
+        {
+          "id": "2085051548908802139",
+          "type": "retweet",
+          "timestamp": "2026-08-05T17:13:22.000Z",
+          "url": "https://x.com/Dovepetalchile/status/2085051548908802139",
+          "textSnippet": "Everyone should watch this powerful speech by \n@ChrisGPackham\n based on science and the truth, instead of the usual political climate disinformation that gets pushed on us by fossil fuel lobbyists."
+        },
+        {
+          "id": "2085052801902694832",
+          "type": "retweet",
+          "timestamp": "2026-08-05T17:18:21.000Z",
+          "url": "https://x.com/Samuel29920/status/2085052801902694832",
+          "textSnippet": "Great speech from \n@ZackPolanski\n, one of the few politicians actually taking the climate emergency seriously.\n\nWe should respond like ambulances respond to emergencies, because it is a very real life & death emergency, yet many people think can just be approached \"gradually\"."
+        },
+        {
+          "id": "2085062544633532926",
+          "type": "retweet",
+          "timestamp": "2026-08-05T17:57:03.000Z",
+          "url": "https://x.com/McrGreenParty/status/2085062544633532926",
+          "textSnippet": "@ChrisGPackham\n is one of the GOATS.\n\nAlways a pleasure to listen and learn from people who care so deeply about People and Planet."
+        },
+        {
+          "id": "2085072944682705026",
+          "type": "retweet",
+          "timestamp": "2026-08-05T18:38:23.000Z",
+          "url": "https://x.com/ClimateDad77/status/2085072944682705026",
+          "textSnippet": "This is what real leadership looks like in an emergency.\n\nIt needs sharing far & wide."
+        },
+        {
+          "id": "2085079291436417279",
+          "type": "retweet",
+          "timestamp": "2026-08-05T19:03:36.000Z",
+          "url": "https://x.com/MrMatthewTodd/status/2085079291436417279",
+          "textSnippet": "I respect \n@JonnyDymond\n but the media always frames calls for climate action as the problem rather than actually what’s happening to the planet.\n\n2024 is the hottest year ever recorded on earth. \n\nIt’s very likely 2026 will be hotter, scientists say, and that 2027 will definitel"
+        },
+        {
+          "id": "2085082446542860610",
+          "type": "retweet",
+          "timestamp": "2026-08-05T19:16:08.000Z",
+          "url": "https://x.com/ScotNational/status/2085082446542860610",
+          "textSnippet": "Zack Polanski has challenged Andy Burnham to stick to Labour’s manifesto promise to ban new oil and gas projects "
+        },
+        {
+          "id": "2085082713548079323",
+          "type": "retweet",
+          "timestamp": "2026-08-05T19:17:12.000Z",
+          "url": "https://x.com/MikeSaunders14/status/2085082713548079323",
+          "textSnippet": "@BBCNews\n you see to have forgotten this fire"
+        },
+        {
+          "id": "2085086229305962971",
+          "type": "retweet",
+          "timestamp": "2026-08-05T19:31:10.000Z",
+          "url": "https://x.com/domdyer70/status/2085086229305962971",
+          "textSnippet": "Powerful speech by Naturalist Chris Packham speaking alongside Zack Polanski on the subject of Climate Change,\n\nWell worth a listen Andy \n@andyburnham\n \n@ZackPolanski"
+        },
+        {
+          "id": "2085093321907585372",
+          "type": "retweet",
+          "timestamp": "2026-08-05T19:59:21.000Z",
+          "url": "https://x.com/LBC/status/2085093321907585372",
+          "textSnippet": "‘This isn’t the new normal, it can only get worse.’\n \n\n@ZackPolanski\n won’t back down after receiving backlash for comparing the climate crisis to World War Two."
+        },
+        {
+          "id": "2085098856543318348",
+          "type": "retweet",
+          "timestamp": "2026-08-05T20:21:21.000Z",
+          "url": "https://x.com/BRETURN2EU/status/2085098856543318348",
+          "textSnippet": "Do we have to wait for the price rises, food shortages, water shortages, more floods, heatwaves, fires...to get worse before we accept that \n@ZackPolanski\n is absolutely right?"
+        },
+        {
+          "id": "2085106841634136309",
+          "type": "original",
+          "timestamp": "2026-08-05T20:53:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085106841634136309",
+          "textSnippet": "The Climate Crisis is at our doorsteps.\n\nAnd the Government don't have a plan.\n\nWe need to act now."
+        },
+        {
+          "id": "2085114619987685575",
+          "type": "retweet",
+          "timestamp": "2026-08-05T21:23:59.000Z",
+          "url": "https://x.com/timperceval/status/2085114619987685575",
+          "textSnippet": "LBC had a full day of claiming Zack Polanski is unnecessarily fearmongering & playing into the hands of climate skeptics by suggesting climate change is the worst threat since WW2.\n\nThe truth it is the worst threat to humanity since the last Ice Age.\n\nThere are no hyperbole."
+        },
+        {
+          "id": "2085117493840851354",
+          "type": "retweet",
+          "timestamp": "2026-08-05T21:35:24.000Z",
+          "url": "https://x.com/SolihullGreens/status/2085117493840851354",
+          "textSnippet": ""
+        },
+        {
+          "id": "2085118567993770461",
+          "type": "original",
+          "timestamp": "2026-08-05T21:39:40.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085118567993770461",
+          "textSnippet": "If those in power won't make a plan - we'll set it out for them."
+        },
+        {
+          "id": "2085122277859852470",
+          "type": "original",
+          "timestamp": "2026-08-05T21:54:25.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085122277859852470",
+          "textSnippet": "Wildfires. Literal scorched earth. And this is only the beginning.\n\nWe have to take this seriously and not get distracted by all the nonsense."
+        },
+        {
+          "id": "2085123030301257739",
+          "type": "retweet",
+          "timestamp": "2026-08-05T21:57:24.000Z",
+          "url": "https://x.com/Llewcalon/status/2085123030301257739",
+          "textSnippet": "You have to wonder when governments around the world (including ours) will finally admit that the climate crisis is real and we need drastic changes right now. Not later. But now. No more putting targets back. No more bowing to lobbies. Change needs to be done now!"
+        },
+        {
+          "id": "2085124547645436322",
+          "type": "retweet",
+          "timestamp": "2026-08-05T22:03:26.000Z",
+          "url": "https://x.com/LBC/status/2085124547645436322",
+          "textSnippet": "'He made AI videos about me, too...'\n \n\n@ZackPolanski\n says there are 'serious questions' about Kemi Badenoch's judgement after she allowed a former neo-Nazi to stand as a Tory."
+        }
+      ]
+    }
+  }
+}
