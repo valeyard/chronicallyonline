@@ -51,16 +51,25 @@ it's equivalent to a password).
 
 **If X blocks the login** (CAPTCHA / "unusual activity" wall that never clears): X detects
 Playwright's automated browser specifically at the login step, even though browsing an
-already-authenticated session afterward works fine. Work around it by logging in in your normal,
-everyday browser instead, then exporting that session's cookies:
+already-authenticated session afterward works fine. Work around it by reusing your regular,
+everyday browser's already-logged-in session instead. Two ways to do that:
 
-1. Install a cookie-export extension (e.g. "Cookie-Editor") in your regular browser.
-2. Go to x.com while logged in, open the extension, "Export" → "Export as JSON", save the file.
-3. Convert it:
-   ```bash
-   node scraper/cookiesToStorageState.mjs path/to/exported-cookies.json
-   ```
-   This writes `storageState.json` in the same format `scrape:login` would have.
+- **Quick — two cookie values, no extension.** Open x.com in your normal browser (already logged
+  in), open DevTools → Application → Cookies → `https://x.com`, and copy the values of
+  `auth_token` and `ct0` (those are the only two the scraper actually needs — `auth_token`
+  authenticates you, `ct0` is the CSRF token the page's own JS sends on the API calls that load
+  the timeline). Then:
+  ```bash
+  node scraper/manualAuth.mjs <auth_token value> <ct0 value>
+  ```
+
+- **Full export, via a browser extension.** Install a cookie-export extension (e.g.
+  "Cookie-Editor"), go to x.com while logged in, "Export" → "Export as JSON", save the file, then:
+  ```bash
+  node scraper/cookiesToStorageState.mjs path/to/exported-cookies.json
+  ```
+
+Either way writes `storageState.json` in the same format `scrape:login` would have.
 
 Then base64-encode it and add it as a GitHub Actions secret named `AUTH_STORAGE_STATE_B64`:
 
