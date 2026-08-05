@@ -40,6 +40,16 @@ jobs:
         run: node scraper/scrape.mjs
         env:
           AUTH_STORAGE_STATE_B64: ${{ secrets.AUTH_STORAGE_STATE_B64 }}
+          DEBUG_SCRAPE_DIR: debug-artifacts
+
+      - name: Upload debug screenshots/DOM dumps
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-artifacts
+          path: debug-artifacts
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Commit new data
         run: |

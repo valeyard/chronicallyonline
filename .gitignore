@@ -39,6 +39,9 @@ yarn-error.log*
 # X session auth (never commit — treat like a password)
 storageState.json
 
+# scraper debug output
+debug-artifacts/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

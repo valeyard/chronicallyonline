@@ -16,6 +16,7 @@ const DATA_DIR = path.join(ROOT, "data");
 
 const MAX_SCROLLS = 40;
 const MAX_CONSECUTIVE_EMPTY_SCROLLS = 3;
+const DEBUG_DIR = process.env.DEBUG_SCRAPE_DIR || null;
 
 function parseArgs() {
   const dateArg = process.argv.find((a) => a.startsWith("--date="));
@@ -27,9 +28,39 @@ async function loadPoliticians() {
   return JSON.parse(raw);
 }
 
-async function scrapeTimeline(page, url, { start, end }) {
+async function pageMetrics(page) {
+  return page.evaluate(() => ({
+    scrollTop: Math.round(window.scrollY),
+    scrollHeight: document.documentElement.scrollHeight,
+    innerHeight: window.innerHeight,
+    articlesOnPage: document.querySelectorAll('article[data-testid="tweet"]').length,
+  }));
+}
+
+async function dumpDebug(page, label) {
+  if (!DEBUG_DIR) return;
+  try {
+    await mkdir(DEBUG_DIR, { recursive: true });
+    await page.screenshot({ path: path.join(DEBUG_DIR, `${label}.png`), fullPage: false });
+    const html = await page.evaluate(() => {
+      const article = document.querySelector('article[data-testid="tweet"]');
+      if (!article) return "<no article found on page>";
+      const cell = article.closest('[data-testid="cellInnerDiv"]') || article.parentElement;
+      return (cell || article).outerHTML.slice(0, 8000);
+    });
+    await writeFile(path.join(DEBUG_DIR, `${label}.html`), html);
+  } catch (err) {
+    console.warn(`  [debug] failed to dump for ${label}: ${err.message}`);
+  }
+}
+
+async function scrapeTimeline(page, url, { start, end }, debugLabel) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
   await sleep(2000 + Math.random() * 1000);
+
+  await dumpDebug(page, `${debugLabel}-initial`);
+  const initialMetrics = await pageMetrics(page);
+  console.log(`  [initial] url=${page.url()} ${JSON.stringify(initialMetrics)}`);
 
   if (await isLoginWalled(page)) {
     throw new Error("login-walled");
@@ -64,8 +95,14 @@ async function scrapeTimeline(page, url, { start, end }) {
     // to (0,0) — not the timeline. Scroll the document directly instead.
     await page.evaluate(() => window.scrollBy(0, window.innerHeight * 1.8));
     await sleep(1400 + Math.random() * 1200);
+
+    const m = await pageMetrics(page);
+    console.log(
+      `  [scroll ${i + 1}] scrollTop=${m.scrollTop} scrollHeight=${m.scrollHeight} articlesOnPage=${m.articlesOnPage} newThisBatch=${newCount} uniqueSoFar=${seen.size}`,
+    );
   }
   console.log(`  ...${scrollsUsed} scroll(s), ${seen.size} unique posts seen`);
+  await dumpDebug(page, `${debugLabel}-final`);
 
   const tweets = [];
   for (const rec of seen.values()) {
@@ -86,6 +123,7 @@ async function scrapePolitician(context, politician, range) {
       page,
       `https://x.com/${politician.handle}/with_replies`,
       range,
+      politician.handle,
     );
     return { status: "ok", counts: summarize(tweets), tweets };
   } catch (err) {
