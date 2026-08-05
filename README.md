@@ -37,16 +37,30 @@ web timeline with a headless browser (Playwright).
 
 ### 1. Get a session for the scraper
 
-You need a logged-in X session for the scraper to use. Locally:
+You need a logged-in X session for the scraper to use.
 
 ```bash
 npm install
+npx playwright install chromium
 npm run scrape:login
 ```
 
-This opens a real browser window — log in with your (ideally burner) X account, then press Enter
-in the terminal. It saves `storageState.json` (already gitignored — never commit it, it's
-equivalent to a password).
+`scrape:login` opens a real browser window — log in with your (ideally burner) X account, then
+press Enter in the terminal. It saves `storageState.json` (already gitignored — never commit it,
+it's equivalent to a password).
+
+**If X blocks the login** (CAPTCHA / "unusual activity" wall that never clears): X detects
+Playwright's automated browser specifically at the login step, even though browsing an
+already-authenticated session afterward works fine. Work around it by logging in in your normal,
+everyday browser instead, then exporting that session's cookies:
+
+1. Install a cookie-export extension (e.g. "Cookie-Editor") in your regular browser.
+2. Go to x.com while logged in, open the extension, "Export" → "Export as JSON", save the file.
+3. Convert it:
+   ```bash
+   node scraper/cookiesToStorageState.mjs path/to/exported-cookies.json
+   ```
+   This writes `storageState.json` in the same format `scrape:login` would have.
 
 Then base64-encode it and add it as a GitHub Actions secret named `AUTH_STORAGE_STATE_B64`:
 
@@ -103,6 +117,7 @@ Add an entry to `config/politicians.json`:
 
 ```bash
 npm install
+npx playwright install chromium   # only needed for the scrape commands below
 npm run dev       # http://localhost:3000, reads whatever is in data/
 npm run build     # static export to ./out
 npm run scrape     # scrape yesterday (needs AUTH_STORAGE_STATE_B64 or a local storageState.json — see setup)
