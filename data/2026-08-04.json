@@ -1,0 +1,170 @@
+{
+  "date": "2026-08-04",
+  "scrapedAt": "2026-08-05T20:17:31.441Z",
+  "range": {
+    "start": "2026-08-03T23:00:00.000Z",
+    "end": "2026-08-04T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2084602406122274994",
+          "type": "original",
+          "timestamp": "2026-08-04T11:28:38.000Z",
+          "url": "https://x.com/andyburnham/status/2084602406122274994",
+          "textSnippet": "Britain’s prisons crisis has its roots in a failure to add sufficient new places between 2010 and 2024. Just 500 places were added and 23 prisons were closed. As a result, the system is now dangerously close to capacity and we are running the risk of new offenders not being"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2084520695698964676",
+          "type": "original",
+          "timestamp": "2026-08-04T06:03:57.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2084520695698964676",
+          "textSnippet": "Andy Burnham wants a round of applause for agreeing not to release rapists and child sex offenders. He's not getting one.\n\nThis is only a partial climbdown. Killers, violent offenders, men who have terrorised their partners and more will all still walk out of prison in October"
+        },
+        {
+          "id": "2084623092119151083",
+          "type": "original",
+          "timestamp": "2026-08-04T12:50:50.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2084623092119151083",
+          "textSnippet": "Labour had to be dragged into this U-turn on early release after my press conference last week.\n\nThey voted against the protections they claim to support, yet they don’t go far enough.\n\nTheir plans will see killers, like those responsible for PC Harper’s murder, released early."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2084580231638040967",
+          "type": "original",
+          "timestamp": "2026-08-04T10:00:31.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2084580231638040967",
+          "textSnippet": "While wildfires rage, oil bosses are laughing all the way to the bank thanks to Donald Trump’s idiotic Iran war.\n\nPeople across the country are facing sky high energy bills. If Burnham is struggling to find the money to help families with those bills, I’d start here."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 0,
+        "reply": 0,
+        "total": 5
+      },
+      "tweets": [
+        {
+          "id": "2084570568972554384",
+          "type": "original",
+          "timestamp": "2026-08-04T09:22:07.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084570568972554384",
+          "textSnippet": "We must put a stop to this. Our plan will saves lives."
+        },
+        {
+          "id": "2084598467981177311",
+          "type": "original",
+          "timestamp": "2026-08-04T11:12:59.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084598467981177311",
+          "textSnippet": "Andy Burnham said it would be awful if PC Harper's killers were released early. But he’s now letting it happen. \n\nBoth Labour and the Conservatives have failed us all. \n\nReform will deport foreign criminals and build Nightingale prisons."
+        },
+        {
+          "id": "2084667206403493981",
+          "type": "original",
+          "timestamp": "2026-08-04T15:46:07.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084667206403493981",
+          "textSnippet": "Our very own Lee Anderson is watching the crisis in Calais unfold.\n\nComing to an HMO on a street near you!"
+        },
+        {
+          "id": "2084684941099405602",
+          "type": "original",
+          "timestamp": "2026-08-04T16:56:36.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084684941099405602",
+          "textSnippet": "Tony Abbott, the man who stopped the boats in Australia, has just endorsed our plan to put the Royal Navy in the English Channel."
+        },
+        {
+          "id": "2084716913213542837",
+          "type": "original",
+          "timestamp": "2026-08-04T19:03:38.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084716913213542837",
+          "textSnippet": "This is a UK Border Force vessel safely returning migrants to France today. \n\nOperation Fortress can be done, and it must be to stop the invasion of our country."
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2084572774895374835",
+          "type": "original",
+          "timestamp": "2026-08-04T09:30:53.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2084572774895374835",
+          "textSnippet": " Good luck to everyone getting their results today in Scotland.\n\nCongratulations if your grades go your way. If they don't, that's okay too, there are many different paths ahead, and these results don't define your future."
+        },
+        {
+          "id": "2084624666858062289",
+          "type": "original",
+          "timestamp": "2026-08-04T12:57:05.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2084624666858062289",
+          "textSnippet": " A record number of Scottish teenagers have secured university or college places this year.\n\n With free tuition, fairer access, and record-breaking results, the SNP are standing up for the next generation!"
+        }
+      ]
+    }
+  }
+}
