@@ -18,7 +18,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <nav className="flex gap-4 text-sm text-[var(--color-text-secondary)]">
               <Link href="/" className="hover:text-[var(--color-text-primary)]">
-                Leaderboard
+                Day
+              </Link>
+              <Link href="/week" className="hover:text-[var(--color-text-primary)]">
+                Week
+              </Link>
+              <Link href="/month" className="hover:text-[var(--color-text-primary)]">
+                Month
               </Link>
               <Link href="/about" className="hover:text-[var(--color-text-primary)]">
                 About

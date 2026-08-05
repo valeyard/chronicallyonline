@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import path from "node:path";
 import type { DayData } from "./types";
+import { mondayOf, monthKeyOf, addDaysToDateStr } from "./period";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -26,6 +27,31 @@ export function getLatestDayData(): DayData | null {
 
 export function getAllDayData(): DayData[] {
   return getAvailableDates()
+    .map((date) => getDayData(date))
+    .filter((d): d is DayData => d !== null);
+}
+
+export function getAvailableWeeks(): string[] {
+  const weeks = new Set(getAvailableDates().map(mondayOf));
+  return [...weeks].sort().reverse();
+}
+
+export function getDaysInWeek(weekStart: string): DayData[] {
+  const weekEnd = addDaysToDateStr(weekStart, 6);
+  return getAvailableDates()
+    .filter((date) => date >= weekStart && date <= weekEnd)
+    .map((date) => getDayData(date))
+    .filter((d): d is DayData => d !== null);
+}
+
+export function getAvailableMonths(): string[] {
+  const months = new Set(getAvailableDates().map(monthKeyOf));
+  return [...months].sort().reverse();
+}
+
+export function getDaysInMonth(month: string): DayData[] {
+  return getAvailableDates()
+    .filter((date) => monthKeyOf(date) === month)
     .map((date) => getDayData(date))
     .filter((d): d is DayData => d !== null);
 }
