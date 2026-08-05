@@ -100,8 +100,12 @@ async function scrapeRange(page, url, { start, end }) {
 
     // page.mouse.wheel scrolls whatever is under the cursor, which defaults
     // to (0,0) — not the timeline. Scroll the document directly instead.
-    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 1.8));
-    await sleep(1200 + Math.random() * 1000);
+    // Step less than one full viewport so consecutive views overlap — X's
+    // timeline is virtualized (only renders near the viewport), and a big
+    // jump can land past content that hasn't finished loading yet, silently
+    // skipping it for good since nothing re-checks that range later.
+    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.7));
+    await sleep(1400 + Math.random() * 1000);
   }
 
   return extractTweets(seen, { start, end });

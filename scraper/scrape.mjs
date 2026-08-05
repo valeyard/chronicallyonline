@@ -23,7 +23,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
 
-const MAX_SCROLLS = 40;
+const MAX_SCROLLS = 100;
 const MAX_CONSECUTIVE_EMPTY_SCROLLS = 3;
 const DEBUG_DIR = process.env.DEBUG_SCRAPE_DIR || null;
 
@@ -107,8 +107,12 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
 
     // page.mouse.wheel scrolls whatever is under the cursor, which defaults
     // to (0,0) — not the timeline. Scroll the document directly instead.
-    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 1.8));
-    await sleep(1400 + Math.random() * 1200);
+    // Step less than one full viewport so consecutive views overlap — X's
+    // timeline is virtualized (only renders near the viewport), and a big
+    // jump can land past content that hasn't finished loading yet, silently
+    // skipping it for good since nothing re-checks that range later.
+    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.7));
+    await sleep(1600 + Math.random() * 1200);
 
     const m = await pageMetrics(page);
     console.log(
