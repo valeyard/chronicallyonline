@@ -123,6 +123,15 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
   console.log(`  ...${scrollsUsed} scroll(s), ${seen.size} unique posts seen`);
   await dumpDebug(page, `${debugLabel}-final`);
 
+  if (process.env.DEBUG_SCRAPE_DIR) {
+    for (const rec of seen.values()) {
+      const kind = isPinnedRecord(rec) ? "pinned" : isRepostRecord(rec) ? "repost" : "own";
+      console.log(
+        `  [item] id=${rec.id} kind=${kind} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))}`,
+      );
+    }
+  }
+
   const tweets = extractTweets(seen, { start, end });
   tweets.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   return tweets;
