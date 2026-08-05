@@ -74,8 +74,11 @@ Either way writes `storageState.json` in the same format `scrape:login` would ha
 Then base64-encode it and add it as a GitHub Actions secret named `AUTH_STORAGE_STATE_B64`:
 
 ```bash
-base64 -w0 storageState.json   # macOS: base64 -i storageState.json
+node -e "console.log(require('fs').readFileSync('storageState.json').toString('base64'))"
 ```
+
+(Not the `base64` CLI — its flags differ annoyingly between macOS and Linux. This one-liner behaves
+the same everywhere since it's just Node.)
 
 Repo → Settings → Secrets and variables → Actions → New repository secret.
 

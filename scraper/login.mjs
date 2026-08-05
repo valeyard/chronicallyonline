@@ -24,7 +24,7 @@ async function main() {
   await context.storageState({ path: OUT_PATH });
   console.log(`Saved session to ${OUT_PATH}`);
   console.log("Next: base64-encode it and store as the AUTH_STORAGE_STATE_B64 GitHub secret:");
-  console.log("  base64 -w0 storageState.json   (macOS: base64 -i storageState.json)");
+  console.log(`  node -e "console.log(require('fs').readFileSync('storageState.json').toString('base64'))"`);
   console.log("Do NOT commit storageState.json — it is already in .gitignore.");
 
   await browser.close();

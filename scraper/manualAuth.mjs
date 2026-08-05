@@ -49,4 +49,4 @@ const outPath = path.join(process.cwd(), "storageState.json");
 writeFileSync(outPath, JSON.stringify({ cookies, origins: [] }, null, 2));
 console.log(`Wrote ${outPath}`);
 console.log("Next: base64-encode it for the AUTH_STORAGE_STATE_B64 secret:");
-console.log("  base64 -w0 storageState.json   (macOS: base64 -i storageState.json)");
+console.log(`  node -e "console.log(require('fs').readFileSync('storageState.json').toString('base64'))"`);
