@@ -1,4 +1,6 @@
 name: Daily scrape and deploy
+# (Re-touched so GitHub registers this workflow_dispatch/schedule-only
+# workflow — a merge commit alone didn't trigger discovery.)
 
 on:
   schedule:
