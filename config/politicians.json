@@ -1,0 +1,44 @@
+[
+  {
+    "id": "andy-burnham",
+    "name": "Andy Burnham",
+    "role": "Prime Minister / Leader of the Labour Party",
+    "party": "Labour",
+    "handle": "andyburnham"
+  },
+  {
+    "id": "kemi-badenoch",
+    "name": "Kemi Badenoch",
+    "role": "Leader of the Conservative Party",
+    "party": "Conservative",
+    "handle": "KemiBadenoch"
+  },
+  {
+    "id": "ed-davey",
+    "name": "Ed Davey",
+    "role": "Leader of the Liberal Democrats",
+    "party": "Liberal Democrats",
+    "handle": "EdwardJDavey"
+  },
+  {
+    "id": "nigel-farage",
+    "name": "Nigel Farage",
+    "role": "Leader of Reform UK",
+    "party": "Reform UK",
+    "handle": "Nigel_Farage"
+  },
+  {
+    "id": "zack-polanski",
+    "name": "Zack Polanski",
+    "role": "Leader of the Green Party of England and Wales",
+    "party": "Green",
+    "handle": "ZackPolanski"
+  },
+  {
+    "id": "dave-doogan",
+    "name": "Dave Doogan",
+    "role": "Leader of the SNP at Westminster",
+    "party": "SNP",
+    "handle": "DaveDooganSNP"
+  }
+]

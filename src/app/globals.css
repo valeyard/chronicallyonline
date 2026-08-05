@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --surface: #f9f9f7;
+  --card-surface: #fcfcfb;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #898781;
+  --gridline: #e1e0d9;
+  --baseline: #c3c2b7;
+  --border: rgba(11, 11, 11, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #0d0d0d;
+    --card-surface: #1a1a19;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --gridline: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@theme inline {
+  --color-surface: var(--surface);
+  --color-card-surface: var(--card-surface);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-gridline: var(--gridline);
+  --color-baseline: var(--baseline);
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--surface);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Chart series color: element sets --c-light / --c-dark inline, this picks
+   the mode-correct one (dataviz skill: dark mode is its own validated step,
+   never an automatic filter/flip on the light hex). */
+.series-fill {
+  background-color: var(--c-light);
+  color: var(--c-light);
+}
+@media (prefers-color-scheme: dark) {
+  .series-fill {
+    background-color: var(--c-dark);
+    color: var(--c-dark);
+  }
+}
