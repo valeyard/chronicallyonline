@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "scrapedAt": "2026-08-05T21:26:01.235Z",
+  "scrapedAt": "2026-08-05T21:33:32.775Z",
   "range": {
     "start": "2026-08-03T23:00:00.000Z",
     "end": "2026-08-04T23:00:00.000Z"
@@ -146,11 +146,25 @@
       "status": "ok",
       "counts": {
         "original": 2,
-        "retweet": 5,
+        "retweet": 7,
         "reply": 0,
-        "total": 7
+        "total": 9
       },
       "tweets": [
+        {
+          "id": "2084648072026509569",
+          "type": "retweet",
+          "timestamp": "2026-08-04T10:29:51.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084648072026509569",
+          "textSnippet": "BP's quarterly profits more than doubled to £4.2 billion in the three months to the end of June.\n\nThese are the profits of war and climate chaos.\n\nIt's time to make the biggest polluters pay."
+        },
+        {
+          "id": "2084602788160368865",
+          "type": "retweet",
+          "timestamp": "2026-08-04T10:29:51.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084602788160368865",
+          "textSnippet": "Our prisons are overcrowded because the system is broken.\n\nThe answer isn't endless emergency releases. It's investing in prevention, rehabilitation and giving people the support they need to rebuild their lives."
+        },
         {
           "id": "2084587613416034784",
           "type": "original",
@@ -164,6 +178,20 @@
           "timestamp": "2026-08-04T10:29:51.000Z",
           "url": "https://x.com/GreenPartyJay/status/2084298390041501887",
           "textSnippet": "Join a movement that is truly antiestablishment. \n\nTake power back from millionaires and corporations and into the hands of the people. \n\nMake Hope normal again!"
+        },
+        {
+          "id": "2084957599469117604",
+          "type": "retweet",
+          "timestamp": "2026-08-04T20:08:37.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084957599469117604",
+          "textSnippet": "This is what climate failure looks like. Nature, homes and livelihoods are being destroyed. \n\nThe Government must act now."
+        },
+        {
+          "id": "2084896944183238824",
+          "type": "retweet",
+          "timestamp": "2026-08-04T20:08:37.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084896944183238824",
+          "textSnippet": "Zack Polanski is to deliver an urgent message to the Prime Minister.\n\nWatch on Bold Politics YouTube channel at 11am."
         },
         {
           "id": "2084733264951169462",
@@ -185,20 +213,6 @@
           "timestamp": "2026-08-04T20:08:37.000Z",
           "url": "https://x.com/ZoeJardiniere/status/2084596190042038391",
           "textSnippet": "I dunno it just feels like there might be SOMEWHERE other than in cuts to the welfare state where we could POSSIBLY find money to support our communities…"
-        },
-        {
-          "id": "2084648072026509569",
-          "type": "retweet",
-          "timestamp": "2026-08-04T20:08:37.000Z",
-          "url": "https://x.com/TheGreenParty/status/2084648072026509569",
-          "textSnippet": "BP's quarterly profits more than doubled to £4.2 billion in the three months to the end of June.\n\nThese are the profits of war and climate chaos.\n\nIt's time to make the biggest polluters pay."
-        },
-        {
-          "id": "2084602788160368865",
-          "type": "retweet",
-          "timestamp": "2026-08-04T20:08:37.000Z",
-          "url": "https://x.com/TheGreenParty/status/2084602788160368865",
-          "textSnippet": "Our prisons are overcrowded because the system is broken.\n\nThe answer isn't endless emergency releases. It's investing in prevention, rehabilitation and giving people the support they need to rebuild their lives."
         }
       ]
     },
