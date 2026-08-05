@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "scrapedAt": "2026-08-05T20:44:52.213Z",
+  "scrapedAt": "2026-08-05T20:55:59.268Z",
   "range": {
     "start": "2026-08-03T23:00:00.000Z",
     "end": "2026-08-04T23:00:00.000Z"
@@ -131,12 +131,55 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 0,
-        "retweet": 0,
+        "original": 2,
+        "retweet": 4,
         "reply": 0,
-        "total": 0
+        "total": 6
       },
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2084587613416034784",
+          "type": "original",
+          "timestamp": "2026-08-04T10:29:51.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084587613416034784",
+          "textSnippet": "Crop yields down, our countryside scorched and over 2800 people are dead due to this summer's heatwaves.\n\nMeanwhile fossil fuel giants are raking in record profits. \n\nWe must end this rampant profiteering, and cut fossil fuels from our energy mix as soon as possible."
+        },
+        {
+          "id": "2084596190042038391",
+          "type": "retweet",
+          "timestamp": "2026-08-04T11:03:56.000Z",
+          "url": "https://x.com/ZoeJardiniere/status/2084596190042038391",
+          "textSnippet": "I dunno it just feels like there might be SOMEWHERE other than in cuts to the welfare state where we could POSSIBLY find money to support our communities…"
+        },
+        {
+          "id": "2084602788160368865",
+          "type": "retweet",
+          "timestamp": "2026-08-04T11:30:09.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084602788160368865",
+          "textSnippet": "Our prisons are overcrowded because the system is broken.\n\nThe answer isn't endless emergency releases. It's investing in prevention, rehabilitation and giving people the support they need to rebuild their lives."
+        },
+        {
+          "id": "2084648072026509569",
+          "type": "retweet",
+          "timestamp": "2026-08-04T14:30:05.000Z",
+          "url": "https://x.com/TheGreenParty/status/2084648072026509569",
+          "textSnippet": "BP's quarterly profits more than doubled to £4.2 billion in the three months to the end of June.\n\nThese are the profits of war and climate chaos.\n\nIt's time to make the biggest polluters pay."
+        },
+        {
+          "id": "2084663235999936774",
+          "type": "retweet",
+          "timestamp": "2026-08-04T15:30:21.000Z",
+          "url": "https://x.com/hasanthehun/status/2084663235999936774",
+          "textSnippet": "my ambush channel 4 interview."
+        },
+        {
+          "id": "2084733264951169462",
+          "type": "original",
+          "timestamp": "2026-08-04T20:08:37.000Z",
+          "url": "https://x.com/ZackPolanski/status/2084733264951169462",
+          "textSnippet": "We need to act now."
+        }
+      ]
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",
