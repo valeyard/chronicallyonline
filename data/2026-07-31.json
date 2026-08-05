@@ -47,6 +47,166 @@
           "textSnippet": "\"There is so much to celebrate. We've got some really impressive results in so many places, and a lot to be proud of.\"\n\nHannah Spencer MP on the Greater Manchester mayoral election."
         }
       ]
+    },
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2083124027602632967",
+          "type": "original",
+          "timestamp": "2026-07-31T09:34:05.000Z",
+          "url": "https://x.com/andyburnham/status/2083124027602632967",
+          "textSnippet": "I promised to take power out of Westminster. I meant it. \n\nFor the first time ever, we’re giving Mayors a share of income tax so communities have more control over jobs, transport, housing and public services in their area. \n\nI know what it’s like to be ignored by politicians in"
+        },
+        {
+          "id": "2083261738829377930",
+          "type": "original",
+          "timestamp": "2026-07-31T18:41:18.000Z",
+          "url": "https://x.com/andyburnham/status/2083261738829377930",
+          "textSnippet": "What do you call one of these…"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 1,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2083110132649521641",
+          "type": "retweet",
+          "timestamp": "2026-07-31T08:38:52.000Z",
+          "url": "https://x.com/BenHouchen/status/2083110132649521641",
+          "textSnippet": "So devolution means getting people's taxes to spend but not being allowed to give it back to them \n\nLast time I spoke to the PM, devolution was about whitehall not dictating what areas can or can’t do. \n\nDoesn’t sound much like devolution to me? Just an excuse for a tax grab"
+        },
+        {
+          "id": "2083140949215973843",
+          "type": "original",
+          "timestamp": "2026-07-31T10:41:19.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2083140949215973843",
+          "textSnippet": "Andy Burnham must stop faffing about and allow new oil & gas licences before it’s too late.\n\nWhy is Labour against this common-sense policy? They believe these Net Zero plans are working. They’re not. Climate change is real. Net Zero is political fiction"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 2,
+        "reply": 0,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2083108650491494749",
+          "type": "retweet",
+          "timestamp": "2026-07-31T08:32:59.000Z",
+          "url": "https://x.com/RaheemKassam/status/2083108650491494749",
+          "textSnippet": "Canvassing in Clacton yesterday and out of nowhere, this 1945 Scammell truck pulls up.\n\nAs a Type 1304, this was built as a heavy-duty recovery vehicle, I believe, equipped to salvage tanks and armour and more.\n\nThere aren’t a lot left, as you can imagine, so it was a real treat"
+        },
+        {
+          "id": "2083145573125787993",
+          "type": "original",
+          "timestamp": "2026-07-31T10:59:42.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083145573125787993",
+          "textSnippet": "I helped these Clacton residents secure a council tax refund after they were placed in the wrong tax band."
+        },
+        {
+          "id": "2083146900522381634",
+          "type": "original",
+          "timestamp": "2026-07-31T11:04:58.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083146900522381634",
+          "textSnippet": "Giorgia Meloni is right."
+        },
+        {
+          "id": "2083147543823749369",
+          "type": "retweet",
+          "timestamp": "2026-07-31T11:07:32.000Z",
+          "url": "https://x.com/SuellaBraverman/status/2083147543823749369",
+          "textSnippet": "Clacton wants Reform!"
+        },
+        {
+          "id": "2083171668264907172",
+          "type": "original",
+          "timestamp": "2026-07-31T12:43:23.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083171668264907172",
+          "textSnippet": "The Reform UK podcast has revolutionised how we communicate with our brilliant supporters. \n\nListen to the latest episode hosted by \n@rayaddisonlive\n. \n\n \nhttp://\nreformparty.uk/podcast"
+        },
+        {
+          "id": "2083183978505179399",
+          "type": "original",
+          "timestamp": "2026-07-31T13:32:18.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083183978505179399",
+          "textSnippet": "Around 60,000 illegal migrants have now invaded Ceuta. \n\nBefore long many will be crossing the English Channel to enter Britain illegally. \n\nI support my friends \n@GiorgiaMeloni\n and \n@J_Bardella\n who say they will take extraordinary measures to stop this."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 1,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2083138651333050393",
+          "type": "original",
+          "timestamp": "2026-07-31T10:32:11.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2083138651333050393",
+          "textSnippet": " \"𝘞𝘦𝘴𝘵𝘮𝘪𝘯𝘴𝘵𝘦𝘳 𝘮𝘶𝘴𝘵 𝘧𝘪𝘯𝘢𝘭𝘭𝘺 𝘭𝘪𝘴𝘵𝘦𝘯 - 𝘦𝘯𝘥 𝘵𝘩𝘦 𝘴𝘶𝘱𝘦𝘳𝘵𝘢𝘹 𝘰𝘯 𝘚𝘤𝘰𝘵𝘭𝘢𝘯𝘥’𝘴 𝘦𝘯𝘦𝘳𝘨𝘺 𝘢𝘯𝘥 𝘥𝘳𝘪𝘷𝘦 𝘪𝘯𝘷𝘦𝘴𝘵𝘮𝘦𝘯𝘵 𝘪𝘯 𝘵𝘩𝘦 𝘕𝘰𝘳𝘵𝘩 𝘚𝘦𝘢.”"
+        },
+        {
+          "id": "2083152177338417657",
+          "type": "original",
+          "timestamp": "2026-07-31T11:25:56.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2083152177338417657",
+          "textSnippet": " The Chinese super-embassy in central London has now been cleared for construction.\n\n Earlier this year, Labour blocked a £1.5bn turbine plant in the Highlands, costing up to 1,500 jobs, claiming it was about \"national security\".\n\n If one is too risky, why isn't the other?"
+        },
+        {
+          "id": "2083156273386659869",
+          "type": "retweet",
+          "timestamp": "2026-07-31T11:42:13.000Z",
+          "url": "https://x.com/StephenFlynnSNP/status/2083156273386659869",
+          "textSnippet": "Few in Aberdeen will be shocked by this, but there will be fury that more uncertainty is being piled on to our city and its world class workforce. \n\nThe workforce, our collective energy security and our economy needs protected by those who hold the levers of power in London."
+        }
+      ]
     }
   }
 }

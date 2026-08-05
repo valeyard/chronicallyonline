@@ -68,6 +68,151 @@
           "textSnippet": "Natasha Devon, \"If you look at GB News for example. Five people watch that channel. But, it's watched a lot online. Often by people who disagree with the content\"\n\n\"That is what they'll take to their shareholders as evidence of their reach\"\n\n\"What that means is, there's an"
         }
       ]
+    },
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 3,
+        "reply": 0,
+        "total": 5
+      },
+      "tweets": [
+        {
+          "id": "2083457509235265769",
+          "type": "original",
+          "timestamp": "2026-08-01T07:39:13.000Z",
+          "url": "https://x.com/andyburnham/status/2083457509235265769",
+          "textSnippet": "I couldn’t be happier to see \n@bevcraig\n elected as the next Mayor of Greater Manchester.\n\nWe’ve worked together for many years, and I’ve seen first-hand her intelligence, compassion and determination. I know she’ll bring people together and stand up for every part of our"
+        },
+        {
+          "id": "2083467917262295256",
+          "type": "retweet",
+          "timestamp": "2026-08-01T08:20:35.000Z",
+          "url": "https://x.com/itvnews/status/2083467917262295256",
+          "textSnippet": "Month of free bus travel for children in England starts"
+        },
+        {
+          "id": "2083482616599068754",
+          "type": "original",
+          "timestamp": "2026-08-01T09:18:59.000Z",
+          "url": "https://x.com/andyburnham/status/2083482616599068754",
+          "textSnippet": "Second week as Prime Minister "
+        },
+        {
+          "id": "2083609708703694883",
+          "type": "retweet",
+          "timestamp": "2026-08-01T17:44:00.000Z",
+          "url": "https://x.com/andyburnham/status/2083609708703694883",
+          "textSnippet": "I visited \n@AshtonBears\n during the by-election to hear about their plans and was glad to return last night with a small donation to the fund.\n\nGrassroots Rugby League, and sport in general, matters a lot to me. It will be a BIG priority in my time in office. \n\nI clearly need to"
+        },
+        {
+          "id": "2083628833505427567",
+          "type": "retweet",
+          "timestamp": "2026-08-01T19:00:00.000Z",
+          "url": "https://x.com/OpiniumResearch/status/2083628833505427567",
+          "textSnippet": " Latest Opinium \n@ObserverUK\n poll \n\nLabour surges into the lead for the first time in 15 months, and records its largest lead over Reform since January 2025.\n\n LAB 27%\n REF 23%\n CON 17% \n GRN 12%\n LD 12%"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 2,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2083477806613148120",
+          "type": "retweet",
+          "timestamp": "2026-08-01T08:59:52.000Z",
+          "url": "https://x.com/alexburghart/status/2083477806613148120",
+          "textSnippet": "The question is really whether the Secretary of State and the new Prime Minister believe in the United Kingdom …\n\n… not entirely clear from this first outing that they do"
+        },
+        {
+          "id": "2083576009496907875",
+          "type": "retweet",
+          "timestamp": "2026-08-01T15:30:06.000Z",
+          "url": "https://x.com/DoubleEph/status/2083576009496907875",
+          "textSnippet": "If you want to hire a competent black person to a prestigious institution, it is not impossible to do. The problem here (and as with a recent case in America) is that they want a certain sort of black person. So you end up with shameful stuff like this"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 1,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2083450315257303334",
+          "type": "original",
+          "timestamp": "2026-08-01T07:10:38.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083450315257303334",
+          "textSnippet": "This is an invasion. It's time to wake up."
+        },
+        {
+          "id": "2083517526944751885",
+          "type": "original",
+          "timestamp": "2026-08-01T11:37:42.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083517526944751885",
+          "textSnippet": "Out campaigning in Weeley! "
+        },
+        {
+          "id": "2083537305223012434",
+          "type": "original",
+          "timestamp": "2026-08-01T12:56:18.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083537305223012434",
+          "textSnippet": "Let’s not forget it was the Tories that closed down North Sea oil in the first place. \n\nStick with authenticity."
+        },
+        {
+          "id": "2083551243566297283",
+          "type": "retweet",
+          "timestamp": "2026-08-01T13:51:41.000Z",
+          "url": "https://x.com/ZiaYusufUK/status/2083551243566297283",
+          "textSnippet": "I am in Ceuta, the scene of the 60,000 strong invasion.\n\nSpain has effectively militarised its border.\n\nAlready spoken to Moroccan men here who say they are trying to get to Britain.\n\nMore to come."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
     }
   }
 }

@@ -250,6 +250,195 @@
           "textSnippet": "The Labour party see the #ClimateCrisis as a lower order issue. \n\nThey will never take the action needed.\n\n\nhttp://\nJoin.greenparty.org.uk"
         }
       ]
+    },
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2082735924413104273",
+          "type": "original",
+          "timestamp": "2026-07-30T07:51:54.000Z",
+          "url": "https://x.com/andyburnham/status/2082735924413104273",
+          "textSnippet": "Today I’m announcing a major investment in our nuclear deterrent, supporting 22,000 apprenticeships.\n\nKeeping this country safe is the first responsibility of any government - but security isn’t just about what we build, it’s about who builds it.\n\nThe submarines produced in"
+        },
+        {
+          "id": "2082779396457549829",
+          "type": "original",
+          "timestamp": "2026-07-30T10:44:38.000Z",
+          "url": "https://x.com/andyburnham/status/2082779396457549829",
+          "textSnippet": "This is why I’m moving power out of Westminster "
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2082763802043433114",
+          "type": "original",
+          "timestamp": "2026-07-30T09:42:40.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2082763802043433114",
+          "textSnippet": "Successive governments failed to stop the boats because they were trying to fix the symptoms, not the cause.\n\nIf people know they can stay and claim benefits, they’ll keep coming. If they know they’ll be removed, they won’t come.\n\nWe must change the incentives.\n\nThat’s why the"
+        },
+        {
+          "id": "2082856010054533122",
+          "type": "original",
+          "timestamp": "2026-07-30T15:49:05.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2082856010054533122",
+          "textSnippet": "It is obscene that Labour’s early release scheme will let out rapists, paedophiles and violent criminals.\n\nIt must be stopped."
+        },
+        {
+          "id": "2082856012642427352",
+          "type": "original",
+          "timestamp": "2026-07-30T15:49:05.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2082856012642427352",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2082862296561287259",
+          "type": "original",
+          "timestamp": "2026-07-30T16:14:03.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2082862296561287259",
+          "textSnippet": "Good. Now it's time to end FIFA's corrupt rule once and for all, with a new governing body to save football for the fans."
+        },
+        {
+          "id": "2082873866049732686",
+          "type": "original",
+          "timestamp": "2026-07-30T17:00:02.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2082873866049732686",
+          "textSnippet": "The scenes of wildfires across the country are deeply worrying. Not forgetting what we have seen in other parts of  Europe in the last few weeks.\n\nIt's clear this problem isn't going away. I only wish all political parties in our country understood this."
+        },
+        {
+          "id": "2082925252208681434",
+          "type": "original",
+          "timestamp": "2026-07-30T20:24:13.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2082925252208681434",
+          "textSnippet": "This is the very sad reality of a broken system that is letting people down. We must fix this so that it never happens again."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 2,
+        "reply": 0,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2082718328829682029",
+          "type": "original",
+          "timestamp": "2026-07-30T06:41:59.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082718328829682029",
+          "textSnippet": "Good luck today, \n@SianReform\n. "
+        },
+        {
+          "id": "2082727065455866321",
+          "type": "retweet",
+          "timestamp": "2026-07-30T07:16:42.000Z",
+          "url": "https://x.com/SianReform/status/2082727065455866321",
+          "textSnippet": "It’s polling day. This is your chance to set Greater Manchester in a new positive direction.\n\nMake sure you get to the polling station by 10pm, bring your ID and vote Reform!"
+        },
+        {
+          "id": "2082747638747684951",
+          "type": "original",
+          "timestamp": "2026-07-30T08:38:27.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082747638747684951",
+          "textSnippet": "Our new Prime Minister only likes devolution when power is devolved to him."
+        },
+        {
+          "id": "2082755419420623048",
+          "type": "retweet",
+          "timestamp": "2026-07-30T09:09:22.000Z",
+          "url": "https://x.com/reformparty_uk/status/2082755419420623048",
+          "textSnippet": "Watch LIVE as Robert Jenrick leads the fight against the universal death tax."
+        },
+        {
+          "id": "2082836494192910656",
+          "type": "original",
+          "timestamp": "2026-07-30T14:31:32.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082836494192910656",
+          "textSnippet": "The British people did not vote for a death tax."
+        },
+        {
+          "id": "2082871826632294613",
+          "type": "original",
+          "timestamp": "2026-07-30T16:51:56.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082871826632294613",
+          "textSnippet": "Football is for the people. UEFA are right to take a stand and Gianni Infantino must resign."
+        },
+        {
+          "id": "2082880424452207084",
+          "type": "original",
+          "timestamp": "2026-07-30T17:26:05.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082880424452207084",
+          "textSnippet": "My response to viral footage from the Moroccan border.\n\nIt’s time to wake up everybody."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2082737963281346872",
+          "type": "original",
+          "timestamp": "2026-07-30T08:00:00.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2082737963281346872",
+          "textSnippet": " I’m holding surgeries in 𝗙𝗼𝘄𝗹𝗶𝘀, 𝗞𝗶𝗿𝗿𝗶𝗲𝗺𝘂𝗶𝗿, 𝗠𝗲𝗶𝗴𝗹𝗲 𝗮𝗻𝗱 𝗕𝗹𝗮𝗶𝗿𝗴𝗼𝘄𝗿𝗶𝗲 today!\n\n To book an appointment or for more info email: dave.doogan.mp@parliament.uk\n\nOr call: 01307 804185"
+        },
+        {
+          "id": "2082866310124368032",
+          "type": "original",
+          "timestamp": "2026-07-30T16:30:00.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2082866310124368032",
+          "textSnippet": " Another busy (and blustery!) day out and about in Angus and the Perthshire Glens today, meeting constituents and holding surgeries today in Fowlis, Kirriemuir, Meigle and Blairgowrie."
+        }
+      ]
     }
   }
 }

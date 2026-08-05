@@ -68,6 +68,187 @@
           "textSnippet": "Great to meet you! "
         }
       ]
+    },
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 1,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2084270772399317094",
+          "type": "original",
+          "timestamp": "2026-08-03T13:30:50.000Z",
+          "url": "https://x.com/andyburnham/status/2084270772399317094",
+          "textSnippet": "Two weeks ago today, I admitted that politics has not been working for you and that we all need to raise our game.\n\nI meant it.\n\nSo here's just some of what we've announced in the first fortnight:\n\n New national drive to end rough sleeping\n Tax cut on energy bills\n £2 cap"
+        },
+        {
+          "id": "2084295259970797989",
+          "type": "retweet",
+          "timestamp": "2026-08-03T15:08:08.000Z",
+          "url": "https://x.com/savechildrenuk/status/2084295259970797989",
+          "textSnippet": "We were delighted to welcome Prime Minister Andy Burnham to the Meadows Nursery in Sheffield, a pioneering partnership between Save the Children, Sheffield Hallam, Sheffield City Council and Watercliffe Meadow Primary School. \n\nAs well as meeting some of the feistiest toddlers"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 2,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2084156716082438245",
+          "type": "retweet",
+          "timestamp": "2026-08-03T05:57:37.000Z",
+          "url": "https://x.com/CPhilpOfficial/status/2084156716082438245",
+          "textSnippet": "92% of crimes aren’t solved \n\nWe’ve all heard of information being handed to the police & not followed up\n\nThis is wrong - crime must have consequences \n\nThe next Conservative government will mandate the police to always follow up three key leads:"
+        },
+        {
+          "id": "2084166393663029610",
+          "type": "retweet",
+          "timestamp": "2026-08-03T06:36:04.000Z",
+          "url": "https://x.com/Mr_Andrew_Fox/status/2084166393663029610",
+          "textSnippet": "Someone has to do it, so I will. This policy is holed below the waterline before it begins.\n\nZia Yusuf wants Britain’s warships to push migrant boats back to France. There are only three small problems: the law, the French and the Royal Navy.\n\nOperation Fortress will be “the"
+        },
+        {
+          "id": "2084268817534845238",
+          "type": "original",
+          "timestamp": "2026-08-03T13:23:04.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2084268817534845238",
+          "textSnippet": "Just heartbreaking to hear the news about Rod Liddle.\nI don’t have the words to express how sad this is. For journalism, for his readers and most of all his friends and family. Had missed his column and hearing his voice on the radio. Thought he was on a break.\nRest in peace,"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 7,
+        "retweet": 0,
+        "reply": 0,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2084187734738940351",
+          "type": "original",
+          "timestamp": "2026-08-03T08:00:52.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084187734738940351",
+          "textSnippet": "Reform UK will order the Royal Navy to intercept every dinghy and return illegal migrants back to France."
+        },
+        {
+          "id": "2084217098499199481",
+          "type": "original",
+          "timestamp": "2026-08-03T09:57:33.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084217098499199481",
+          "textSnippet": "Join me LIVE with Zia Yusuf as we lay out our plan to stop the boats once and for all."
+        },
+        {
+          "id": "2084237426369626562",
+          "type": "original",
+          "timestamp": "2026-08-03T11:18:20.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084237426369626562",
+          "textSnippet": "Europe is at breaking point."
+        },
+        {
+          "id": "2084243381853749327",
+          "type": "original",
+          "timestamp": "2026-08-03T11:42:00.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084243381853749327",
+          "textSnippet": "The Royal Navy is there to protect this country from invasion and that is what I intend to use it for."
+        },
+        {
+          "id": "2084280333986337213",
+          "type": "original",
+          "timestamp": "2026-08-03T14:08:50.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084280333986337213",
+          "textSnippet": "Extremely sad news that Rod Liddle is no longer with us.\n\nRod was one of the most prolific columnists Westminster has ever seen. \n\nHe will be missed."
+        },
+        {
+          "id": "2084328720471388192",
+          "type": "original",
+          "timestamp": "2026-08-03T17:21:06.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084328720471388192",
+          "textSnippet": "I will always stand up for the British people and their interests. \n\nHumanitarian missions do not violate maritime or international law."
+        },
+        {
+          "id": "2084381101712199785",
+          "type": "original",
+          "timestamp": "2026-08-03T20:49:15.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084381101712199785",
+          "textSnippet": "Is this part of the “new generation” of Conservative candidates \n@KemiBadenoch\n is promising?"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 1,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2084315129097728373",
+          "type": "original",
+          "timestamp": "2026-08-03T16:27:06.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2084315129097728373",
+          "textSnippet": " Scotland is a world-class tourist destination!\n\nInternational visitors spent more than £4bil here in 2024.\n\n\n@TheSNP\n will continue to promote Brand Scotland whilst championing our outstanding hospitality and tourism sector by calling for UK Gov VAT on hospitality to be reduced."
+        },
+        {
+          "id": "2084322374086742285",
+          "type": "retweet",
+          "timestamp": "2026-08-03T16:55:53.000Z",
+          "url": "https://x.com/theSNP/status/2084322374086742285",
+          "textSnippet": " What is the point in writing a constitution for a union of nations if it doesn't set out the way for a nation to leave? Make it make sense.."
+        },
+        {
+          "id": "2084323350579441957",
+          "type": "original",
+          "timestamp": "2026-08-03T16:59:46.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2084323350579441957",
+          "textSnippet": " If Andy Burnham wants to talk about rewriting the rules, he cannot ignore the democratic right of the people of Scotland to choose their own future.\n\n You cannot claim to believe in devolution whilst declaring Scotland’s constitutional future as “off limits”."
+        },
+        {
+          "id": "2084338508408472040",
+          "type": "original",
+          "timestamp": "2026-08-03T18:00:00.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2084338508408472040",
+          "textSnippet": " We can only achieve Scotland’s full potential when we achieve full control, and we can only achieve full control with independence!"
+        }
+      ]
     }
   }
 }

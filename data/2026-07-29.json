@@ -285,6 +285,188 @@
           "textSnippet": "#Manchester - you know what to do"
         }
       ]
+    },
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 1,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2082361964886478985",
+          "type": "original",
+          "timestamp": "2026-07-29T07:05:55.000Z",
+          "url": "https://x.com/andyburnham/status/2082361964886478985",
+          "textSnippet": "This is the issue governments keep putting off. That ends now."
+        },
+        {
+          "id": "2082508752087846986",
+          "type": "original",
+          "timestamp": "2026-07-29T16:49:12.000Z",
+          "url": "https://x.com/andyburnham/status/2082508752087846986",
+          "textSnippet": "I am doing this for my dad and the millions like him up and down the country."
+        },
+        {
+          "id": "2082561750981877838",
+          "type": "retweet",
+          "timestamp": "2026-07-29T20:19:48.000Z",
+          "url": "https://x.com/PolitlcsUK/status/2082561750981877838",
+          "textSnippet": " NEW: Andy Burnham has called for employers to stop conducting interviews on Zoom or Teams and using AI to filter through CVs\n\n\"How does a young person shine in that situation? How do you get over some of your personality, your passion?\""
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 2,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2082373757092421841",
+          "type": "retweet",
+          "timestamp": "2026-07-29T07:52:46.000Z",
+          "url": "https://x.com/DPJHodges/status/2082373757092421841",
+          "textSnippet": "Today underlines one of the big differences between Kemi Badenoch and her new Tory party and Nigel Farage and Reform. Badenoch's social care stance is \"I'm wary, I have red-lines, but I'll engage\". Farage, Jenrick et al is \"Not interested. We'll oppose just for the sake of it\"."
+        },
+        {
+          "id": "2082386566974955621",
+          "type": "retweet",
+          "timestamp": "2026-07-29T08:43:41.000Z",
+          "url": "https://x.com/rcolvile/status/2082386566974955621",
+          "textSnippet": "You get the same sense with Arday as with the equal pay tribunals - someone has lifted up a rock and people are suddenly seeing just how weird/far from the norm things get in areas where the left has broadly been left to get on with things, out of sight of the rest of us."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2082352604143636674",
+          "type": "original",
+          "timestamp": "2026-07-29T06:28:43.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2082352604143636674",
+          "textSnippet": "Caring has been central to my life, and the lives of millions across the country. \n\nI'll be meeting the Prime Minister today to discuss how we can finally find a solution to the care crisis. We need to do things differently. I really hope we are on a journey to fix this."
+        },
+        {
+          "id": "2082469082725527848",
+          "type": "original",
+          "timestamp": "2026-07-29T14:11:34.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2082469082725527848",
+          "textSnippet": "I feel hopeful about the talks today on fixing our broken care system but this is just the beginning. A solution is desperately needed. I will always stand up for family carers through this process."
+        },
+        {
+          "id": "2082506081687793931",
+          "type": "original",
+          "timestamp": "2026-07-29T16:38:35.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2082506081687793931",
+          "textSnippet": "Good meeting. Lots of work ahead."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 7,
+        "retweet": 0,
+        "reply": 0,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2082378393828426119",
+          "type": "original",
+          "timestamp": "2026-07-29T08:11:12.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082378393828426119",
+          "textSnippet": "If Andy Burnham is serious about putting politics aside to solve Britain’s biggest problems, it’s remarkable that he’s chosen to ignore Reform.\n\nHe is conspiring behind closed doors with the failed political establishment to foist further tax rises on the country.\n\nThe fact Ed"
+        },
+        {
+          "id": "2082405801960849635",
+          "type": "original",
+          "timestamp": "2026-07-29T10:00:07.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082405801960849635",
+          "textSnippet": "At least 700 illegal migrants in the Channel this morning. The invasion continues. \n\nYet Burnham said yesterday “the plan is working”. What planet is he on?"
+        },
+        {
+          "id": "2082421376804167979",
+          "type": "original",
+          "timestamp": "2026-07-29T11:02:00.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082421376804167979",
+          "textSnippet": "This is the uniparty in action."
+        },
+        {
+          "id": "2082440513358123307",
+          "type": "original",
+          "timestamp": "2026-07-29T12:18:02.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082440513358123307",
+          "textSnippet": "Polanski must face the consequences of his appalling decisions. \n\nHe has not even apologised."
+        },
+        {
+          "id": "2082440516176662857",
+          "type": "original",
+          "timestamp": "2026-07-29T12:18:03.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082440516176662857",
+          "textSnippet": "Read the full article here. "
+        },
+        {
+          "id": "2082491500428943420",
+          "type": "original",
+          "timestamp": "2026-07-29T15:40:39.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082491500428943420",
+          "textSnippet": "Happy birthday to this uncle in Clacton! "
+        },
+        {
+          "id": "2082509204695474475",
+          "type": "original",
+          "timestamp": "2026-07-29T16:51:00.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2082509204695474475",
+          "textSnippet": "We only won control of Essex County Council 12 weeks ago, but already we have repaired over 5,000 highway defects. \n\nThat’s a 30% increase on the same period last year.\n\nReform gets stuff done."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2082455720079876238",
+          "type": "original",
+          "timestamp": "2026-07-29T13:18:28.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2082455720079876238",
+          "textSnippet": " \"All around us, small independent nations of a similar size are thriving in comparison to broken Britain – it’s time we took our place amongst them as an independent nation in the EU.\""
+        }
+      ]
     }
   }
 }

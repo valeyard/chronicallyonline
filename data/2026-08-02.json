@@ -33,6 +33,130 @@
           "textSnippet": "Hey lads!\n\nA fresh new idea from this new government & our new PM \n\nCUTS! "
         }
       ]
+    },
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2083846214642987446",
+          "type": "original",
+          "timestamp": "2026-08-02T09:23:48.000Z",
+          "url": "https://x.com/iamtomskinner/status/2083846214642987446",
+          "textSnippet": "Happy Sunday you lovely lot. I’ve got another idea for our Prime Minister \n@andyburnham\n , I recon you’ll like this one. \n\nLet’s get everyone growing. We could start a campaign where we send families who wanna take part a “Grow Pack”. Tomatoes, cucumbers, potatoes, carrots, herbs"
+        },
+        {
+          "id": "2083868885103636663",
+          "type": "original",
+          "timestamp": "2026-08-02T10:53:53.000Z",
+          "url": "https://x.com/andyburnham/status/2083868885103636663",
+          "textSnippet": "I like it, Tom."
+        },
+        {
+          "id": "2084012667807707143",
+          "type": "original",
+          "timestamp": "2026-08-02T20:25:13.000Z",
+          "url": "https://x.com/andyburnham/status/2084012667807707143",
+          "textSnippet": "My government will be relentless in tackling small boat crossings. \n\nWe can choose to play politics on this issue, or we can just get on with it and sort it out.\n\nI know which one I’m doing."
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2083892719076679892",
+          "type": "original",
+          "timestamp": "2026-08-02T12:28:35.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2083892719076679892",
+          "textSnippet": "Is this the moment we can finally fix social care? \n\nFor the sake of millions of carers and our loved ones who need care, I will do everything I can to make it happen."
+        },
+        {
+          "id": "2083947554606084229",
+          "type": "original",
+          "timestamp": "2026-08-02T16:06:29.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2083947554606084229",
+          "textSnippet": "We have been saying for many years that the only way to fix care is by all of the main parties agreeing on the same plan. We have a responsibility to work together and a real opportunity to fix it."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2083949803470246148",
+          "type": "original",
+          "timestamp": "2026-08-02T16:15:25.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083949803470246148",
+          "textSnippet": "BREAKING NEWS \n\n2,000 illegal migrants have now crossed the Channel under Andy Burnham. \n\n752 landed in a single day. This government has lost control.\n\nOnly Reform will secure our borders and deport every illegal migrant."
+        },
+        {
+          "id": "2083964794105626782",
+          "type": "original",
+          "timestamp": "2026-08-02T17:14:59.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083964794105626782",
+          "textSnippet": "The next election will be an existential fight to save the country we love, a mission I have now been fighting for over 30 years.\n\nAfter two national election victories in as many years, many people now recognise that it will be a binary choice between Reform UK and Labour.\n\nWith"
+        },
+        {
+          "id": "2083985535970721846",
+          "type": "original",
+          "timestamp": "2026-08-02T18:37:25.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2083985535970721846",
+          "textSnippet": "Spain deployed thousands of troops to end the invasion of their country. 60,000 migrants stormed their border.\n\nShabana Mahmood thinks this can’t be done in Britain because it’s “trickier”. Instead, she’ll keep dumping them into an HMO or hotel near you.\n\nThis government is just"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
     }
   }
 }
