@@ -8,7 +8,15 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { londonDateRangeUtc, yesterdayLondonDateStr } from "./dateRange.mjs";
-import { sleep, buildContext, isLoginWalled, collectArticles, classify, summarize } from "./lib.mjs";
+import {
+  sleep,
+  buildContext,
+  isLoginWalled,
+  collectArticles,
+  classify,
+  summarize,
+  isPinnedRecord,
+} from "./lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -80,7 +88,12 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
       if (seen.has(rec.id)) continue;
       seen.set(rec.id, rec);
       newCount++;
-      if (rec.timestamp && new Date(rec.timestamp) < start) hitOlder = true;
+      // A pinned tweet's real timestamp can be far older than the target
+      // day even though it's rendered at the very top — don't let it look
+      // like we've scrolled past the target day before we've even started.
+      if (!isPinnedRecord(rec) && rec.timestamp && new Date(rec.timestamp) < start) {
+        hitOlder = true;
+      }
     }
 
     if (hitOlder) break;

@@ -22,7 +22,15 @@ import {
   enumerateDates,
   londonDateStrOf,
 } from "./dateRange.mjs";
-import { sleep, buildContext, isLoginWalled, collectArticles, classify, summarize } from "./lib.mjs";
+import {
+  sleep,
+  buildContext,
+  isLoginWalled,
+  collectArticles,
+  classify,
+  summarize,
+  isPinnedRecord,
+} from "./lib.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -70,7 +78,12 @@ async function scrapeRange(page, url, { start, end }) {
       if (seen.has(rec.id)) continue;
       seen.set(rec.id, rec);
       newCount++;
-      if (rec.timestamp && new Date(rec.timestamp) < start) hitOlder = true;
+      // A pinned tweet's real timestamp can be far older than the target
+      // window even though it's rendered at the very top — don't let it
+      // look like we've scrolled past the window before we've even started.
+      if (!isPinnedRecord(rec) && rec.timestamp && new Date(rec.timestamp) < start) {
+        hitOlder = true;
+      }
     }
 
     if (hitOlder) break;

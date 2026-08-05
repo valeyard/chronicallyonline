@@ -60,9 +60,12 @@ export async function collectArticles(page) {
   });
 }
 
+export function isPinnedRecord(rec) {
+  return Boolean(rec.socialContext && /pinned/i.test(rec.socialContext));
+}
+
 export function classify(rec) {
-  const isPinned = Boolean(rec.socialContext && /pinned/i.test(rec.socialContext));
-  if (isPinned) return null;
+  if (isPinnedRecord(rec)) return null;
   const isRepost = Boolean(rec.socialContext && /repost/i.test(rec.socialContext));
   const type = isRepost ? "retweet" : rec.isReply ? "reply" : "original";
   return {
