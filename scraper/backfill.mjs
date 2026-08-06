@@ -1,13 +1,25 @@
 #!/usr/bin/env node
-// One-time historical backfill: scrolls each account's timeline much further
-// back than the daily scraper does, buckets whatever it finds into UK
-// calendar days, and writes/merges data/YYYY-MM-DD.json for each day found.
-//
-// This is heavier and riskier than the daily scrape (more scrolling in one
-// session), so pick a window deliberately:
+// One-time historical backfill. For each politician, works out which days in
+// the requested window are missing (or errored) and only scrapes the
+// min..max span of those — days already "ok" in data/ are never re-fetched,
+// and a politician whose whole window is already covered gets no browser
+// work at all. That makes it safe to run this repeatedly with a growing
+// window (e.g. to spread scraping out over several days) without redoing
+// the same ground each time:
 //   node scraper/backfill.mjs --days=14
 //   node scraper/backfill.mjs --since=2026-07-01 --until=2026-07-31
 //   node scraper/backfill.mjs --days=7 --only=zack-polanski
+//
+// Rather than scrolling an account's live timeline from the top (which
+// means wading through every newer day to reach an older gap), this uses
+// X's search with since:/until: to jump straight to the needed window:
+// https://x.com/search?q=from:handle%20since:2026-07-01%20until:2026-07-15
+// include:nativeretweets is required or retweets silently don't show up in
+// search results — this hasn't been cross-validated against the profile-
+// timeline numbers the way the daily scraper was, so treat a first backfill
+// run via search with the same suspicion (compare counts against what you
+// can see with your own eyes) before trusting it the way scrape.mjs is
+// trusted.
 //
 // By default it won't overwrite a day that already has "ok" data for a
 // politician (e.g. from the daily scrape) — pass --force to redo those too.
@@ -29,7 +41,6 @@ import {
   isLoginWalled,
   collectArticles,
   summarize,
-  isPinnedRecord,
   extractTweets,
 } from "./lib.mjs";
 
@@ -58,7 +69,20 @@ async function loadPoliticians() {
   return JSON.parse(raw);
 }
 
-async function scrapeRange(page, url, { start, end }) {
+function toUtcDateStr(instant) {
+  return instant.toISOString().slice(0, 10);
+}
+
+async function scrapeSearchRange(page, handle, { start, end }) {
+  // since:/until: only have day granularity, and X's exact UTC boundary
+  // behaviour for them isn't something we can verify from here — pad a day
+  // on each side and let extractTweets() below do the real, precise
+  // [start, end) trim regardless of what the search net drags in.
+  const sinceStr = toUtcDateStr(new Date(start.getTime() - 24 * 3600 * 1000));
+  const untilStr = toUtcDateStr(new Date(end.getTime() + 24 * 3600 * 1000));
+  const query = `from:${handle} since:${sinceStr} until:${untilStr} include:nativeretweets`;
+  const url = `https://x.com/search?q=${encodeURIComponent(query)}&src=typed_query&f=live`;
+
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
   await sleep(2000 + Math.random() * 1000);
 
@@ -79,10 +103,10 @@ async function scrapeRange(page, url, { start, end }) {
       if (seen.has(rec.id)) continue;
       seen.set(rec.id, rec);
       newCount++;
-      // A pinned tweet's real timestamp can be far older than the target
-      // window even though it's rendered at the very top — don't let it
-      // look like we've scrolled past the window before we've even started.
-      if (!isPinnedRecord(rec) && rec.timestamp && new Date(rec.timestamp) < start) {
+      // Search results don't surface pinned tweets the way a profile
+      // timeline does, so every record's timestamp here is trustworthy for
+      // the boundary check (no isPinnedRecord carve-out needed).
+      if (rec.timestamp && new Date(rec.timestamp) < start) {
         hitOlder = true;
       }
     }
@@ -130,6 +154,14 @@ function loadExistingDay(date) {
   return JSON.parse(readFileSync(filePath, "utf-8"));
 }
 
+function datesNeeded(politician, allDates, force) {
+  if (force) return allDates;
+  return allDates.filter((date) => {
+    const existing = loadExistingDay(date);
+    return existing?.politicians[politician.id]?.status !== "ok";
+  });
+}
+
 async function main() {
   const { since, until, force, only } = parseArgs();
   console.log(`[backfill] window: ${since} to ${until} (inclusive, UK calendar days)`);
@@ -142,10 +174,8 @@ async function main() {
       process.exit(1);
     }
   }
-  const fullRange = {
-    start: londonDateRangeUtc(since).start,
-    end: londonDateRangeUtc(until).end,
-  };
+
+  const allDates = enumerateDates(since, until);
 
   const browser = await chromium.launch({ headless: process.env.HEADFUL !== "1" });
   const context = await buildContext(browser);
@@ -153,16 +183,27 @@ async function main() {
   const perPolitician = {};
 
   for (const politician of politicians) {
-    console.log(`[backfill] ${politician.name} (@${politician.handle})`);
+    const needed = datesNeeded(politician, allDates, force);
+    if (needed.length === 0) {
+      console.log(`[backfill] ${politician.name}: every day in range is already ok, skipping`);
+      continue;
+    }
+
+    const gapSince = needed[0];
+    const gapUntil = needed[needed.length - 1];
+    console.log(
+      `[backfill] ${politician.name} (@${politician.handle}): ${needed.length}/${allDates.length} days needed, scraping ${gapSince}..${gapUntil}`,
+    );
+    const gapRange = {
+      start: londonDateRangeUtc(gapSince).start,
+      end: londonDateRangeUtc(gapUntil).end,
+    };
+
     const page = await context.newPage();
     try {
-      const tweets = await scrapeRange(
-        page,
-        `https://x.com/${politician.handle}/with_replies`,
-        fullRange,
-      );
+      const tweets = await scrapeSearchRange(page, politician.handle, gapRange);
       perPolitician[politician.id] = { status: "ok", byDay: bucketByLondonDay(tweets) };
-      console.log(`[ok] ${politician.name}: ${tweets.length} posts across the window`);
+      console.log(`[ok] ${politician.name}: ${tweets.length} posts across the gap`);
     } catch (err) {
       perPolitician[politician.id] = { status: "error", error: String(err.message || err) };
       console.warn(`[warn] ${politician.name}: ${err.message}`);
@@ -176,10 +217,9 @@ async function main() {
   await browser.close();
 
   await mkdir(DATA_DIR, { recursive: true });
-  const dates = enumerateDates(since, until);
   let written = 0;
 
-  for (const date of dates) {
+  for (const date of allDates) {
     const dayRange = londonDateRangeUtc(date);
     const existing = loadExistingDay(date);
     const dayResult = existing ?? {
@@ -188,12 +228,16 @@ async function main() {
       range: { start: dayRange.start.toISOString(), end: dayRange.end.toISOString() },
       politicians: {},
     };
+    let changed = !existing;
 
     for (const politician of politicians) {
       const already = dayResult.politicians[politician.id];
       if (already?.status === "ok" && !force) continue;
 
       const outcome = perPolitician[politician.id];
+      if (!outcome) continue; // this politician needed no scraping at all
+
+      changed = true;
       if (outcome.status === "error") {
         dayResult.politicians[politician.id] = {
           handle: politician.handle,
@@ -218,6 +262,7 @@ async function main() {
       };
     }
 
+    if (!changed) continue;
     await writeFile(path.join(DATA_DIR, `${date}.json`), JSON.stringify(dayResult, null, 2));
     written++;
   }
