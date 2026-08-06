@@ -1,21 +1,139 @@
 {
   "date": "2026-08-05",
-  "scrapedAt": "2026-08-05T22:25:23.561Z",
+  "scrapedAt": "2026-08-06T07:30:52.862Z",
   "range": {
     "start": "2026-08-04T23:00:00.000Z",
     "end": "2026-08-05T23:00:00.000Z"
   },
   "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 2,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2085028357150822462",
+          "type": "original",
+          "timestamp": "2026-08-05T15:41:12.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085028357150822462",
+          "textSnippet": "While I am sad that Joshua feels he won't be given the space to explain his position and represent his community, I am glad he is going to work with me and the party on tackling radicalisation as part of our Culture and Integration commission.\n\nIf we are going to stop extremism"
+        },
+        {
+          "id": "2085041914265600249",
+          "type": "retweet",
+          "timestamp": "2026-08-05T16:35:05.000Z",
+          "url": "https://x.com/ClaireCoutinho/status/2085041914265600249",
+          "textSnippet": "I understand why Luciana and others are unable to forgive Joshua, I do.\n\nMy Catholicism says I should forgive if put in a similar position, but none of us can say how we would feel if we were so cruelly targeted - especially while pregnant. \n\nI don’t think people who have"
+        },
+        {
+          "id": "2085043482331099362",
+          "type": "original",
+          "timestamp": "2026-08-05T16:41:19.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085043482331099362",
+          "textSnippet": "It has taken far too long for Sgt Martyn Blake to finally be told he won’t face further punishment.\n\nA jury found him not guilty, yet Sgt Blake has been put through hell for doing his job. His treatment has sent a message to other officers on the frontline that the state isn’t on"
+        },
+        {
+          "id": "2085053406738313479",
+          "type": "retweet",
+          "timestamp": "2026-08-05T17:20:45.000Z",
+          "url": "https://x.com/antisemitism/status/2085053406738313479",
+          "textSnippet": "Having gone to significant effort to see to it that Joshua Bonehill-Paine went to prison, we would be extremely keen to see that he is not elevated to a position of power if he still holds antisemitic views.\n\nWe do not know what is in his heart but we do know that in recent years"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2084987144850772469",
+          "type": "original",
+          "timestamp": "2026-08-05T12:57:27.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2084987144850772469",
+          "textSnippet": "Up and down the country, we’ve got businesses shutting their doors at a rate of knots and households battling a permanent cost-of-living crisis. \nAndy Burnham needs to set out their growth plan now, and it needs to start with Europe."
+        },
+        {
+          "id": "2085059186166014417",
+          "type": "original",
+          "timestamp": "2026-08-05T17:43:43.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2085059186166014417",
+          "textSnippet": "Badenoch has shown an outrageous lack of judgement, doubling down on her support for a former neo-Nazi because councillors only “sort out the bins.”\n\nShe has no idea how much people care about their local communities."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 1,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2084922690620547529",
+          "type": "original",
+          "timestamp": "2026-08-05T08:41:20.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084922690620547529",
+          "textSnippet": "Do we really want these fighting-age men breaking into our country?"
+        },
+        {
+          "id": "2084995825495670811",
+          "type": "original",
+          "timestamp": "2026-08-05T13:31:56.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2084995825495670811",
+          "textSnippet": "I’ll put this chap down as a maybe!"
+        },
+        {
+          "id": "2085013513752162626",
+          "type": "retweet",
+          "timestamp": "2026-08-05T14:42:14.000Z",
+          "url": "https://x.com/reformparty_uk/status/2085013513752162626",
+          "textSnippet": "This entire street will be sending the establishment a message on August 13th. "
+        }
+      ]
+    },
     "zack-polanski": {
       "handle": "ZackPolanski",
       "name": "Zack Polanski",
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 14,
-        "retweet": 57,
+        "original": 11,
+        "retweet": 61,
         "reply": 0,
-        "total": 71
+        "total": 72
       },
       "tweets": [
         {
@@ -167,7 +285,7 @@
         },
         {
           "id": "2085004073632149805",
-          "type": "original",
+          "type": "retweet",
           "timestamp": "2026-08-05T14:04:43.000Z",
           "url": "https://x.com/ZackPolanski/status/2085004073632149805",
           "textSnippet": "My urgent message to the Prime Minister with a Q&A with journalists on our plans.\n\nJoined by a medic, a former soldier, a firefighter and Chris Packham.\n\n "
@@ -202,7 +320,7 @@
         },
         {
           "id": "2085022754403709184",
-          "type": "original",
+          "type": "retweet",
           "timestamp": "2026-08-05T15:18:57.000Z",
           "url": "https://x.com/ZackPolanski/status/2085022754403709184",
           "textSnippet": "Today, I'm delivering an urgent message to the Prime Minister: we are facing the greatest threat to this country since the Second World War.\n\nOur safety, our food and water supply, and our way of life are at risk. It's time to act. \n\nHere I spell out what that should look like:"
@@ -481,6 +599,13 @@
           "textSnippet": "LBC had a full day of claiming Zack Polanski is unnecessarily fearmongering & playing into the hands of climate skeptics by suggesting climate change is the worst threat since WW2.\n\nThe truth it is the worst threat to humanity since the last Ice Age.\n\nThere are no hyperbole."
         },
         {
+          "id": "2085116661049196896",
+          "type": "retweet",
+          "timestamp": "2026-08-05T21:32:06.000Z",
+          "url": "https://x.com/FT/status/2085116661049196896",
+          "textSnippet": "Richard Tice appears to have used more than half a million pounds he received from the mother of Nigel Farage’s long-term aide George Cottrell to convert loans he had made to Reform UK into donations. \nhttps://\nft.trib.al/QCXQHlo"
+        },
+        {
           "id": "2085117493840851354",
           "type": "retweet",
           "timestamp": "2026-08-05T21:35:24.000Z",
@@ -489,7 +614,7 @@
         },
         {
           "id": "2085118567993770461",
-          "type": "original",
+          "type": "retweet",
           "timestamp": "2026-08-05T21:39:40.000Z",
           "url": "https://x.com/ZackPolanski/status/2085118567993770461",
           "textSnippet": "If those in power won't make a plan - we'll set it out for them."
@@ -514,6 +639,27 @@
           "timestamp": "2026-08-05T22:03:26.000Z",
           "url": "https://x.com/LBC/status/2085124547645436322",
           "textSnippet": "'He made AI videos about me, too...'\n \n\n@ZackPolanski\n says there are 'serious questions' about Kemi Badenoch's judgement after she allowed a former neo-Nazi to stand as a Tory."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2085031346288673133",
+          "type": "original",
+          "timestamp": "2026-08-05T15:53:05.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2085031346288673133",
+          "textSnippet": " Health Secretary Yvette Cooper has received £165,439 from donors linked to private healthcare, second only to Wes Streeting.\n\nAre Labour putting patients or private healthcare interests first?\n\n \n@TheSNP\n will always stand for an NHS based on need, not the ability to pay."
         }
       ]
     }
