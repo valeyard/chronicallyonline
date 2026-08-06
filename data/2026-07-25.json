@@ -1,0 +1,212 @@
+{
+  "date": "2026-07-25",
+  "scrapedAt": "2026-08-06T15:00:09.704Z",
+  "range": {
+    "start": "2026-07-24T23:00:00.000Z",
+    "end": "2026-07-25T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2080991419456446635",
+          "type": "original",
+          "timestamp": "2026-07-25T12:19:52.000Z",
+          "url": "https://x.com/andyburnham/status/2080991419456446635",
+          "textSnippet": "Five things I’ve done in my first week "
+        },
+        {
+          "id": "2081013162925600788",
+          "type": "original",
+          "timestamp": "2026-07-25T13:46:16.000Z",
+          "url": "https://x.com/andyburnham/status/2081013162925600788",
+          "textSnippet": "It most certainly is, Ed. Let’s work together to find some common ground."
+        },
+        {
+          "id": "2081091155165364513",
+          "type": "original",
+          "timestamp": "2026-07-25T18:56:10.000Z",
+          "url": "https://x.com/andyburnham/status/2081091155165364513",
+          "textSnippet": "I'm used to people telling me things can't be done.\n\nI didn't accept it then. I won't accept it now.\n\nIt's time to get Britain believing again and bring back hope.\n\nThis week is just the start."
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2081023829355147351",
+          "type": "original",
+          "timestamp": "2026-07-25T14:28:39.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2081023829355147351",
+          "textSnippet": "Across the country people want to see change for the better."
+        },
+        {
+          "id": "2081080220040507663",
+          "type": "original",
+          "timestamp": "2026-07-25T18:12:43.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2081080220040507663",
+          "textSnippet": "The wildfire in the Cairngorms has been raging for 10 days and it has been devastating for the families and communities living nearby.\n\nHuge thanks to the Fire and Rescue Service, the Police and the many volunteers working round the clock to protect life and property.\n\nNow that a"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2081000727724372392",
+          "type": "original",
+          "timestamp": "2026-07-25T12:56:51.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2081000727724372392",
+          "textSnippet": "This has to be the start of a real effort to end the social care catastrophe. \n\n\n@AndyBurnham\n says he’s willing to spend political capital on this - and so am I. \n\nI’ll fight to ensure family carers aren't forgotten. We need cross-party consensus, and I hope the PM’s door is ope"
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2080946865877491758",
+          "type": "original",
+          "timestamp": "2026-07-25T09:22:49.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2080946865877491758",
+          "textSnippet": "The Telegraph front page reports Iran is smuggling its operatives into Britain via the English Channel. \n\nI have been warning about this since April."
+        },
+        {
+          "id": "2080961811302531249",
+          "type": "original",
+          "timestamp": "2026-07-25T10:22:12.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2080961811302531249",
+          "textSnippet": "Clacton calling. "
+        },
+        {
+          "id": "2080989686068023543",
+          "type": "original",
+          "timestamp": "2026-07-25T12:12:58.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2080989686068023543",
+          "textSnippet": "Labour’s own MPs shouted “shame on you” when I warned about Iran. \n\nThe truth is, it’s shame on them. \n\nThey are endangering British lives by letting terrorists in."
+        },
+        {
+          "id": "2081059375083331695",
+          "type": "original",
+          "timestamp": "2026-07-25T16:49:53.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2081059375083331695",
+          "textSnippet": "Over 700 illegal migrants have invaded our country this week so far.\n\nHow many Iranian terrorists are amongst them? \n@AndyBurnham"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 7,
+        "retweet": 0,
+        "reply": 0,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2080927345389502889",
+          "type": "original",
+          "timestamp": "2026-07-25T08:05:15.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080927345389502889",
+          "textSnippet": "This coming Thursday.\n\nLet's make it happen.\n\nVote Green as your first preference vote.\n\nLet's take Greater Manchester back from private profit and run it for the people."
+        },
+        {
+          "id": "2080930728833892557",
+          "type": "original",
+          "timestamp": "2026-07-25T08:18:42.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080930728833892557",
+          "textSnippet": "Terrorising communities. \n\nSplitting up families. \n\nThese are political choices that Burnham is backing by reappointing Shabana Mahmood in the Home Office. \n\nThese are choices the Green Party will always fight."
+        },
+        {
+          "id": "2080985348197290051",
+          "type": "original",
+          "timestamp": "2026-07-25T11:55:44.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080985348197290051",
+          "textSnippet": "Brilliant to meet with Thomas Piketty at the Paris School of Economics.\n\nWe discussed monetary and fiscal policy, bond markets, the climate crisis and global wealth taxes.\n\nAlso recorded a podcast for \n@_BoldPolitics\n - out soon!"
+        },
+        {
+          "id": "2080987417662603438",
+          "type": "original",
+          "timestamp": "2026-07-25T12:03:57.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080987417662603438",
+          "textSnippet": "Terrifying to see wildfires raging through Scotland.\n\nThe climate crisis isn't a distant threat - it's right here and right now.\n\nHow many warning signs and alarm bells until Andy Burnham takes action to end oil and gas drilling?"
+        },
+        {
+          "id": "2081122478018216019",
+          "type": "original",
+          "timestamp": "2026-07-25T21:00:38.000Z",
+          "url": "https://x.com/ZackPolanski/status/2081122478018216019",
+          "textSnippet": "Goldsmith ran one of the most racist campaigns in British political history and London rejected him. \n\nOur twinning proposal is about offering practical and moral support to a city subjugated under a brutal military occupation. \n\nHe remains ignorant to this by his own prejudice."
+        },
+        {
+          "id": "2081136611568361487",
+          "type": "original",
+          "timestamp": "2026-07-25T21:56:48.000Z",
+          "url": "https://x.com/ZackPolanski/status/2081136611568361487",
+          "textSnippet": "Sending all my love and solidarity to Berlin."
+        },
+        {
+          "id": "2081141483277893654",
+          "type": "original",
+          "timestamp": "2026-07-25T22:16:10.000Z",
+          "url": "https://x.com/ZackPolanski/status/2081141483277893654",
+          "textSnippet": "Thanks WOMAD - that was so uplifting today!\n\nAmazing to see so many people in the tent - and a huge overflow too.\n\nPeople want rent controls, wealth taxes and action to tackle the climate crisis.\n\nHope "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}

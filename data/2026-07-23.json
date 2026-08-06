@@ -1,0 +1,212 @@
+{
+  "date": "2026-07-23",
+  "scrapedAt": "2026-08-06T15:00:09.703Z",
+  "range": {
+    "start": "2026-07-22T23:00:00.000Z",
+    "end": "2026-07-23T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2080195576780476813",
+          "type": "original",
+          "timestamp": "2026-07-23T07:37:28.000Z",
+          "url": "https://x.com/andyburnham/status/2080195576780476813",
+          "textSnippet": "I’m giving thousands of pubs, clubs and music venues a 20% cut in business rates.\n\nI won’t stand by while these cherished local spaces disappear, replaced by boarded-up windows and ‘For Sale’ signs.\n\nThey’re the heart of our communities and it’s time we backed them."
+        },
+        {
+          "id": "2080312788396748985",
+          "type": "original",
+          "timestamp": "2026-07-23T15:23:13.000Z",
+          "url": "https://x.com/andyburnham/status/2080312788396748985",
+          "textSnippet": "Keeping the public safe will always be my top priority.\n\nI have instructed my team to put a pause on the sentencing changes that were due to start in September.\n\nNo prisoners will be let out under this policy until we have conducted an urgent review and done everything we can to"
+        },
+        {
+          "id": "2080332978681471254",
+          "type": "original",
+          "timestamp": "2026-07-23T16:43:27.000Z",
+          "url": "https://x.com/andyburnham/status/2080332978681471254",
+          "textSnippet": "An announcement close to my heart…"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2080224279719792797",
+          "type": "original",
+          "timestamp": "2026-07-23T09:31:31.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2080224279719792797",
+          "textSnippet": "https://\nx.com/i/broadcasts/1\nYxNrrnqodNxw\n…"
+        },
+        {
+          "id": "2080299140882317765",
+          "type": "original",
+          "timestamp": "2026-07-23T14:28:59.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2080299140882317765",
+          "textSnippet": "Britain faces big challenges. Andy Burnham’s ambitions are too small."
+        },
+        {
+          "id": "2080352783832633629",
+          "type": "original",
+          "timestamp": "2026-07-23T18:02:09.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2080352783832633629",
+          "textSnippet": "I welcome this “pause” but you have only suspended one part of early release, pending yet another review. We have been campaigning against this dangerous scheme from day one. \n\nYour 40% scheme is still letting offenders out early, today, every day.\n\nIt cost Lewis Bell his life."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2080214942540608000",
+          "type": "original",
+          "timestamp": "2026-07-23T08:54:25.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2080214942540608000",
+          "textSnippet": "Read all about it in Clacton. "
+        },
+        {
+          "id": "2080238160961843616",
+          "type": "original",
+          "timestamp": "2026-07-23T10:26:41.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2080238160961843616",
+          "textSnippet": "This lady shouted abuse at me and then crashed her own car.\n\nThat’s what you might call instant karma!"
+        },
+        {
+          "id": "2080321521285726210",
+          "type": "original",
+          "timestamp": "2026-07-23T15:57:55.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2080321521285726210",
+          "textSnippet": "The British people want a general election."
+        },
+        {
+          "id": "2080363994024452530",
+          "type": "original",
+          "timestamp": "2026-07-23T18:46:42.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2080363994024452530",
+          "textSnippet": "I nearly found the woman who crashed the car!"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 0,
+        "reply": 0,
+        "total": 5
+      },
+      "tweets": [
+        {
+          "id": "2080176594459488677",
+          "type": "original",
+          "timestamp": "2026-07-23T06:22:02.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080176594459488677",
+          "textSnippet": "What's the most obvious thing the government should be doing right now to help millions of people *and* save £2bn?"
+        },
+        {
+          "id": "2080196997558972663",
+          "type": "original",
+          "timestamp": "2026-07-23T07:43:07.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080196997558972663",
+          "textSnippet": "I've always said i would welcome Labour when they do the right thing, and today's business relief for venues and pubs is a welcome respite for an industry at the heart of our communities."
+        },
+        {
+          "id": "2080208319063490770",
+          "type": "original",
+          "timestamp": "2026-07-23T08:28:06.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080208319063490770",
+          "textSnippet": "Another day, another scandal circling Reform. I'm willing to bet they don't want to answer questions about this either."
+        },
+        {
+          "id": "2080296676346986726",
+          "type": "original",
+          "timestamp": "2026-07-23T14:19:12.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080296676346986726",
+          "textSnippet": "Average FTSE 100 CEO pay up 8.6% last year to over £5,000,000. While most people's salaries are struggling to to keep up with inflation. This is obscene."
+        },
+        {
+          "id": "2080406249766531567",
+          "type": "original",
+          "timestamp": "2026-07-23T21:34:36.000Z",
+          "url": "https://x.com/ZackPolanski/status/2080406249766531567",
+          "textSnippet": "\"I am a Deputy Leader of a national political party because of the upbringing my parents gave me. I would not be writing these words without the opportunities they built here. I will never apologise for who I am, however much the colour of my skin or my religion upsets some.\""
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2080216275104452993",
+          "type": "original",
+          "timestamp": "2026-07-23T08:59:43.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2080216275104452993",
+          "textSnippet": " I’m holding surgeries in Luncarty, Aberfeldy, Blair Atholl and Dunkeld today!\n\n To book an appointment or for more info email: dave.doogan.mp@parliament.uk\n\nOr call: 01307 804185"
+        },
+        {
+          "id": "2080365659561603403",
+          "type": "original",
+          "timestamp": "2026-07-23T18:53:19.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2080365659561603403",
+          "textSnippet": " I’m holding a surgery in Pitlochry tomorrow morning.\n\n To book an appointment or for more info email: dave.doogan.mp@parliament.uk\n\nOr call: 01307 804185"
+        }
+      ]
+    }
+  }
+}
