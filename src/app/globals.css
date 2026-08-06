@@ -63,3 +63,16 @@ body {
     stroke: var(--c-dark);
   }
 }
+
+/* Same idea as .series-stroke, but for HTML elements (legend/tooltip line
+   keys) — `stroke` is SVG-only and silently does nothing on a <span>, which
+   left border-top-color at its currentColor default (i.e. invisible against
+   the surrounding text) instead of the party color. */
+.series-border {
+  border-color: var(--c-light);
+}
+@media (prefers-color-scheme: dark) {
+  .series-border {
+    border-color: var(--c-dark);
+  }
+}

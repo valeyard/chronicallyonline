@@ -153,7 +153,7 @@ export function PartyTrendLines({ dates, series }: { dates: string[]; series: Se
               return (
                 <div key={s.politician.id} className="flex items-center gap-1.5 py-0.5">
                   <span
-                    className="series-stroke inline-block w-3 border-t-2"
+                    className="series-border inline-block w-3 border-t-2"
                     style={{ "--c-light": color.light, "--c-dark": color.dark } as React.CSSProperties}
                   />
                   <span className="font-semibold text-[var(--color-text-primary)] tabular-nums">
@@ -173,7 +173,7 @@ export function PartyTrendLines({ dates, series }: { dates: string[]; series: Se
           return (
             <div key={politician.id} className="flex items-center gap-1.5">
               <span
-                className="series-stroke inline-block w-4 border-t-2"
+                className="series-border inline-block w-4 border-t-2"
                 style={{ "--c-light": color.light, "--c-dark": color.dark } as React.CSSProperties}
               />
               <span>
