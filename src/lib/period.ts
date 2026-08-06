@@ -46,6 +46,26 @@ export function aggregateRows(days: DayData[], politicians: Politician[]): Perio
   });
 }
 
+// One point per day per politician, aligned to a shared `dates` array so the
+// trend chart can draw each politician as its own line. A day where the
+// scrape errored (or a politician is simply missing from an older day file)
+// is `null`, not 0 — a gap in the line, not a claim that nobody posted.
+export function dailySeriesByPolitician(
+  days: DayData[],
+  politicians: Politician[],
+): { dates: string[]; series: { politician: Politician; values: (number | null)[] }[] } {
+  const sorted = [...days].sort((a, b) => a.date.localeCompare(b.date));
+  const dates = sorted.map((d) => d.date);
+  const series = politicians.map((politician) => ({
+    politician,
+    values: sorted.map((day) => {
+      const result = day.politicians[politician.id];
+      return result?.status === "ok" && result.counts ? result.counts.total : null;
+    }),
+  }));
+  return { dates, series };
+}
+
 export function aggregateDailyTotals(days: DayData[]): { date: string; total: number }[] {
   return [...days]
     .sort((a, b) => a.date.localeCompare(b.date))

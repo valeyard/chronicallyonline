@@ -26,6 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/month" className="hover:text-[var(--color-text-primary)]">
                 Month
               </Link>
+              <Link href="/trends" className="hover:text-[var(--color-text-primary)]">
+                Trends
+              </Link>
               <Link href="/about" className="hover:text-[var(--color-text-primary)]">
                 About
               </Link>

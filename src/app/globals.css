@@ -54,3 +54,12 @@ body {
     color: var(--c-dark);
   }
 }
+
+.series-stroke {
+  stroke: var(--c-light);
+}
+@media (prefers-color-scheme: dark) {
+  .series-stroke {
+    stroke: var(--c-dark);
+  }
+}
