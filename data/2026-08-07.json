@@ -1,0 +1,323 @@
+{
+  "date": "2026-08-07",
+  "scrapedAt": "2026-08-09T16:04:46.501Z",
+  "range": {
+    "start": "2026-08-06T23:00:00.000Z",
+    "end": "2026-08-07T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 2,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2085631615506464847",
+          "type": "original",
+          "timestamp": "2026-08-07T07:38:20.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085631615506464847",
+          "textSnippet": ""
+        },
+        {
+          "id": "2085632035498922131",
+          "type": "original",
+          "timestamp": "2026-08-07T07:40:01.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085632035498922131",
+          "textSnippet": "I’ve written to the people of Clacton because they don’t deserve to be used by Nigel Farage to distract from his £5mn problems.\n\nThis by-election is fake and he knows it. \n\nHe disrespects his own constituents, demanding they exonerate him before the facts have been established"
+        },
+        {
+          "id": "2085639828398391665",
+          "type": "retweet",
+          "timestamp": "2026-08-07T08:10:59.000Z",
+          "url": "https://x.com/Helen_Whately/status/2085639828398391665",
+          "textSnippet": "Our welfare system should be a safety net for British citizens - not a cash machine for migrants. \n\nThe Conservatives will end access to social housing for foreign nationals, freeing up 230,000 social housing properties for British families."
+        },
+        {
+          "id": "2085651462508453962",
+          "type": "retweet",
+          "timestamp": "2026-08-07T08:57:12.000Z",
+          "url": "https://x.com/kevinhollinrake/status/2085651462508453962",
+          "textSnippet": "Labour, the Liberal Democrats and the Greens are trying to block the implementation of the EHRC guidance in the councils they run.\n\nThis is reckless political posturing of the worst kind and it risks undermining the safety of women and girls.\n\nAs Chairman of the Conservative"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2085684161340113212",
+          "type": "original",
+          "timestamp": "2026-08-07T11:07:08.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2085684161340113212",
+          "textSnippet": "Nearly everyone knows someone with special educational needs or a disability. \n\nFor too long, they've been let down by a broken system. It's time they got the help they need."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2085630654247510520",
+          "type": "original",
+          "timestamp": "2026-08-07T07:34:31.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2085630654247510520",
+          "textSnippet": "The Tories copy every policy of ours. They are frauds."
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 25,
+        "reply": 0,
+        "total": 27
+      },
+      "tweets": [
+        {
+          "id": "2085597299158258126",
+          "type": "retweet",
+          "timestamp": "2026-08-07T05:21:59.000Z",
+          "url": "https://x.com/andycorneys/status/2085597299158258126",
+          "textSnippet": "We’re dependent on nature & its myriad of diversity. We need it to survive, it’s a simple truth. So why are the world’s leaders facilitating its destruction? Mankind’s modus operandi is literally suicidal, fossil fuel companies are killing everything! \n@ChrisGPackham\n is bang on!"
+        },
+        {
+          "id": "2085599525964501479",
+          "type": "retweet",
+          "timestamp": "2026-08-07T05:30:50.000Z",
+          "url": "https://x.com/meadwaj/status/2085599525964501479",
+          "textSnippet": "Paul Marshall is a name more people should know about"
+        },
+        {
+          "id": "2085629017177157859",
+          "type": "retweet",
+          "timestamp": "2026-08-07T07:28:01.000Z",
+          "url": "https://x.com/bradfordgreens/status/2085629017177157859",
+          "textSnippet": " Labour Party membership fell by a fifth last year.\n\n Meanwhile, Green Party membership has quadrupled since \n@ZackPolanski\n became leader last year!\n\n Let's keep our movement growing: \n\n\nhttp://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2085640180896092396",
+          "type": "original",
+          "timestamp": "2026-08-07T08:12:23.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085640180896092396",
+          "textSnippet": "Families in the UK are paying the price of Trump's war. \n\nIf we're serious about tackling the cost of living crisis, let's stop US bombers using UK bases."
+        },
+        {
+          "id": "2085649881910149220",
+          "type": "retweet",
+          "timestamp": "2026-08-07T08:50:56.000Z",
+          "url": "https://x.com/lowerformofwit/status/2085649881910149220",
+          "textSnippet": "It's ludicrous that we have an OFCOM regulated media channel that is allowed to call itself \"News\" while blatantly pushing fossil fuel anti climate change propaganda"
+        },
+        {
+          "id": "2085664775573307421",
+          "type": "retweet",
+          "timestamp": "2026-08-07T09:50:06.000Z",
+          "url": "https://x.com/William_E_Bird/status/2085664775573307421",
+          "textSnippet": "Andy Burnham would rather have the whole UK burn than hurt the oil industry. They’re always the same, always with the same priorities; money and another 5 years in No.10"
+        },
+        {
+          "id": "2085668430330433950",
+          "type": "retweet",
+          "timestamp": "2026-08-07T10:04:38.000Z",
+          "url": "https://x.com/natalieben/status/2085668430330433950",
+          "textSnippet": "Yep. It's #ClimateEmergency.\n\n\"We've known for a long time that the impacts of unmitigated climate change are going to cost us far more than any action.”"
+        },
+        {
+          "id": "2085669895652434171",
+          "type": "retweet",
+          "timestamp": "2026-08-07T10:10:27.000Z",
+          "url": "https://x.com/TransitionSec/status/2085669895652434171",
+          "textSnippet": "Our Co-Director \n@KhemRogaly\n told \n@guardian\n: \n\n“Allowing American strategic bombers to strike Iran from Gloucestershire could well make Britain complicit in war crimes. It also enables a war that makes life more expensive for all of us.”"
+        },
+        {
+          "id": "2085674892540670204",
+          "type": "retweet",
+          "timestamp": "2026-08-07T10:30:19.000Z",
+          "url": "https://x.com/TheGreenParty/status/2085674892540670204",
+          "textSnippet": "As fossil fuel companies fuel climate disaster and pocket billions, people are paying the price. Every single penny of excess profits must go towards protecting communities and our planet."
+        },
+        {
+          "id": "2085688068015640784",
+          "type": "retweet",
+          "timestamp": "2026-08-07T11:22:40.000Z",
+          "url": "https://x.com/ZoeJardiniere/status/2085688068015640784",
+          "textSnippet": "The anti trans movement is a horrible minority of ignorant people who love to bully & humiliate."
+        },
+        {
+          "id": "2085688667805208871",
+          "type": "retweet",
+          "timestamp": "2026-08-07T11:25:03.000Z",
+          "url": "https://x.com/declassifiedUK/status/2085688667805208871",
+          "textSnippet": "Ten trade unions, including the UK’s largest union UNISON, have called on UK prime minister Andy Burnham to revoke permission for US air strikes on Iran launched from RAF bases.\n\nRead the full release at \n@TransitionSec\n:\n\nhttps://\ntransitionsecurity.org/update/iran-wa\nr-cost-of-"
+        },
+        {
+          "id": "2085689451880087791",
+          "type": "retweet",
+          "timestamp": "2026-08-07T11:28:10.000Z",
+          "url": "https://x.com/chrisw100/status/2085689451880087791",
+          "textSnippet": "Green WIN in Surrey over Reform and the Tories!\n\nCongratulations to Nick Abear and \n@EastSurreyGrns\n "
+        },
+        {
+          "id": "2085691506082324587",
+          "type": "retweet",
+          "timestamp": "2026-08-07T11:36:19.000Z",
+          "url": "https://x.com/earthygirl011/status/2085691506082324587",
+          "textSnippet": "One political leader, Zack Polanski, was talking about it yesterday (he asked PM Burnham to call a Cobra meeting about it to discuss security for people, food & water) but the establishment & their msm are too scared of his popularity to give it any coverage"
+        },
+        {
+          "id": "2085694783545090296",
+          "type": "retweet",
+          "timestamp": "2026-08-07T11:49:21.000Z",
+          "url": "https://x.com/jeffmcw/status/2085694783545090296",
+          "textSnippet": "This, and Labour is planning to issue more oil and gas drilling licences in the North Sea rather than investing more in Renewables/Green Energy..."
+        },
+        {
+          "id": "2085696428672795045",
+          "type": "retweet",
+          "timestamp": "2026-08-07T11:55:53.000Z",
+          "url": "https://x.com/novaramedia/status/2085696428672795045",
+          "textSnippet": "“Everyone in the fire brigade is feeling the exhaustion.”\n\nWith wildfires and drought ravaging the UK, James Rodgers shared his experiences as a firefighter in London at a press conference alongside Green party leader \n@ZackPolanski\n on Wednesday.\n\nAfter Rodgers' speech, Polanski"
+        },
+        {
+          "id": "2085703942042788270",
+          "type": "retweet",
+          "timestamp": "2026-08-07T12:25:44.000Z",
+          "url": "https://x.com/DarrenBar88/status/2085703942042788270",
+          "textSnippet": "Almost as if everything \n@ZackPolanski\n\nwas saying this week was right.\n\nAnd still Burnham says nothing."
+        },
+        {
+          "id": "2085717750467502172",
+          "type": "retweet",
+          "timestamp": "2026-08-07T13:20:37.000Z",
+          "url": "https://x.com/BylineTimes/status/2085717750467502172",
+          "textSnippet": "Reform UK converted a £630,000 loan from deputy leader Richard Tice into a donation to the party, raising further questions about the origins of the party’s funds."
+        },
+        {
+          "id": "2085718002952032284",
+          "type": "retweet",
+          "timestamp": "2026-08-07T13:21:37.000Z",
+          "url": "https://x.com/ThomasWillett9/status/2085718002952032284",
+          "textSnippet": "We cannot host WorldPride while implementing some of the most anti-trans laws and policies in the Western world.."
+        },
+        {
+          "id": "2085719436107923916",
+          "type": "retweet",
+          "timestamp": "2026-08-07T13:27:19.000Z",
+          "url": "https://x.com/JeremyCordite/status/2085719436107923916",
+          "textSnippet": "Green gain from Conservative.\n\nThe Kemi bounce will be along any minute."
+        },
+        {
+          "id": "2085724186983436707",
+          "type": "retweet",
+          "timestamp": "2026-08-07T13:46:11.000Z",
+          "url": "https://x.com/VoteGreen29/status/2085724186983436707",
+          "textSnippet": "Big \n@TheGreenParty\n win in Reigate & Banstead \n\nWHERE is the mythical Kemi bounce here? This is Tory heartlands in Surrey."
+        },
+        {
+          "id": "2085729936174649646",
+          "type": "original",
+          "timestamp": "2026-08-07T14:09:02.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085729936174649646",
+          "textSnippet": "Huge congratulations to the entire team.\n\nBrilliant result! \n\nIt's a great time to join:\n\n\nhttp://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2085732269721788545",
+          "type": "retweet",
+          "timestamp": "2026-08-07T14:18:18.000Z",
+          "url": "https://x.com/_BoldPolitics/status/2085732269721788545",
+          "textSnippet": "Who will truly bear the costs of climate change?"
+        },
+        {
+          "id": "2085733808075059262",
+          "type": "retweet",
+          "timestamp": "2026-08-07T14:24:25.000Z",
+          "url": "https://x.com/GreenPartyJay/status/2085733808075059262",
+          "textSnippet": "@TheGreenParty\n with another win! \n\nGreens proving again that we’re not slowing down. \n\nPeople want a party that prioritises the important things and not the interests of millionaire donors."
+        },
+        {
+          "id": "2085734944786075721",
+          "type": "retweet",
+          "timestamp": "2026-08-07T14:28:56.000Z",
+          "url": "https://x.com/DefendOurJuries/status/2085734944786075721",
+          "textSnippet": "Yesterday in the UK, Bristol police arrested this child under the Terrorism Act for holding a sign with the words “plasticine action group” on it.\n\nFor anyone who’s unsure, it’s not yet illegal to mention plasticine action, Morph, Wallace & Gromit or Chicken Run.\n\n: \n@JustBarold"
+        },
+        {
+          "id": "2085757765071278202",
+          "type": "retweet",
+          "timestamp": "2026-08-07T15:59:37.000Z",
+          "url": "https://x.com/SeabrightLive/status/2085757765071278202",
+          "textSnippet": "Iain Dale returns for a sixth Edinburgh Fringe season from tomorrow (Sat 8 Aug).\nHis first guests tomorrow are former Scottish First Minister Nicola Sturgeon at 12, Secretary of Defence Wes Streeting at 2pm & Green Party leader Zack Polanski at 4pm.\nBook: \nhttps://\npleasance.co.u"
+        },
+        {
+          "id": "2085781860336968015",
+          "type": "retweet",
+          "timestamp": "2026-08-07T17:35:22.000Z",
+          "url": "https://x.com/AnsellEade/status/2085781860336968015",
+          "textSnippet": "Good that the Greens gave a platform at their press conference this week to emergency service workers who have been dealing with crises during the heatwave."
+        },
+        {
+          "id": "2085799974047031557",
+          "type": "retweet",
+          "timestamp": "2026-08-07T18:47:20.000Z",
+          "url": "https://x.com/DavidMcNab17/status/2085799974047031557",
+          "textSnippet": "This is the most significant shift in economic thinking in my lifetime - and i’m getting on a bit. I’ve lived under the same economic system for my entire life. It’s failed us. \n\nI hope to god \n@zackpolanski\n succeeds in changing the economic record. "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "date": "2026-08-06",
+  "scrapedAt": "2026-08-09T16:04:46.500Z",
+  "range": {
+    "start": "2026-08-05T23:00:00.000Z",
+    "end": "2026-08-06T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2085266689415848004",
+          "type": "original",
+          "timestamp": "2026-08-06T07:28:15.000Z",
+          "url": "https://x.com/andyburnham/status/2085266689415848004",
+          "textSnippet": "We’ve all had some experience of struggles with mental health. Maybe you’ve stood by a loved one in a time of need. Maybe you’ve been through tough moments yourself.\n\nToo often, illness is only half the challenge, with people forced to wait too long and fight too hard to get the"
+        },
+        {
+          "id": "2085363072302993719",
+          "type": "original",
+          "timestamp": "2026-08-06T13:51:15.000Z",
+          "url": "https://x.com/andyburnham/status/2085363072302993719",
+          "textSnippet": "This is what bringing back hope means to me."
+        },
+        {
+          "id": "2085445572035543288",
+          "type": "original",
+          "timestamp": "2026-08-06T19:19:04.000Z",
+          "url": "https://x.com/andyburnham/status/2085445572035543288",
+          "textSnippet": "We’re changing the rules.\n\nWhen applying for a contract from the government there will now be one simple test: are you creating British jobs? And are you giving young people the skills they need for the future?\n\nThese new rules will ensure the £90 billion that is spent each year"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 1,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2085256730754027748",
+          "type": "original",
+          "timestamp": "2026-08-06T06:48:41.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085256730754027748",
+          "textSnippet": "For Rod Liddle.\n\nWitty and rude. Crass but kind. Thoughtful yet cavalier. Irreverent, generous, fearless and completely impossible.\n\nGrossly offensive and joyously miserable, he was a misanthrope with a love of life and a deep understanding of the human condition. Gone too soon."
+        },
+        {
+          "id": "2085275024814936370",
+          "type": "original",
+          "timestamp": "2026-08-06T08:01:23.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085275024814936370",
+          "textSnippet": "I am very concerned that rape gangs perpetrators could still be let out of prison this autumn under Labour’s early release scheme.\n\nThis is yet another betrayal of the victims of these horrendous crimes.\n\nMy letter to \n@andyburnham"
+        },
+        {
+          "id": "2085307102638072014",
+          "type": "retweet",
+          "timestamp": "2026-08-06T10:08:51.000Z",
+          "url": "https://x.com/LauraTrottMP/status/2085307102638072014",
+          "textSnippet": "Lucy Powell has described Plan 2 student loans as \"egregious.\" I agree.\n\nWe're the only party with a plan to fix this through our New Deal for Young People. I'm happy to work with Labour to make it happen. "
+        },
+        {
+          "id": "2085349144655204748",
+          "type": "original",
+          "timestamp": "2026-08-06T12:55:54.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085349144655204748",
+          "textSnippet": "Another U-turn secured…and another review from Burnham following my letter."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 1,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2085295170602389915",
+          "type": "original",
+          "timestamp": "2026-08-06T09:21:26.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2085295170602389915",
+          "textSnippet": "What a catch! "
+        },
+        {
+          "id": "2085346458820100460",
+          "type": "original",
+          "timestamp": "2026-08-06T12:45:14.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2085346458820100460",
+          "textSnippet": "Reform will make Britain the harshest country in the world for those who profit from illegal labour.\n\nThe establishment effectively decriminalised illegal working and spent decades undercutting young British workers. This must stop now.\n\nA Reform government will pass the"
+        },
+        {
+          "id": "2085415076861808766",
+          "type": "retweet",
+          "timestamp": "2026-08-06T17:17:54.000Z",
+          "url": "https://x.com/RaheemKassam/status/2085415076861808766",
+          "textSnippet": "DIRTY TRICKS EXCLUSIVE: Afghan Migrants Paid to Campaign in Clacton, Against Farage, by Labour/Green Donor. \n\nOn the campaign trail today in Clacton, we encountered a group of recent Afghan migrants delivering leaflets on behalf of Dale Vince’s anti-Reform Babelfish newspaper."
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 15,
+        "reply": 0,
+        "total": 17
+      },
+      "tweets": [
+        {
+          "id": "2085349593286390188",
+          "type": "retweet",
+          "timestamp": "2026-08-06T12:57:41.000Z",
+          "url": "https://x.com/ProfBillMcGuire/status/2085349593286390188",
+          "textSnippet": "\"EVERY SINGLE English water body is polluted with toxic chemicals\"\n\nI knew things were bad, but this beggars belief\n\n\n@andyburnham\n you must take swift and immediate action to tackle this latest assault on English nature"
+        },
+        {
+          "id": "2085351995511030064",
+          "type": "retweet",
+          "timestamp": "2026-08-06T13:07:14.000Z",
+          "url": "https://x.com/greenheroaf/status/2085351995511030064",
+          "textSnippet": "Tripling fossil fuel investments while the planet burns. Well, that says it all really."
+        },
+        {
+          "id": "2085352318015332546",
+          "type": "retweet",
+          "timestamp": "2026-08-06T13:08:31.000Z",
+          "url": "https://x.com/HarrietLamb_/status/2085352318015332546",
+          "textSnippet": "We are so much more powerful than any billionaire. So need your support. Influencing politics, winning elections, running campaigns on key issues such as nature or wealth taxes - it all takes funding. \nPlease consider donating:"
+        },
+        {
+          "id": "2085352510231859616",
+          "type": "retweet",
+          "timestamp": "2026-08-06T13:09:17.000Z",
+          "url": "https://x.com/cels1952/status/2085352510231859616",
+          "textSnippet": "This Whatever your political persuasion or none, is worth serious discussions and action..."
+        },
+        {
+          "id": "2085370106180243628",
+          "type": "retweet",
+          "timestamp": "2026-08-06T14:19:12.000Z",
+          "url": "https://x.com/TheNewsAgents/status/2085370106180243628",
+          "textSnippet": "\"You could never concoct in your mind such an extreme and elaborate sting.\n\n\"When I found out, I was like, this is legal?\"\n\n\n@officialtulisa\n tells \n@maitlis\n about The Sun campaign that nearly destroyed her life - and her petition to change the way newspapers are regulated."
+        },
+        {
+          "id": "2085380454182531285",
+          "type": "retweet",
+          "timestamp": "2026-08-06T15:00:19.000Z",
+          "url": "https://x.com/TheGreenParty/status/2085380454182531285",
+          "textSnippet": "\"It's clear to me that climate change is the single greatest threat to human security that we face\" - Carl Benfield, Army Veteran and Military Engineer speaking at the Extreme Heat Emergency press conference"
+        },
+        {
+          "id": "2085403300258558104",
+          "type": "retweet",
+          "timestamp": "2026-08-06T16:31:06.000Z",
+          "url": "https://x.com/C_C_Ioannou/status/2085403300258558104",
+          "textSnippet": "It's amazing but it shouldn't be - a political leader actually putting country before party "
+        },
+        {
+          "id": "2085403366117548093",
+          "type": "retweet",
+          "timestamp": "2026-08-06T16:31:22.000Z",
+          "url": "https://x.com/MrMatthewTodd/status/2085403366117548093",
+          "textSnippet": "What is so ongoingly disturbing about this is that the stakes are so incredibly high and Tom is just saying this on a whim. \n\nHe’s not actually interviewing scientists and trying to find out what they’re actually saying. \nHe’s just saying ‘this isn’t true’.\n\nPeople would not say"
+        },
+        {
+          "id": "2085410841189306410",
+          "type": "retweet",
+          "timestamp": "2026-08-06T17:01:04.000Z",
+          "url": "https://x.com/TheGreenParty/status/2085410841189306410",
+          "textSnippet": "\"It's a lot of audacity for Kemi Badenoch to wade into this debate when she comes from a Conservative Party that for 14 years have pushed prisons into overcrowding, committed austerity and not protected prison officers.\"\n\nZack Polanski on LBC responding to the debate over the"
+        },
+        {
+          "id": "2085430072102523336",
+          "type": "original",
+          "timestamp": "2026-08-06T18:17:29.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085430072102523336",
+          "textSnippet": "We won't just talk about the need to end neoliberalism - we have a plan to make it happen.\n\nHelp us end Rip Off Britain and tackle the climate crisis.\n\nTogether we can continue to  build our movement & send a message to Labour that tinkering isn’t enough \n\n\nhttp://\nJoin.greenpart"
+        },
+        {
+          "id": "2085440092932550916",
+          "type": "retweet",
+          "timestamp": "2026-08-06T18:57:18.000Z",
+          "url": "https://x.com/MrMatthewTodd/status/2085440092932550916",
+          "textSnippet": "Chris Packham and Zac Polanski are right.\n\nThe climate crisis may be the thing that derails \n@andyburnham\n because as far as I can see almost no one in parliament understands the climate crisis. \n\nAlmost none of them understand the risk of food shortages. If that happens, the"
+        },
+        {
+          "id": "2085442129384616355",
+          "type": "retweet",
+          "timestamp": "2026-08-06T19:05:23.000Z",
+          "url": "https://x.com/sallonsax/status/2085442129384616355",
+          "textSnippet": "Zack did a whole press conference on it yesterday."
+        },
+        {
+          "id": "2085443816119808043",
+          "type": "retweet",
+          "timestamp": "2026-08-06T19:12:06.000Z",
+          "url": "https://x.com/DarrenBar88/status/2085443816119808043",
+          "textSnippet": "Let's do it!\n\n\nhttp://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2085455508266160303",
+          "type": "retweet",
+          "timestamp": "2026-08-06T19:58:33.000Z",
+          "url": "https://x.com/Vonni2/status/2085455508266160303",
+          "textSnippet": "Profiteering over life itself, not anymore. More people care about our planet than their greed. The strength of feeling in general is beyond politics we need real solutions. #Peopleandplanetfirst"
+        },
+        {
+          "id": "2085458753449828554",
+          "type": "retweet",
+          "timestamp": "2026-08-06T20:11:27.000Z",
+          "url": "https://x.com/McrGreenParty/status/2085458753449828554",
+          "textSnippet": "End Neoliberal Nonsense.\n\nBuild the Green Movement \n\n\nhttp://\njoin.greenparty.org.uk"
+        },
+        {
+          "id": "2085476025920581913",
+          "type": "original",
+          "timestamp": "2026-08-06T21:20:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085476025920581913",
+          "textSnippet": "The Green Party stands for people over profit. \n\nOur natural assets are for us all.\n\nEnd the rip off. Water into public ownership. Now."
+        },
+        {
+          "id": "2085482202968547562",
+          "type": "retweet",
+          "timestamp": "2026-08-06T21:44:38.000Z",
+          "url": "https://x.com/joecguinan/status/2085482202968547562",
+          "textSnippet": "Burnham is already catastrophically failing the leadership test posed by climate crisis."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2085394194995048897",
+          "type": "original",
+          "timestamp": "2026-08-06T15:54:55.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2085394194995048897",
+          "textSnippet": " \n@theSNP\n Scottish Government is reopening its care worker recruitment scheme, helping experienced displaced workers return to the sector and delivering up to 45,000 additional hours of care to communities every month."
+        }
+      ]
+    }
+  }
+}
