@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-08",
+  "scrapedAt": "2026-08-09T15:26:54.406Z",
+  "range": {
+    "start": "2026-08-07T23:00:00.000Z",
+    "end": "2026-08-08T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2085999297393295686",
+          "type": "original",
+          "timestamp": "2026-08-08T07:59:23.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2085999297393295686",
+          "textSnippet": "Simon Levy’s victims paid the price for a system that failed to impose consequences. No more women should have to pay that price.\n\nLaw and order are the first duty of government. The Conservative Party is ready to enforce them again.\n\nRead more in my piece in the \n@DailyMail"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2086142392428536172",
+          "type": "original",
+          "timestamp": "2026-08-08T17:27:59.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086142392428536172",
+          "textSnippet": "Family, community, country in Clacton! "
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
