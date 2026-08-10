@@ -1,0 +1,140 @@
+{
+  "date": "2026-08-09",
+  "scrapedAt": "2026-08-10T06:05:40.310Z",
+  "range": {
+    "start": "2026-08-08T23:00:00.000Z",
+    "end": "2026-08-09T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 1,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2086355159311892724",
+          "type": "retweet",
+          "timestamp": "2026-08-09T07:33:27.000Z",
+          "url": "https://x.com/ClaireCoutinho/status/2086355159311892724",
+          "textSnippet": "Not too long ago, stating that biological sex was real was a career-ending act of bravery. \n\nKathleen Stock was hounded out of her university job. Maya Forstater had to take her former employer to a landmark tribunal. \n\nKemi Badenoch and Rosie Duffield were told they were on the"
+        },
+        {
+          "id": "2086384725195690042",
+          "type": "original",
+          "timestamp": "2026-08-09T09:30:56.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2086384725195690042",
+          "textSnippet": "Being the party of personal responsibility and the party of law & order means insisting on consequences - punishing wrongdoing properly.\n\nWe will be tough but fair, unlike those applying different rules of punishment and forgiveness based on whether others share their politics"
+        },
+        {
+          "id": "2086384727536119978",
+          "type": "original",
+          "timestamp": "2026-08-09T09:30:56.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2086384727536119978",
+          "textSnippet": "My piece in \n@thetimes"
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2086451955757457421",
+          "type": "original",
+          "timestamp": "2026-08-09T13:58:05.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086451955757457421",
+          "textSnippet": "Reform councils will never spend your money on this nonsense."
+        },
+        {
+          "id": "2086578375368319028",
+          "type": "original",
+          "timestamp": "2026-08-09T22:20:26.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086578375368319028",
+          "textSnippet": "Dangerous criminals must serve the entirety of their sentences.\n\nReform has a plan to keep prisoners behind bars."
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2086521597519597917",
+          "type": "original",
+          "timestamp": "2026-08-09T18:34:49.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086521597519597917",
+          "textSnippet": "I’ll keep pushing Sadiq Khan.\n\nHopefully he’ll keep pushing Andy Burnham.\n\nBut frankly, we’re about to have another heatwave, it’s ridiculous we’re still having this conversation.\n\nStop Rosebank & Jackdaw.\n\nLeave fossil fuels in the ground.\n\nInvest in renewables.\n\nLower bills."
+        },
+        {
+          "id": "2086526995274281443",
+          "type": "original",
+          "timestamp": "2026-08-09T18:56:16.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086526995274281443",
+          "textSnippet": "The Labour Government have refused Green Party calls for a COBR meeting saying \"supply chains are resilient.\"\n\nThis is gross negligence.\n\nWe need to act now."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
