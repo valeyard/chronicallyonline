@@ -1,0 +1,198 @@
+{
+  "date": "2026-08-10",
+  "scrapedAt": "2026-08-11T05:45:24.668Z",
+  "range": {
+    "start": "2026-08-09T23:00:00.000Z",
+    "end": "2026-08-10T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2086721277914427639",
+          "type": "original",
+          "timestamp": "2026-08-10T07:48:16.000Z",
+          "url": "https://x.com/andyburnham/status/2086721277914427639",
+          "textSnippet": "Too many people feel like modern life is designed to catch them out.\n\nIt should be just as easy to cancel a subscription as it is to start it. And if something is advertised as half price, it should actually be half price.\n\nSo I'm taking action. \n\nWe’re taking every opportunity"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 0,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2086736724005200148",
+          "type": "original",
+          "timestamp": "2026-08-10T08:49:39.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2086736724005200148",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 1,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2086845224492372050",
+          "type": "retweet",
+          "timestamp": "2026-08-10T16:00:47.000Z",
+          "url": "https://x.com/LibDems/status/2086845224492372050",
+          "textSnippet": "From Mid Staffordshire to Morecambe Bay, NHS scandals have shown the cost of concerns being ignored.\n\nLabour’s Health Bill will take an axe to vital patient safeguards.\n\nAndy Burnham must intervene and protect patients. \n\n\n@HelenMorganMP"
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 6,
+        "retweet": 0,
+        "reply": 0,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2086731993572589646",
+          "type": "original",
+          "timestamp": "2026-08-10T08:30:51.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086731993572589646",
+          "textSnippet": "BREAKING NEWS\n\nAt 2.30am this morning a boat carrying 230 people was taken into Dover.\n\nThis is a record number in a single vessel.\n\nIt’s yet more proof that this illegal invasion is a national security emergency."
+        },
+        {
+          "id": "2086754836842942814",
+          "type": "original",
+          "timestamp": "2026-08-10T10:01:37.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086754836842942814",
+          "textSnippet": "Watch LIVE as Zia Yusuf joins me to set out our plans to keep criminals behind bars."
+        },
+        {
+          "id": "2086777980567634032",
+          "type": "original",
+          "timestamp": "2026-08-10T11:33:35.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086777980567634032",
+          "textSnippet": "The ‘small boats’ have now become the big boats."
+        },
+        {
+          "id": "2086781184558633156",
+          "type": "original",
+          "timestamp": "2026-08-10T11:46:19.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086781184558633156",
+          "textSnippet": "Reform will send prisoners back to their countries of origin.\n\nIf they refuse, they will be sent to third party countries like El Salvador."
+        },
+        {
+          "id": "2086790052781212059",
+          "type": "original",
+          "timestamp": "2026-08-10T12:21:33.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086790052781212059",
+          "textSnippet": "My statement on Counter Terrorism Police and an arson attack at my property."
+        },
+        {
+          "id": "2086847713056825776",
+          "type": "original",
+          "timestamp": "2026-08-10T16:10:41.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2086847713056825776",
+          "textSnippet": "This is our plan to fix Britain’s broken prison system. "
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 6,
+        "reply": 0,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2086822179694317968",
+          "type": "retweet",
+          "timestamp": "2026-08-10T14:29:13.000Z",
+          "url": "https://x.com/LeftieStats/status/2086822179694317968",
+          "textSnippet": " Norfolk PCC by-election in Norwich:\n\n Grn: 35% ( +6 )\n Lab: 20% ( -26 )\n Ref: 14% ( +14 )\n Ind: 12% ( +12 )\n Con: 8% ( -8 )\n Lib: 7% ( -3 )\n Res: 6% ( +6 )\n\nThis marks the first time that Greens have won the popular vote in a local authority in a PCC election."
+        },
+        {
+          "id": "2086838401353826370",
+          "type": "retweet",
+          "timestamp": "2026-08-10T15:33:41.000Z",
+          "url": "https://x.com/DanielKebedeNEU/status/2086838401353826370",
+          "textSnippet": "Schools have been left to find £460 million from existing budgets to cover teacher pay awards. \n\nThat means hard choices for schools. \n\nThe government still has time to do the right thing. Fully fund teacher pay, protect school budgets and give children and young people the"
+        },
+        {
+          "id": "2086874404265279905",
+          "type": "retweet",
+          "timestamp": "2026-08-10T17:56:44.000Z",
+          "url": "https://x.com/Shambles151/status/2086874404265279905",
+          "textSnippet": "Andy Burnham has still not lifted Yvette Cooper's proscription which sees thousands of good people arrested as terrorists just for holding placards.  \n\nPlease RT this until the Labour Govt which inflicted it (but incredibly still expects our votes)  - lifts it.\n\nThank you."
+        },
+        {
+          "id": "2086891254906789930",
+          "type": "retweet",
+          "timestamp": "2026-08-10T19:03:42.000Z",
+          "url": "https://x.com/BareLeft/status/2086891254906789930",
+          "textSnippet": "Andy, let me put it this way:\n\nA £5 recurring subscription that's difficult to get out of is annoying.\n\nNearly 50% of my income going on rent alone is existential."
+        },
+        {
+          "id": "2086898747846328414",
+          "type": "retweet",
+          "timestamp": "2026-08-10T19:33:28.000Z",
+          "url": "https://x.com/DarrenBar88/status/2086898747846328414",
+          "textSnippet": "Sums up Burnham's vibes and nothing-much-else brand of politics."
+        },
+        {
+          "id": "2086924503339159714",
+          "type": "retweet",
+          "timestamp": "2026-08-10T21:15:49.000Z",
+          "url": "https://x.com/TheCanaryUK/status/2086924503339159714",
+          "textSnippet": "Green Party leader \n@ZackPolanski\n blasts BBC's pro-Reform bias after a Newsnight ambush and press conference snub.\n\n\n@cjmbaillie\n reports."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
