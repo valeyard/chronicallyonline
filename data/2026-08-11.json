@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-11",
+  "scrapedAt": "2026-08-12T06:07:22.811Z",
+  "range": {
+    "start": "2026-08-10T23:00:00.000Z",
+    "end": "2026-08-11T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 3,
+        "retweet": 0,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2087086365787726113",
+          "type": "original",
+          "timestamp": "2026-08-11T07:59:00.000Z",
+          "url": "https://x.com/andyburnham/status/2087086365787726113",
+          "textSnippet": "Vape shops. Betting shops. Dodgy businesses.\n\nIf you look at your high street these days and think ‘who asked for this?’, you’re not alone.\n\nI’m doing something about it. We’re giving local people and councils more control over what opens, and tougher powers to crack down on"
+        },
+        {
+          "id": "2087110590825173412",
+          "type": "original",
+          "timestamp": "2026-08-11T09:35:16.000Z",
+          "url": "https://x.com/andyburnham/status/2087110590825173412",
+          "textSnippet": "I understand the depth of public concern about the potential early release of those involved with the killing of PC Andrew Harper - and I share it.\n\nI fully appreciate the anguish of Andrew’s family and, more broadly, of all those victims and their families who may see those who"
+        },
+        {
+          "id": "2087205646978412965",
+          "type": "original",
+          "timestamp": "2026-08-11T15:52:59.000Z",
+          "url": "https://x.com/andyburnham/status/2087205646978412965",
+          "textSnippet": "Who is actually asking for more vape shops?"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 1,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2087083755059970187",
+          "type": "original",
+          "timestamp": "2026-08-11T07:48:38.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2087083755059970187",
+          "textSnippet": "Two weeks ago I told Burnham to change course on early release.\n\nA week ago he exempted rapists and paedophiles. Today he's \"looking at\" stopping PC Harper's killers being released.\n\nThe victims have suffered enough. The delays & excuses are making it worse. The PM needs to act."
+        },
+        {
+          "id": "2087095008071417999",
+          "type": "retweet",
+          "timestamp": "2026-08-11T08:33:20.000Z",
+          "url": "https://x.com/MelJStride/status/2087095008071417999",
+          "textSnippet": "Yet more people sounding the alarm on tax rises. \n\nBurnham might be on a cost of living tour this week but it’s clear he doesn’t understand that it’s Labour’s tax rises and economic mismanagement that have pushed up prices in the first place."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2087210430670250281",
+          "type": "original",
+          "timestamp": "2026-08-11T16:11:59.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2087210430670250281",
+          "textSnippet": "230 migrants landed on our shores yesterday.\n\nI have said it before and I’ll say it again.\n\nThis is a national security emergency."
+        },
+        {
+          "id": "2087234827892203598",
+          "type": "original",
+          "timestamp": "2026-08-11T17:48:56.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2087234827892203598",
+          "textSnippet": "Clacton stands ready to send them a message. "
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 2,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2087234865317998653",
+          "type": "retweet",
+          "timestamp": "2026-08-11T17:49:05.000Z",
+          "url": "https://x.com/ScotNational/status/2087234865317998653",
+          "textSnippet": "Zack Polanski has called out the BBC’s coverage of Reform UK press conferences, but will it change the mainstream media's approach? \n\nIt's one of the topics reporters \n@BrawnJourno\n and \n@LucyAJackson_\n get their teeth into on this week's Media Watch podcast "
+        },
+        {
+          "id": "2087252912388936185",
+          "type": "retweet",
+          "timestamp": "2026-08-11T19:00:48.000Z",
+          "url": "https://x.com/BylineTimes/status/2087252912388936185",
+          "textSnippet": " ICYMI — Zack Polanski Promotes Radical Plan to Break Up Britain’s ‘Billionaire Media’ — \n@josiahmortimer\n\n\nGreen leader throws weight behind Media Sovereignty Act campaign to stop press barons \"literally buying democracy\"\n\n"
+        },
+        {
+          "id": "2087269080596140372",
+          "type": "original",
+          "timestamp": "2026-08-11T20:05:03.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087269080596140372",
+          "textSnippet": "Genocide.\n\nCall it what it is and stop selling them arms licences."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 1,
+        "retweet": 1,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2087149521390236076",
+          "type": "retweet",
+          "timestamp": "2026-08-11T12:09:57.000Z",
+          "url": "https://x.com/theSNP/status/2087149521390236076",
+          "textSnippet": "The UK no longer offers strength and stability, instead it offers a new Prime Minister every 1.5 years.\n\nNo wonder a majority of Scots now support real constitutional change - independence for Scotland."
+        },
+        {
+          "id": "2087174118525341798",
+          "type": "original",
+          "timestamp": "2026-08-11T13:47:42.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2087174118525341798",
+          "textSnippet": "“If Andy Burnham is actually serious about listening, he should start by living up to all the promises the Labour Party made to the public – and then rapidly broke – to get themselves into Downing Street.”"
+        }
+      ]
+    }
+  }
+}
