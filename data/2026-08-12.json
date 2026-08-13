@@ -1,0 +1,233 @@
+{
+  "date": "2026-08-12",
+  "scrapedAt": "2026-08-13T06:09:22.234Z",
+  "range": {
+    "start": "2026-08-11T23:00:00.000Z",
+    "end": "2026-08-12T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 1,
+        "reply": 0,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2087438723776442775",
+          "type": "retweet",
+          "timestamp": "2026-08-12T07:19:09.000Z",
+          "url": "https://x.com/ClaireCoutinho/status/2087438723776442775",
+          "textSnippet": "The Climate Change Committee tried to censor me.\n\nWhen I wrote in a newspaper that they were underplaying the cost of offshore wind, they tried to force me to edit it out.\n\nI refused and was proved right.\n\nOur public bodies should seek the truth, not to silence politicians."
+        },
+        {
+          "id": "2087453736067010565",
+          "type": "original",
+          "timestamp": "2026-08-12T08:18:48.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2087453736067010565",
+          "textSnippet": "What is Andy Burnham waiting for?\n\nRevoke the Commencement Order. Bring forward emergency legislation. Stop the early release of rapists, paedophiles and PC Harper's killers.\n\nThe Conservatives will support the government if they do."
+        },
+        {
+          "id": "2087486710800175526",
+          "type": "original",
+          "timestamp": "2026-08-12T10:29:50.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2087486710800175526",
+          "textSnippet": "Want a better job or a bigger salary?\n\nThat won’t come from government raising taxes and piling costs and red tape on businesses.\n\nIt comes from backing the risk-takers who invest, hire and create jobs.\n\nHere's our plan for an economic revolution to get Britain working again."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 1,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2087429809995485510",
+          "type": "retweet",
+          "timestamp": "2026-08-12T06:43:43.000Z",
+          "url": "https://x.com/pippaheylings/status/2087429809995485510",
+          "textSnippet": "It’s taken 5 - yes 5!! - heatwaves for Andy Burnham to finally break his silence on the extreme heat hitting farmers, families & the economy. We \n@LibDems\n have long called for extreme weather to be treated as a national security issue and we welcome the PM convening COBRA finall"
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 0,
+        "reply": 0,
+        "total": 5
+      },
+      "tweets": [
+        {
+          "id": "2087450731456372868",
+          "type": "original",
+          "timestamp": "2026-08-12T08:06:51.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2087450731456372868",
+          "textSnippet": "The Conservatives have an Essex problem."
+        },
+        {
+          "id": "2087468699854712911",
+          "type": "original",
+          "timestamp": "2026-08-12T09:18:15.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2087468699854712911",
+          "textSnippet": "Today is the day we remember Ann Widdecombe. \n\nAnn was an extraordinary woman who left a serious mark on British politics.\n\nShe will be sorely missed. Rest in peace, Ann."
+        },
+        {
+          "id": "2087518484502573544",
+          "type": "original",
+          "timestamp": "2026-08-12T12:36:05.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2087518484502573544",
+          "textSnippet": "Catching up with an old friend."
+        },
+        {
+          "id": "2087633057838661646",
+          "type": "original",
+          "timestamp": "2026-08-12T20:11:21.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2087633057838661646",
+          "textSnippet": "In Jaywick to witness the solar eclipse."
+        },
+        {
+          "id": "2087645631414227116",
+          "type": "original",
+          "timestamp": "2026-08-12T21:01:19.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2087645631414227116",
+          "textSnippet": "Tomorrow is the day to stick two fingers up to the establishment."
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 5,
+        "reply": 0,
+        "total": 10
+      },
+      "tweets": [
+        {
+          "id": "2087594389140881505",
+          "type": "retweet",
+          "timestamp": "2026-08-12T17:37:42.000Z",
+          "url": "https://x.com/AngelaKDunning/status/2087594389140881505",
+          "textSnippet": "Wow just wow"
+        },
+        {
+          "id": "2087605742299746420",
+          "type": "retweet",
+          "timestamp": "2026-08-12T18:22:49.000Z",
+          "url": "https://x.com/ScottishCND/status/2087605742299746420",
+          "textSnippet": "Yes disposable BBQs are to blame for there being no rain in London for 45 days and drought across 70% of England.\n\nGood to see the adults REMAIN in the room!"
+        },
+        {
+          "id": "2087615289496121479",
+          "type": "retweet",
+          "timestamp": "2026-08-12T19:00:45.000Z",
+          "url": "https://x.com/novaramedia/status/2087615289496121479",
+          "textSnippet": "A series of dodgy donations."
+        },
+        {
+          "id": "2087633322910310483",
+          "type": "original",
+          "timestamp": "2026-08-12T20:12:25.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087633322910310483",
+          "textSnippet": "Andy Burnham says the bigger questions of oil and gas will come \"at the right moment in time.\"\n\nOn the eve of another heatwave when thousands of people have died already, when is a better time to rule out drilling for new oil and gas?"
+        },
+        {
+          "id": "2087634415048429767",
+          "type": "original",
+          "timestamp": "2026-08-12T20:16:45.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087634415048429767",
+          "textSnippet": "We (don't hear) enough about the real change that is driving these events – the accelerating climate crisis powered by fossil fuels.\n\nIt is time to stop treating each disaster as an isolated tragedy & recognize the systemic risk that is unfolding before our eyes. - UN sec general"
+        },
+        {
+          "id": "2087634516781223979",
+          "type": "original",
+          "timestamp": "2026-08-12T20:17:09.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087634516781223979",
+          "textSnippet": "This is why Labour taking so much money  from companies linked with fossil fuel industry is so disastrous.\n\nRather than serve our communities & our planet - they allow climate destruction to continue.\n\nLabour don't even want to talk about the climate crisis - let alone tackle it."
+        },
+        {
+          "id": "2087635286662533600",
+          "type": "original",
+          "timestamp": "2026-08-12T20:20:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087635286662533600",
+          "textSnippet": "If this makes you as angry as it should: take some action.\n\n\nhttp://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2087639709895852164",
+          "type": "retweet",
+          "timestamp": "2026-08-12T20:37:47.000Z",
+          "url": "https://x.com/ScotNational/status/2087639709895852164",
+          "textSnippet": "EXCLUSIVE: The BBC is 'failing' the public in its climate reporting, Green Party leader Zack Polanski has said\n\nIt comes after the broadcaster opted not to stream his press conference about people facing drought last week \n\n\n@BrawnJourno\n  "
+        },
+        {
+          "id": "2087641125603459523",
+          "type": "retweet",
+          "timestamp": "2026-08-12T20:43:25.000Z",
+          "url": "https://x.com/sp4rkl3jumpr0p3/status/2087641125603459523",
+          "textSnippet": "The right moment in time to halt oil and gas was 30 odd years ago \n\nWe have had DECADES in full knowledge that we need to stop using fossil fuels soon and invest in green infrastructure instead \n\nTimes up"
+        },
+        {
+          "id": "2087645565207150929",
+          "type": "original",
+          "timestamp": "2026-08-12T21:01:03.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087645565207150929",
+          "textSnippet": "Water nationalisation for our water security?\n\nEnd north sea oil & gas - invest in renewables for our energy security?\n\nA maximum workplace temperature for worker security?\n\nNo. A request not to sell BBQs.\n\nThis is dire from Andy Burnham. Spectacularly mishandling the crisis."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 1,
+        "reply": 0,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2087459261789900931",
+          "type": "retweet",
+          "timestamp": "2026-08-12T08:40:45.000Z",
+          "url": "https://x.com/StephenFlynnSNP/status/2087459261789900931",
+          "textSnippet": "Thanks for sharing the link Andrew.\n\nIt’s important that locals, businesses and commuters alike know that we are giving improvements to the A83 the attention it rightly deserves. \n\nThe Glen was looking spectacular. Not sure when you last got up so here’s a video for you ."
+        }
+      ]
+    }
+  }
+}
