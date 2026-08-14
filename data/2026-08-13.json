@@ -1,0 +1,131 @@
+{
+  "date": "2026-08-13",
+  "scrapedAt": "2026-08-14T06:07:16.682Z",
+  "range": {
+    "start": "2026-08-12T23:00:00.000Z",
+    "end": "2026-08-13T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 6,
+        "retweet": 0,
+        "reply": 0,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2087936899822293303",
+          "type": "original",
+          "timestamp": "2026-08-13T16:18:43.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087936899822293303",
+          "textSnippet": "The BBC increasingly just report on what is being said by the billionaire press.\n\nThey allow them to set the agenda which means our national conversation becomes about same trivial nonsense the Daily Mail are talking about.\n\nAnd it's becoming deadly."
+        },
+        {
+          "id": "2087936902456365301",
+          "type": "original",
+          "timestamp": "2026-08-13T16:18:44.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087936902456365301",
+          "textSnippet": "You can sign this petition to help fix the fact that far too much of our billionaire backed media is owned by people who don't live in this country and have the opposite of our best interests at heart.\n\nWhen it gets to 100,000 Parliament will debate it "
+        },
+        {
+          "id": "2087940526133674459",
+          "type": "original",
+          "timestamp": "2026-08-13T16:33:08.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087940526133674459",
+          "textSnippet": "Great to speak to \n@MattChorley\n on BBC Five Live.\n\nWhy hasn't the Prime Minister mentioned the climate crisis at all? What's his plan? And will be rule out drilling for oil & gas in the North Sea?\n\nLuckily Matt is interviewing the PM  on tomorrows show so can we get some answers"
+        },
+        {
+          "id": "2087941926037106890",
+          "type": "original",
+          "timestamp": "2026-08-13T16:38:41.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087941926037106890",
+          "textSnippet": "Drilling for oil and gas will absolutely not lower bills. It's sold on the international market.\n\nAnd the idea of this being for jobs is utter nonsense. Jackdaw would create about 27 jobs.\n\nSo when is the moment Andy Burnham will take the heatwaves & the climate crisis seriously?"
+        },
+        {
+          "id": "2087942577450266662",
+          "type": "original",
+          "timestamp": "2026-08-13T16:41:17.000Z",
+          "url": "https://x.com/Ed_Miliband/status/2087942577450266662",
+          "textSnippet": "These heatwaves are sending us a message."
+        },
+        {
+          "id": "2087957199389954278",
+          "type": "original",
+          "timestamp": "2026-08-13T17:39:23.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087957199389954278",
+          "textSnippet": "Say no to more drilling for North Sea oil and gas."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
