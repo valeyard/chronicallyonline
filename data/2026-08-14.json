@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-14",
+  "scrapedAt": "2026-08-15T05:14:33.790Z",
+  "range": {
+    "start": "2026-08-13T23:00:00.000Z",
+    "end": "2026-08-14T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2088283891366768644",
+          "type": "original",
+          "timestamp": "2026-08-14T15:17:32.000Z",
+          "url": "https://x.com/Jon4HighPeak/status/2088283891366768644",
+          "textSnippet": "This is all so welcome \n@andyburnham\n . The temporary ban on the sale of disposable barbecues is a huge step in the right direction to protect our precious countryside and communities from the risk of fires. Thank you "
+        },
+        {
+          "id": "2088296383467926003",
+          "type": "original",
+          "timestamp": "2026-08-14T16:07:11.000Z",
+          "url": "https://x.com/andyburnham/status/2088296383467926003",
+          "textSnippet": "Thanks for all the work you’ve done on this Jon "
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2088161885883441416",
+          "type": "original",
+          "timestamp": "2026-08-14T07:12:44.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2088161885883441416",
+          "textSnippet": "Labour: put illegal immigrants in leafy villages.  \nReform: put illegal immigrants in areas that don't vote Reform. \nLib Dems: put illegal immigrants in our areas, we don't mind.  \nConservatives: Detain and deport. Removal not dispersal.\n\nOnly the Conservatives believe that"
+        },
+        {
+          "id": "2088161888018309538",
+          "type": "original",
+          "timestamp": "2026-08-14T07:12:44.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2088161888018309538",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
