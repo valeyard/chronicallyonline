@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-15",
+  "scrapedAt": "2026-08-16T05:17:02.360Z",
+  "range": {
+    "start": "2026-08-14T23:00:00.000Z",
+    "end": "2026-08-15T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2088589315467096450",
+          "type": "original",
+          "timestamp": "2026-08-15T11:31:11.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2088589315467096450",
+          "textSnippet": "These are amongst my favourite photos from the Clacton campaign.\n\nThank you to everyone who came out and stood by me."
+        },
+        {
+          "id": "2088589324832952381",
+          "type": "original",
+          "timestamp": "2026-08-15T11:31:13.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2088589324832952381",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2088673305129619863",
+          "type": "original",
+          "timestamp": "2026-08-15T17:04:56.000Z",
+          "url": "https://x.com/ZackPolanski/status/2088673305129619863",
+          "textSnippet": "I don't think it would be \"rushing to judgement\" to see that the press hounding people - especially people of colour - has been going on for a very long time.\n\nReally spineless response from the Prime Minister here that utterly fails to recognise the moment to tackle the press."
+        },
+        {
+          "id": "2088673883574382725",
+          "type": "original",
+          "timestamp": "2026-08-15T17:07:14.000Z",
+          "url": "https://x.com/ZackPolanski/status/2088673883574382725",
+          "textSnippet": "How many more senior politicans do we have who are so scared of what the press might say about them? - The press behave in an absolutely reckless way that destroys people.\n\nThis was not an exception. We have a deeply broken media in the UK & Labour refuse to even talk about it."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
