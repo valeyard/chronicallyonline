@@ -57,6 +57,15 @@ export async function collectArticles(page) {
         socialContext: socialContext ? socialContext.innerText : null,
         isReply: /(^|\n)Replying to\s+@/.test(scopeText),
         textSnippet: text ? text.innerText.slice(0, 280) : "",
+        // Diagnostic only (not used for classification): lets scrape.mjs's
+        // debug log show the raw text a run actually saw, instead of just
+        // the computed booleans, when those booleans look suspicious.
+        cellSource: article.closest('[data-testid="cellInnerDiv"]')
+          ? "cellInnerDiv"
+          : article.parentElement
+            ? "parentElement"
+            : "none",
+        scopeTextSnippet: scopeText.slice(0, 200),
       });
     }
     return out;
