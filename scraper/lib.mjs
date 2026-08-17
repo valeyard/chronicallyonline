@@ -47,12 +47,15 @@ export async function collectArticles(page) {
 
       const text = article.querySelector('[data-testid="tweetText"]');
       const scopeText = (cell || article).innerText || "";
+      // X frequently renders "Replying to" and the @handle list as separate
+      // lines (its own block, not inline text), so a literal single space
+      // between "to" and "@" never matches — \s+ allows the newline too.
       out.push({
         id: match[1],
         timestamp: timeEl.getAttribute("datetime"),
         url: href.replace(/^\//, "https://x.com/"),
         socialContext: socialContext ? socialContext.innerText : null,
-        isReply: /(^|\n)Replying to @/.test(scopeText),
+        isReply: /(^|\n)Replying to\s+@/.test(scopeText),
         textSnippet: text ? text.innerText.slice(0, 280) : "",
       });
     }

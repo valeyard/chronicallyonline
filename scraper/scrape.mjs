@@ -126,7 +126,7 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
     for (const rec of seen.values()) {
       const kind = isPinnedRecord(rec) ? "pinned" : isRepostRecord(rec) ? "repost" : "own";
       console.log(
-        `  [item] id=${rec.id} kind=${kind} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))}`,
+        `  [item] id=${rec.id} kind=${kind} isReply=${rec.isReply} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))}`,
       );
     }
   }
