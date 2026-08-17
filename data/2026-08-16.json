@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-16",
+  "scrapedAt": "2026-08-17T05:25:13.910Z",
+  "range": {
+    "start": "2026-08-15T23:00:00.000Z",
+    "end": "2026-08-16T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2088932042939482373",
+          "type": "original",
+          "timestamp": "2026-08-16T10:13:04.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2088932042939482373",
+          "textSnippet": "Labour’s idea of fairness when it comes to social housing appears to have one curious omission… the British families who are waiting first.\n\nBritain cannot afford to foot the bill for foreign nationals to live in our council houses when over 1.3 million UK-born households are on"
+        },
+        {
+          "id": "2088932044499763321",
+          "type": "original",
+          "timestamp": "2026-08-16T10:13:04.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2088932044499763321",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2088987004436381776",
+          "type": "original",
+          "timestamp": "2026-08-16T13:51:28.000Z",
+          "url": "https://x.com/ZackPolanski/status/2088987004436381776",
+          "textSnippet": "It’s time we sorted out the press.\n\nConstant misinformation to protect their donors and fossil fuels is destroying lives and our planet. \n\nThe Government must step up and stop being cowardly."
+        },
+        {
+          "id": "2088987790805516477",
+          "type": "original",
+          "timestamp": "2026-08-16T13:54:35.000Z",
+          "url": "https://x.com/ZackPolanski/status/2088987790805516477",
+          "textSnippet": "Two things to sign. Both important and related:\n\n1) \nhttps://\npetition.parliament.uk/petitions/7600\n61\n…\n\nAnd 2) \nhttps://\nhackedoff.org/campaign-actio\nns/demand-an-inquiry-into-the-culture-of-the-press\n… - \n@hackinginquiry"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
