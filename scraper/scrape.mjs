@@ -81,7 +81,7 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
 
   for (let i = 0; i < MAX_SCROLLS; i++) {
     scrollsUsed = i + 1;
-    const batch = await collectArticles(page);
+    const batch = await collectArticles(page, debugLabel);
     let newCount = 0;
     let hitOlder = false;
 
@@ -92,7 +92,11 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
       // A pinned tweet's real timestamp can be far older than the target
       // day even though it's rendered at the very top — don't let it look
       // like we've scrolled past the target day before we've even started.
-      if (!isPinnedRecord(rec) && rec.timestamp && new Date(rec.timestamp) < start) {
+      // Likewise, a reply thread's parent tweet (isOwn=false) belongs to
+      // whoever wrote it, not this politician — its timestamp says nothing
+      // about how far back *this account's* history goes, so it can't be
+      // used to decide we've scrolled past the target day either.
+      if (!isPinnedRecord(rec) && rec.isOwn !== false && rec.timestamp && new Date(rec.timestamp) < start) {
         hitOlder = true;
       }
     }
@@ -124,9 +128,15 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
 
   if (process.env.DEBUG_SCRAPE_DIR) {
     for (const rec of seen.values()) {
-      const kind = isPinnedRecord(rec) ? "pinned" : isRepostRecord(rec) ? "repost" : "own";
+      const kind = isPinnedRecord(rec)
+        ? "pinned"
+        : isRepostRecord(rec)
+          ? "repost"
+          : rec.isOwn === false
+            ? "other-author"
+            : "own";
       console.log(
-        `  [item] id=${rec.id} kind=${kind} isReply=${rec.isReply} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))} cellSrc=${rec.cellSource} scope=${JSON.stringify(rec.scopeTextSnippet)}`,
+        `  [item] id=${rec.id} kind=${kind} author=${rec.authorHandle} isReply=${rec.isReply} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))} cellSrc=${rec.cellSource} scope=${JSON.stringify(rec.scopeTextSnippet)}`,
       );
     }
   }

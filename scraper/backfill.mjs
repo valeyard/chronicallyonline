@@ -58,7 +58,7 @@ async function loadPoliticians() {
   return JSON.parse(raw);
 }
 
-async function scrapeRange(page, url, { start, end }) {
+async function scrapeRange(page, url, { start, end }, expectedHandle) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
   await sleep(2000 + Math.random() * 1000);
 
@@ -71,7 +71,7 @@ async function scrapeRange(page, url, { start, end }) {
   const deadline = Date.now() + MAX_MINUTES_PER_ACCOUNT * 60 * 1000;
 
   for (let i = 0; i < MAX_SCROLLS && Date.now() < deadline; i++) {
-    const batch = await collectArticles(page);
+    const batch = await collectArticles(page, expectedHandle);
     let newCount = 0;
     let hitOlder = false;
 
@@ -82,7 +82,10 @@ async function scrapeRange(page, url, { start, end }) {
       // A pinned tweet's real timestamp can be far older than the target
       // window even though it's rendered at the very top — don't let it
       // look like we've scrolled past the window before we've even started.
-      if (!isPinnedRecord(rec) && rec.timestamp && new Date(rec.timestamp) < start) {
+      // Likewise, a reply thread's parent tweet (isOwn=false) belongs to
+      // whoever wrote it, not this politician, so its timestamp can't be
+      // used to decide we've scrolled past the window either.
+      if (!isPinnedRecord(rec) && rec.isOwn !== false && rec.timestamp && new Date(rec.timestamp) < start) {
         hitOlder = true;
       }
     }
@@ -160,6 +163,7 @@ async function main() {
         page,
         `https://x.com/${politician.handle}/with_replies`,
         fullRange,
+        politician.handle,
       );
       perPolitician[politician.id] = { status: "ok", byDay: bucketByLondonDay(tweets) };
       console.log(`[ok] ${politician.name}: ${tweets.length} posts across the window`);

@@ -27,9 +27,21 @@ export async function isLoginWalled(page) {
   return Boolean(loginButton) && articleCount === 0;
 }
 
-export async function collectArticles(page) {
-  return page.evaluate(() => {
+// expectedHandle: the politician whose page we're on. On the "with replies"
+// timeline, a reply's parent tweet (written by whoever they replied to)
+// renders as its own full, separate <article> immediately before the reply
+// — there is no "Replying to @x" text label in this view at all, contrary
+// to what an earlier version of this function assumed. That means two
+// things: (1) reply detection has to come from thread position, not a
+// label, and (2) without an author check, that parent tweet gets counted
+// as one of expectedHandle's own posts, which it is not — confirmed via a
+// live debug run turning up tweets from completely unrelated accounts
+// (e.g. a reply-thread partner's own tweet) tagged as "own" posts.
+export async function collectArticles(page, expectedHandle) {
+  return page.evaluate((expectedHandle) => {
     const out = [];
+    let prevAuthorHandle; // undefined until we've seen a valid preceding article
+
     for (const article of document.querySelectorAll('article[data-testid="tweet"]')) {
       const timeEl = article.querySelector("time[datetime]");
       const link = timeEl ? timeEl.closest("a") : null;
@@ -45,17 +57,38 @@ export async function collectArticles(page) {
         article.querySelector('[data-testid="socialContext"]') ||
         (cell ? cell.querySelector('[data-testid="socialContext"]') : null);
 
+      const nameLink = article.querySelector('[data-testid="User-Name"] a[href^="/"]');
+      const authorHandle = nameLink ? nameLink.getAttribute("href").replace(/^\//, "").split("/")[0] : null;
+      const socialContextText = socialContext ? socialContext.innerText : null;
+      // A repost's DOM author is whoever wrote the original tweet, not the
+      // reposting account — isOwn only makes sense for non-reposts, so
+      // reposts are exempted here and checked by their socialContext label
+      // downstream (isRepostRecord) instead.
+      const isRepost = Boolean(socialContextText && /repost/i.test(socialContextText));
+      const isOwn = expectedHandle
+        ? isRepost || (Boolean(authorHandle) && authorHandle.toLowerCase() === expectedHandle.toLowerCase())
+        : true;
+
       const text = article.querySelector('[data-testid="tweetText"]');
       const scopeText = (cell || article).innerText || "";
-      // X frequently renders "Replying to" and the @handle list as separate
-      // lines (its own block, not inline text), so a literal single space
-      // between "to" and "@" never matches — \s+ allows the newline too.
+      // Belt-and-braces: keep the text-label check too (harmless, and
+      // covers it if some other view does render it), OR'd with the
+      // thread-position signal that's actually needed here.
+      const hasReplyLabel = /(^|\n)Replying to\s+@/.test(scopeText);
+      const followsOtherAuthor =
+        prevAuthorHandle !== undefined &&
+        prevAuthorHandle !== null &&
+        authorHandle !== null &&
+        prevAuthorHandle.toLowerCase() !== authorHandle.toLowerCase();
+
       out.push({
         id: match[1],
         timestamp: timeEl.getAttribute("datetime"),
         url: href.replace(/^\//, "https://x.com/"),
-        socialContext: socialContext ? socialContext.innerText : null,
-        isReply: /(^|\n)Replying to\s+@/.test(scopeText),
+        socialContext: socialContextText,
+        authorHandle,
+        isOwn,
+        isReply: hasReplyLabel || followsOtherAuthor,
         textSnippet: text ? text.innerText.slice(0, 280) : "",
         // Diagnostic only (not used for classification): lets scrape.mjs's
         // debug log show the raw text a run actually saw, instead of just
@@ -67,9 +100,17 @@ export async function collectArticles(page) {
             : "none",
         scopeTextSnippet: scopeText.slice(0, 200),
       });
+
+      // A repost's DOM author (the original poster) isn't a meaningful
+      // "previous author" for the next item's reply-adjacency check — skip
+      // updating it so a retweet in between doesn't make the politician's
+      // very next original post look like a reply.
+      if (!isRepost) {
+        prevAuthorHandle = authorHandle;
+      }
     }
     return out;
-  });
+  }, expectedHandle);
 }
 
 export function isPinnedRecord(rec) {
@@ -101,7 +142,11 @@ export function classify(rec) {
 
 // Turns a `seen` Map (id -> record) into classified tweets whose timestamp
 // falls in [start, end). Pinned tweets are always excluded, since a pin can
-// be arbitrarily old regardless of its position in the feed.
+// be arbitrarily old regardless of its position in the feed. rec.isOwn is
+// false for a reply thread's parent tweet (written by whoever the tracked
+// politician replied to) — those aren't the politician's own posts and
+// must never be counted, confirmed via a live run turning up tweets
+// authored by completely unrelated accounts.
 export function extractTweets(seen, { start, end }) {
   const startMs = start.getTime();
   const endMs = end.getTime();
@@ -109,6 +154,7 @@ export function extractTweets(seen, { start, end }) {
 
   for (const rec of seen.values()) {
     if (isPinnedRecord(rec) || !rec.timestamp) continue;
+    if (rec.isOwn === false) continue;
     const ms = new Date(rec.timestamp).getTime();
     if (ms < startMs || ms >= endMs) continue;
 
