@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-17",
+  "scrapedAt": "2026-08-18T05:18:47.890Z",
+  "range": {
+    "start": "2026-08-16T23:00:00.000Z",
+    "end": "2026-08-17T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 1,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2089330179675939150",
+          "type": "reply",
+          "timestamp": "2026-08-17T12:35:07.000Z",
+          "url": "https://x.com/ZackPolanski/status/2089330179675939150",
+          "textSnippet": "We all know who you are."
+        },
+        {
+          "id": "2089382786809348512",
+          "type": "original",
+          "timestamp": "2026-08-17T16:04:09.000Z",
+          "url": "https://x.com/ZackPolanski/status/2089382786809348512",
+          "textSnippet": "Let's start with the fact the photo is Knole Park from June 2017. \n\nHow does it look in August 2026?\n\n(H/t \n@TMChivers\n)"
+        },
+        {
+          "id": "2089383300565504135",
+          "type": "original",
+          "timestamp": "2026-08-17T16:06:12.000Z",
+          "url": "https://x.com/ZackPolanski/status/2089383300565504135",
+          "textSnippet": "Then we could talk about the fact that there have been deadly wildfires all over Europe including France but there's literally no point because you know all of this - you're just a shill for the fossil fuel lobby."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
