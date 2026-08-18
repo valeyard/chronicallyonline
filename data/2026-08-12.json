@@ -25,34 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087438723776442775",
-          "type": "retweet",
-          "timestamp": "2026-08-12T07:19:09.000Z",
-          "url": "https://x.com/ClaireCoutinho/status/2087438723776442775",
-          "textSnippet": "The Climate Change Committee tried to censor me.\n\nWhen I wrote in a newspaper that they were underplaying the cost of offshore wind, they tried to force me to edit it out.\n\nI refused and was proved right.\n\nOur public bodies should seek the truth, not to silence politicians."
-        },
-        {
-          "id": "2087453736067010565",
-          "type": "original",
-          "timestamp": "2026-08-12T08:18:48.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2087453736067010565",
-          "textSnippet": "What is Andy Burnham waiting for?\n\nRevoke the Commencement Order. Bring forward emergency legislation. Stop the early release of rapists, paedophiles and PC Harper's killers.\n\nThe Conservatives will support the government if they do."
-        },
-        {
-          "id": "2087486710800175526",
-          "type": "original",
-          "timestamp": "2026-08-12T10:29:50.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2087486710800175526",
-          "textSnippet": "Want a better job or a bigger salary?\n\nThat won’t come from government raising taxes and piling costs and red tape on businesses.\n\nIt comes from backing the risk-takers who invest, hire and create jobs.\n\nHere's our plan for an economic revolution to get Britain working again."
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

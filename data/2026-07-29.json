@@ -306,26 +306,11 @@
       "status": "ok",
       "counts": {
         "original": 0,
-        "retweet": 2,
+        "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2082373757092421841",
-          "type": "retweet",
-          "timestamp": "2026-07-29T07:52:46.000Z",
-          "url": "https://x.com/DPJHodges/status/2082373757092421841",
-          "textSnippet": "Today underlines one of the big differences between Kemi Badenoch and her new Tory party and Nigel Farage and Reform. Badenoch's social care stance is \"I'm wary, I have red-lines, but I'll engage\". Farage, Jenrick et al is \"Not interested. We'll oppose just for the sake of it\"."
-        },
-        {
-          "id": "2082386566974955621",
-          "type": "retweet",
-          "timestamp": "2026-07-29T08:43:41.000Z",
-          "url": "https://x.com/rcolvile/status/2082386566974955621",
-          "textSnippet": "You get the same sense with Arday as with the equal pay tribunals - someone has lifted up a rock and people are suddenly seeing just how weird/far from the norm things get in areas where the left has broadly been left to get on with things, out of sight of the rest of us."
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

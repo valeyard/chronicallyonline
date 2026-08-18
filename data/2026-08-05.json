@@ -25,41 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 2,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 4
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085028357150822462",
-          "type": "original",
-          "timestamp": "2026-08-05T15:41:12.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085028357150822462",
-          "textSnippet": "While I am sad that Joshua feels he won't be given the space to explain his position and represent his community, I am glad he is going to work with me and the party on tackling radicalisation as part of our Culture and Integration commission.\n\nIf we are going to stop extremism"
-        },
-        {
-          "id": "2085041914265600249",
-          "type": "retweet",
-          "timestamp": "2026-08-05T16:35:05.000Z",
-          "url": "https://x.com/ClaireCoutinho/status/2085041914265600249",
-          "textSnippet": "I understand why Luciana and others are unable to forgive Joshua, I do.\n\nMy Catholicism says I should forgive if put in a similar position, but none of us can say how we would feel if we were so cruelly targeted - especially while pregnant. \n\nI don’t think people who have"
-        },
-        {
-          "id": "2085043482331099362",
-          "type": "original",
-          "timestamp": "2026-08-05T16:41:19.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085043482331099362",
-          "textSnippet": "It has taken far too long for Sgt Martyn Blake to finally be told he won’t face further punishment.\n\nA jury found him not guilty, yet Sgt Blake has been put through hell for doing his job. His treatment has sent a message to other officers on the frontline that the state isn’t on"
-        },
-        {
-          "id": "2085053406738313479",
-          "type": "retweet",
-          "timestamp": "2026-08-05T17:20:45.000Z",
-          "url": "https://x.com/antisemitism/status/2085053406738313479",
-          "textSnippet": "Having gone to significant effort to see to it that Joshua Bonehill-Paine went to prison, we would be extremely keen to see that he is not elevated to a position of power if he still holds antisemitic views.\n\nWe do not know what is in his heart but we do know that in recent years"
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

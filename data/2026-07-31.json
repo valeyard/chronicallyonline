@@ -67,27 +67,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 1,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083110132649521641",
-          "type": "retweet",
-          "timestamp": "2026-07-31T08:38:52.000Z",
-          "url": "https://x.com/BenHouchen/status/2083110132649521641",
-          "textSnippet": "So devolution means getting people's taxes to spend but not being allowed to give it back to them \n\nLast time I spoke to the PM, devolution was about whitehall not dictating what areas can or can’t do. \n\nDoesn’t sound much like devolution to me? Just an excuse for a tax grab"
-        },
-        {
-          "id": "2083140949215973843",
-          "type": "original",
-          "timestamp": "2026-07-31T10:41:19.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2083140949215973843",
-          "textSnippet": "Andy Burnham must stop faffing about and allow new oil & gas licences before it’s too late.\n\nWhy is Labour against this common-sense policy? They believe these Net Zero plans are working. They’re not. Climate change is real. Net Zero is political fiction"
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

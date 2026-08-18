@@ -25,41 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 2,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 4
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085631615506464847",
-          "type": "original",
-          "timestamp": "2026-08-07T07:38:20.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085631615506464847",
-          "textSnippet": ""
-        },
-        {
-          "id": "2085632035498922131",
-          "type": "original",
-          "timestamp": "2026-08-07T07:40:01.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085632035498922131",
-          "textSnippet": "I’ve written to the people of Clacton because they don’t deserve to be used by Nigel Farage to distract from his £5mn problems.\n\nThis by-election is fake and he knows it. \n\nHe disrespects his own constituents, demanding they exonerate him before the facts have been established"
-        },
-        {
-          "id": "2085639828398391665",
-          "type": "retweet",
-          "timestamp": "2026-08-07T08:10:59.000Z",
-          "url": "https://x.com/Helen_Whately/status/2085639828398391665",
-          "textSnippet": "Our welfare system should be a safety net for British citizens - not a cash machine for migrants. \n\nThe Conservatives will end access to social housing for foreign nationals, freeing up 230,000 social housing properties for British families."
-        },
-        {
-          "id": "2085651462508453962",
-          "type": "retweet",
-          "timestamp": "2026-08-07T08:57:12.000Z",
-          "url": "https://x.com/kevinhollinrake/status/2085651462508453962",
-          "textSnippet": "Labour, the Liberal Democrats and the Greens are trying to block the implementation of the EHRC guidance in the councils they run.\n\nThis is reckless political posturing of the worst kind and it risks undermining the safety of women and girls.\n\nAs Chairman of the Conservative"
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

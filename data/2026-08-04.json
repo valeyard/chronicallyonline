@@ -25,27 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 2,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084520695698964676",
-          "type": "original",
-          "timestamp": "2026-08-04T06:03:57.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2084520695698964676",
-          "textSnippet": "Andy Burnham wants a round of applause for agreeing not to release rapists and child sex offenders. He's not getting one.\n\nThis is only a partial climbdown. Killers, violent offenders, men who have terrorised their partners and more will all still walk out of prison in October"
-        },
-        {
-          "id": "2084623092119151083",
-          "type": "original",
-          "timestamp": "2026-08-04T12:50:50.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2084623092119151083",
-          "textSnippet": "Labour had to be dragged into this U-turn on early release after my press conference last week.\n\nThey voted against the protections they claim to support, yet they don’t go far enough.\n\nTheir plans will see killers, like those responsible for PC Harper’s murder, released early."
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

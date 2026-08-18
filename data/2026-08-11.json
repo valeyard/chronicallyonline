@@ -25,27 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 1,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087083755059970187",
-          "type": "original",
-          "timestamp": "2026-08-11T07:48:38.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2087083755059970187",
-          "textSnippet": "Two weeks ago I told Burnham to change course on early release.\n\nA week ago he exempted rapists and paedophiles. Today he's \"looking at\" stopping PC Harper's killers being released.\n\nThe victims have suffered enough. The delays & excuses are making it worse. The PM needs to act."
-        },
-        {
-          "id": "2087095008071417999",
-          "type": "retweet",
-          "timestamp": "2026-08-11T08:33:20.000Z",
-          "url": "https://x.com/MelJStride/status/2087095008071417999",
-          "textSnippet": "Yet more people sounding the alarm on tax rises. \n\nBurnham might be on a cost of living tour this week but it’s clear he doesn’t understand that it’s Labour’s tax rises and economic mismanagement that have pushed up prices in the first place."
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

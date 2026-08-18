@@ -89,26 +89,11 @@
       "status": "ok",
       "counts": {
         "original": 0,
-        "retweet": 2,
+        "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083477806613148120",
-          "type": "retweet",
-          "timestamp": "2026-08-01T08:59:52.000Z",
-          "url": "https://x.com/alexburghart/status/2083477806613148120",
-          "textSnippet": "The question is really whether the Secretary of State and the new Prime Minister believe in the United Kingdom …\n\n… not entirely clear from this first outing that they do"
-        },
-        {
-          "id": "2083576009496907875",
-          "type": "retweet",
-          "timestamp": "2026-08-01T15:30:06.000Z",
-          "url": "https://x.com/DoubleEph/status/2083576009496907875",
-          "textSnippet": "If you want to hire a competent black person to a prestigious institution, it is not impossible to do. The problem here (and as with a recent case in America) is that they want a certain sort of black person. So you end up with shameful stuff like this"
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

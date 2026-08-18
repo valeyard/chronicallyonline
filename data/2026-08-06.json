@@ -25,41 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 3,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 4
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085256730754027748",
-          "type": "original",
-          "timestamp": "2026-08-06T06:48:41.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085256730754027748",
-          "textSnippet": "For Rod Liddle.\n\nWitty and rude. Crass but kind. Thoughtful yet cavalier. Irreverent, generous, fearless and completely impossible.\n\nGrossly offensive and joyously miserable, he was a misanthrope with a love of life and a deep understanding of the human condition. Gone too soon."
-        },
-        {
-          "id": "2085275024814936370",
-          "type": "original",
-          "timestamp": "2026-08-06T08:01:23.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085275024814936370",
-          "textSnippet": "I am very concerned that rape gangs perpetrators could still be let out of prison this autumn under Labour’s early release scheme.\n\nThis is yet another betrayal of the victims of these horrendous crimes.\n\nMy letter to \n@andyburnham"
-        },
-        {
-          "id": "2085307102638072014",
-          "type": "retweet",
-          "timestamp": "2026-08-06T10:08:51.000Z",
-          "url": "https://x.com/LauraTrottMP/status/2085307102638072014",
-          "textSnippet": "Lucy Powell has described Plan 2 student loans as \"egregious.\" I agree.\n\nWe're the only party with a plan to fix this through our New Deal for Young People. I'm happy to work with Labour to make it happen. "
-        },
-        {
-          "id": "2085349144655204748",
-          "type": "original",
-          "timestamp": "2026-08-06T12:55:54.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085349144655204748",
-          "textSnippet": "Another U-turn secured…and another review from Burnham following my letter."
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

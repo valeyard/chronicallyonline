@@ -25,20 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085999297393295686",
-          "type": "original",
-          "timestamp": "2026-08-08T07:59:23.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2085999297393295686",
-          "textSnippet": "Simon Levy’s victims paid the price for a system that failed to impose consequences. No more women should have to pay that price.\n\nLaw and order are the first duty of government. The Conservative Party is ready to enforce them again.\n\nRead more in my piece in the \n@DailyMail"
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

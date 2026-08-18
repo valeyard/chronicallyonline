@@ -25,20 +25,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2086736724005200148",
-          "type": "original",
-          "timestamp": "2026-08-10T08:49:39.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2086736724005200148",
-          "textSnippet": ""
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",

@@ -26,18 +26,11 @@
       "status": "ok",
       "counts": {
         "original": 2,
-        "retweet": 1,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 2
       },
       "tweets": [
-        {
-          "id": "2086355159311892724",
-          "type": "retweet",
-          "timestamp": "2026-08-09T07:33:27.000Z",
-          "url": "https://x.com/ClaireCoutinho/status/2086355159311892724",
-          "textSnippet": "Not too long ago, stating that biological sex was real was a career-ending act of bravery. \n\nKathleen Stock was hounded out of her university job. Maya Forstater had to take her former employer to a landmark tribunal. \n\nKemi Badenoch and Rosie Duffield were told they were on the"
-        },
         {
           "id": "2086384725195690042",
           "type": "original",

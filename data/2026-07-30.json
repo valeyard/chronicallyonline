@@ -270,19 +270,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 2,
         "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 2
       },
       "tweets": [
-        {
-          "id": "2082763802043433114",
-          "type": "original",
-          "timestamp": "2026-07-30T09:42:40.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2082763802043433114",
-          "textSnippet": "Successive governments failed to stop the boats because they were trying to fix the symptoms, not the cause.\n\nIf people know they can stay and claim benefits, they’ll keep coming. If they know they’ll be removed, they won’t come.\n\nWe must change the incentives.\n\nThat’s why the"
-        },
         {
           "id": "2082856010054533122",
           "type": "original",

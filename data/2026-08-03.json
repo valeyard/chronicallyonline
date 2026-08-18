@@ -88,34 +88,12 @@
       "party": "Conservative",
       "status": "ok",
       "counts": {
-        "original": 1,
-        "retweet": 2,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084156716082438245",
-          "type": "retweet",
-          "timestamp": "2026-08-03T05:57:37.000Z",
-          "url": "https://x.com/CPhilpOfficial/status/2084156716082438245",
-          "textSnippet": "92% of crimes aren’t solved \n\nWe’ve all heard of information being handed to the police & not followed up\n\nThis is wrong - crime must have consequences \n\nThe next Conservative government will mandate the police to always follow up three key leads:"
-        },
-        {
-          "id": "2084166393663029610",
-          "type": "retweet",
-          "timestamp": "2026-08-03T06:36:04.000Z",
-          "url": "https://x.com/Mr_Andrew_Fox/status/2084166393663029610",
-          "textSnippet": "Someone has to do it, so I will. This policy is holed below the waterline before it begins.\n\nZia Yusuf wants Britain’s warships to push migrant boats back to France. There are only three small problems: the law, the French and the Royal Navy.\n\nOperation Fortress will be “the"
-        },
-        {
-          "id": "2084268817534845238",
-          "type": "original",
-          "timestamp": "2026-08-03T13:23:04.000Z",
-          "url": "https://x.com/KemiBadenoch/status/2084268817534845238",
-          "textSnippet": "Just heartbreaking to hear the news about Rod Liddle.\nI don’t have the words to express how sad this is. For journalism, for his readers and most of all his friends and family. Had missed his column and hearing his voice on the radio. Thought he was on a break.\nRest in peace,"
-        }
-      ]
+      "tweets": []
     },
     "ed-davey": {
       "handle": "EdwardJDavey",
