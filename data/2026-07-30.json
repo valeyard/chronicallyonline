@@ -298,34 +298,12 @@
       "party": "Liberal Democrats",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2082862296561287259",
-          "type": "original",
-          "timestamp": "2026-07-30T16:14:03.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2082862296561287259",
-          "textSnippet": "Good. Now it's time to end FIFA's corrupt rule once and for all, with a new governing body to save football for the fans."
-        },
-        {
-          "id": "2082873866049732686",
-          "type": "original",
-          "timestamp": "2026-07-30T17:00:02.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2082873866049732686",
-          "textSnippet": "The scenes of wildfires across the country are deeply worrying. Not forgetting what we have seen in other parts of  Europe in the last few weeks.\n\nIt's clear this problem isn't going away. I only wish all political parties in our country understood this."
-        },
-        {
-          "id": "2082925252208681434",
-          "type": "original",
-          "timestamp": "2026-07-30T20:24:13.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2082925252208681434",
-          "textSnippet": "This is the very sad reality of a broken system that is letting people down. We must fix this so that it never happens again."
-        }
-      ]
+      "tweets": []
     },
     "nigel-farage": {
       "handle": "Nigel_Farage",

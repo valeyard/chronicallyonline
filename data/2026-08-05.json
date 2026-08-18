@@ -38,27 +38,12 @@
       "party": "Liberal Democrats",
       "status": "ok",
       "counts": {
-        "original": 2,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084987144850772469",
-          "type": "original",
-          "timestamp": "2026-08-05T12:57:27.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2084987144850772469",
-          "textSnippet": "Up and down the country, we’ve got businesses shutting their doors at a rate of knots and households battling a permanent cost-of-living crisis. \nAndy Burnham needs to set out their growth plan now, and it needs to start with Europe."
-        },
-        {
-          "id": "2085059186166014417",
-          "type": "original",
-          "timestamp": "2026-08-05T17:43:43.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2085059186166014417",
-          "textSnippet": "Badenoch has shown an outrageous lack of judgement, doubling down on her support for a former neo-Nazi because councillors only “sort out the bins.”\n\nShe has no idea how much people care about their local communities."
-        }
-      ]
+      "tweets": []
     },
     "nigel-farage": {
       "handle": "Nigel_Farage",

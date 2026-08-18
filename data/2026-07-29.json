@@ -318,34 +318,12 @@
       "party": "Liberal Democrats",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2082352604143636674",
-          "type": "original",
-          "timestamp": "2026-07-29T06:28:43.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2082352604143636674",
-          "textSnippet": "Caring has been central to my life, and the lives of millions across the country. \n\nI'll be meeting the Prime Minister today to discuss how we can finally find a solution to the care crisis. We need to do things differently. I really hope we are on a journey to fix this."
-        },
-        {
-          "id": "2082469082725527848",
-          "type": "original",
-          "timestamp": "2026-07-29T14:11:34.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2082469082725527848",
-          "textSnippet": "I feel hopeful about the talks today on fixing our broken care system but this is just the beginning. A solution is desperately needed. I will always stand up for family carers through this process."
-        },
-        {
-          "id": "2082506081687793931",
-          "type": "original",
-          "timestamp": "2026-07-29T16:38:35.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2082506081687793931",
-          "textSnippet": "Good meeting. Lots of work ahead."
-        }
-      ]
+      "tweets": []
     },
     "nigel-farage": {
       "handle": "Nigel_Farage",

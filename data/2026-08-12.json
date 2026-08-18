@@ -39,19 +39,11 @@
       "status": "ok",
       "counts": {
         "original": 0,
-        "retweet": 1,
+        "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087429809995485510",
-          "type": "retweet",
-          "timestamp": "2026-08-12T06:43:43.000Z",
-          "url": "https://x.com/pippaheylings/status/2087429809995485510",
-          "textSnippet": "It’s taken 5 - yes 5!! - heatwaves for Andy Burnham to finally break his silence on the extreme heat hitting farmers, families & the economy. We \n@LibDems\n have long called for extreme weather to be treated as a national security issue and we welcome the PM convening COBRA finall"
-        }
-      ]
+      "tweets": []
     },
     "nigel-farage": {
       "handle": "Nigel_Farage",

@@ -38,20 +38,12 @@
       "party": "Liberal Democrats",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085684161340113212",
-          "type": "original",
-          "timestamp": "2026-08-07T11:07:08.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2085684161340113212",
-          "textSnippet": "Nearly everyone knows someone with special educational needs or a disability. \n\nFor too long, they've been let down by a broken system. It's time they got the help they need."
-        }
-      ]
+      "tweets": []
     },
     "nigel-farage": {
       "handle": "Nigel_Farage",

@@ -38,20 +38,12 @@
       "party": "Liberal Democrats",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084580231638040967",
-          "type": "original",
-          "timestamp": "2026-08-04T10:00:31.000Z",
-          "url": "https://x.com/EdwardJDavey/status/2084580231638040967",
-          "textSnippet": "While wildfires rage, oil bosses are laughing all the way to the bank thanks to Donald Trump’s idiotic Iran war.\n\nPeople across the country are facing sky high energy bills. If Burnham is struggling to find the money to help families with those bills, I’d start here."
-        }
-      ]
+      "tweets": []
     },
     "nigel-farage": {
       "handle": "Nigel_Farage",

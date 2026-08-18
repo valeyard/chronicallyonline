@@ -39,19 +39,11 @@
       "status": "ok",
       "counts": {
         "original": 0,
-        "retweet": 1,
+        "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2086845224492372050",
-          "type": "retweet",
-          "timestamp": "2026-08-10T16:00:47.000Z",
-          "url": "https://x.com/LibDems/status/2086845224492372050",
-          "textSnippet": "From Mid Staffordshire to Morecambe Bay, NHS scandals have shown the cost of concerns being ignored.\n\nLabour’s Health Bill will take an axe to vital patient safeguards.\n\nAndy Burnham must intervene and protect patients. \n\n\n@HelenMorganMP"
-        }
-      ]
+      "tweets": []
     },
     "nigel-farage": {
       "handle": "Nigel_Farage",
