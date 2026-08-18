@@ -30,6 +30,7 @@ import {
   collectArticles,
   summarize,
   isPinnedRecord,
+  isRepostRecord,
   extractTweets,
 } from "./lib.mjs";
 
@@ -110,6 +111,21 @@ async function scrapeRange(page, url, { start, end }, expectedHandle) {
     // skipping it for good since nothing re-checks that range later.
     await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.7));
     await sleep(1400 + Math.random() * 1000);
+  }
+
+  if (process.env.DEBUG_SCRAPE_DIR) {
+    for (const rec of seen.values()) {
+      const kind = isPinnedRecord(rec)
+        ? "pinned"
+        : isRepostRecord(rec)
+          ? "repost"
+          : rec.isOwn === false
+            ? "other-author"
+            : "own";
+      console.log(
+        `  [item] id=${rec.id} kind=${kind} author=${rec.authorHandle} isReply=${rec.isReply} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))} cellSrc=${rec.cellSource} scope=${JSON.stringify(rec.scopeTextSnippet)}`,
+      );
+    }
   }
 
   return extractTweets(seen, { start, end });
