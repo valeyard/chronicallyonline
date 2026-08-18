@@ -51,55 +51,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 6,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 6
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2086731993572589646",
-          "type": "original",
-          "timestamp": "2026-08-10T08:30:51.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086731993572589646",
-          "textSnippet": "BREAKING NEWS\n\nAt 2.30am this morning a boat carrying 230 people was taken into Dover.\n\nThis is a record number in a single vessel.\n\nIt’s yet more proof that this illegal invasion is a national security emergency."
-        },
-        {
-          "id": "2086754836842942814",
-          "type": "original",
-          "timestamp": "2026-08-10T10:01:37.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086754836842942814",
-          "textSnippet": "Watch LIVE as Zia Yusuf joins me to set out our plans to keep criminals behind bars."
-        },
-        {
-          "id": "2086777980567634032",
-          "type": "original",
-          "timestamp": "2026-08-10T11:33:35.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086777980567634032",
-          "textSnippet": "The ‘small boats’ have now become the big boats."
-        },
-        {
-          "id": "2086781184558633156",
-          "type": "original",
-          "timestamp": "2026-08-10T11:46:19.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086781184558633156",
-          "textSnippet": "Reform will send prisoners back to their countries of origin.\n\nIf they refuse, they will be sent to third party countries like El Salvador."
-        },
-        {
-          "id": "2086790052781212059",
-          "type": "original",
-          "timestamp": "2026-08-10T12:21:33.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086790052781212059",
-          "textSnippet": "My statement on Counter Terrorism Police and an arson attack at my property."
-        },
-        {
-          "id": "2086847713056825776",
-          "type": "original",
-          "timestamp": "2026-08-10T16:10:41.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086847713056825776",
-          "textSnippet": "This is our plan to fix Britain’s broken prison system. "
-        }
-      ]
+      "tweets": []
     },
     "zack-polanski": {
       "handle": "ZackPolanski",

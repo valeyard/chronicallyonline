@@ -114,41 +114,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 3,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 4
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083450315257303334",
-          "type": "original",
-          "timestamp": "2026-08-01T07:10:38.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083450315257303334",
-          "textSnippet": "This is an invasion. It's time to wake up."
-        },
-        {
-          "id": "2083517526944751885",
-          "type": "original",
-          "timestamp": "2026-08-01T11:37:42.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083517526944751885",
-          "textSnippet": "Out campaigning in Weeley! "
-        },
-        {
-          "id": "2083537305223012434",
-          "type": "original",
-          "timestamp": "2026-08-01T12:56:18.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083537305223012434",
-          "textSnippet": "Let’s not forget it was the Tories that closed down North Sea oil in the first place. \n\nStick with authenticity."
-        },
-        {
-          "id": "2083551243566297283",
-          "type": "retweet",
-          "timestamp": "2026-08-01T13:51:41.000Z",
-          "url": "https://x.com/ZiaYusufUK/status/2083551243566297283",
-          "textSnippet": "I am in Ceuta, the scene of the 60,000 strong invasion.\n\nSpain has effectively militarised its border.\n\nAlready spoken to Moroccan men here who say they are trying to get to Britain.\n\nMore to come."
-        }
-      ]
+      "tweets": []
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",

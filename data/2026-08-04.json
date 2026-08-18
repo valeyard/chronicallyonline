@@ -51,48 +51,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 5,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 5
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084570568972554384",
-          "type": "original",
-          "timestamp": "2026-08-04T09:22:07.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084570568972554384",
-          "textSnippet": "We must put a stop to this. Our plan will saves lives."
-        },
-        {
-          "id": "2084598467981177311",
-          "type": "original",
-          "timestamp": "2026-08-04T11:12:59.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084598467981177311",
-          "textSnippet": "Andy Burnham said it would be awful if PC Harper's killers were released early. But he’s now letting it happen. \n\nBoth Labour and the Conservatives have failed us all. \n\nReform will deport foreign criminals and build Nightingale prisons."
-        },
-        {
-          "id": "2084667206403493981",
-          "type": "original",
-          "timestamp": "2026-08-04T15:46:07.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084667206403493981",
-          "textSnippet": "Our very own Lee Anderson is watching the crisis in Calais unfold.\n\nComing to an HMO on a street near you!"
-        },
-        {
-          "id": "2084684941099405602",
-          "type": "original",
-          "timestamp": "2026-08-04T16:56:36.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084684941099405602",
-          "textSnippet": "Tony Abbott, the man who stopped the boats in Australia, has just endorsed our plan to put the Royal Navy in the English Channel."
-        },
-        {
-          "id": "2084716913213542837",
-          "type": "original",
-          "timestamp": "2026-08-04T19:03:38.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084716913213542837",
-          "textSnippet": "This is a UK Border Force vessel safely returning migrants to France today. \n\nOperation Fortress can be done, and it must be to stop the invasion of our country."
-        }
-      ]
+      "tweets": []
     },
     "zack-polanski": {
       "handle": "ZackPolanski",

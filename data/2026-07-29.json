@@ -331,33 +331,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 7,
+        "original": 2,
         "retweet": 0,
         "reply": 0,
-        "total": 7
+        "total": 2
       },
       "tweets": [
-        {
-          "id": "2082378393828426119",
-          "type": "original",
-          "timestamp": "2026-07-29T08:11:12.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082378393828426119",
-          "textSnippet": "If Andy Burnham is serious about putting politics aside to solve Britain’s biggest problems, it’s remarkable that he’s chosen to ignore Reform.\n\nHe is conspiring behind closed doors with the failed political establishment to foist further tax rises on the country.\n\nThe fact Ed"
-        },
-        {
-          "id": "2082405801960849635",
-          "type": "original",
-          "timestamp": "2026-07-29T10:00:07.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082405801960849635",
-          "textSnippet": "At least 700 illegal migrants in the Channel this morning. The invasion continues. \n\nYet Burnham said yesterday “the plan is working”. What planet is he on?"
-        },
-        {
-          "id": "2082421376804167979",
-          "type": "original",
-          "timestamp": "2026-07-29T11:02:00.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082421376804167979",
-          "textSnippet": "This is the uniparty in action."
-        },
         {
           "id": "2082440513358123307",
           "type": "original",
@@ -371,20 +350,6 @@
           "timestamp": "2026-07-29T12:18:03.000Z",
           "url": "https://x.com/Nigel_Farage/status/2082440516176662857",
           "textSnippet": "Read the full article here. "
-        },
-        {
-          "id": "2082491500428943420",
-          "type": "original",
-          "timestamp": "2026-07-29T15:40:39.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082491500428943420",
-          "textSnippet": "Happy birthday to this uncle in Clacton! "
-        },
-        {
-          "id": "2082509204695474475",
-          "type": "original",
-          "timestamp": "2026-07-29T16:51:00.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082509204695474475",
-          "textSnippet": "We only won control of Essex County Council 12 weeks ago, but already we have repaired over 5,000 highway defects. \n\nThat’s a 30% increase on the same period last year.\n\nReform gets stuff done."
         }
       ]
     },

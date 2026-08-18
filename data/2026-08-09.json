@@ -66,27 +66,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 2,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2086451955757457421",
-          "type": "original",
-          "timestamp": "2026-08-09T13:58:05.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086451955757457421",
-          "textSnippet": "Reform councils will never spend your money on this nonsense."
-        },
-        {
-          "id": "2086578375368319028",
-          "type": "original",
-          "timestamp": "2026-08-09T22:20:26.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086578375368319028",
-          "textSnippet": "Dangerous criminals must serve the entirety of their sentences.\n\nReform has a plan to keep prisoners behind bars."
-        }
-      ]
+      "tweets": []
     },
     "zack-polanski": {
       "handle": "ZackPolanski",

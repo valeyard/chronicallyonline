@@ -93,55 +93,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 4,
-        "retweet": 2,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 6
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083108650491494749",
-          "type": "retweet",
-          "timestamp": "2026-07-31T08:32:59.000Z",
-          "url": "https://x.com/RaheemKassam/status/2083108650491494749",
-          "textSnippet": "Canvassing in Clacton yesterday and out of nowhere, this 1945 Scammell truck pulls up.\n\nAs a Type 1304, this was built as a heavy-duty recovery vehicle, I believe, equipped to salvage tanks and armour and more.\n\nThere aren’t a lot left, as you can imagine, so it was a real treat"
-        },
-        {
-          "id": "2083145573125787993",
-          "type": "original",
-          "timestamp": "2026-07-31T10:59:42.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083145573125787993",
-          "textSnippet": "I helped these Clacton residents secure a council tax refund after they were placed in the wrong tax band."
-        },
-        {
-          "id": "2083146900522381634",
-          "type": "original",
-          "timestamp": "2026-07-31T11:04:58.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083146900522381634",
-          "textSnippet": "Giorgia Meloni is right."
-        },
-        {
-          "id": "2083147543823749369",
-          "type": "retweet",
-          "timestamp": "2026-07-31T11:07:32.000Z",
-          "url": "https://x.com/SuellaBraverman/status/2083147543823749369",
-          "textSnippet": "Clacton wants Reform!"
-        },
-        {
-          "id": "2083171668264907172",
-          "type": "original",
-          "timestamp": "2026-07-31T12:43:23.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083171668264907172",
-          "textSnippet": "The Reform UK podcast has revolutionised how we communicate with our brilliant supporters. \n\nListen to the latest episode hosted by \n@rayaddisonlive\n. \n\n \nhttp://\nreformparty.uk/podcast"
-        },
-        {
-          "id": "2083183978505179399",
-          "type": "original",
-          "timestamp": "2026-07-31T13:32:18.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083183978505179399",
-          "textSnippet": "Around 60,000 illegal migrants have now invaded Ceuta. \n\nBefore long many will be crossing the English Channel to enter Britain illegally. \n\nI support my friends \n@GiorgiaMeloni\n and \n@J_Bardella\n who say they will take extraordinary measures to stop this."
-        }
-      ]
+      "tweets": []
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",

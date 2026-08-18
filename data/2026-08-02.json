@@ -87,34 +87,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083949803470246148",
-          "type": "original",
-          "timestamp": "2026-08-02T16:15:25.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083949803470246148",
-          "textSnippet": "BREAKING NEWS \n\n2,000 illegal migrants have now crossed the Channel under Andy Burnham. \n\n752 landed in a single day. This government has lost control.\n\nOnly Reform will secure our borders and deport every illegal migrant."
-        },
-        {
-          "id": "2083964794105626782",
-          "type": "original",
-          "timestamp": "2026-08-02T17:14:59.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083964794105626782",
-          "textSnippet": "The next election will be an existential fight to save the country we love, a mission I have now been fighting for over 30 years.\n\nAfter two national election victories in as many years, many people now recognise that it will be a binary choice between Reform UK and Labour.\n\nWith"
-        },
-        {
-          "id": "2083985535970721846",
-          "type": "original",
-          "timestamp": "2026-08-02T18:37:25.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2083985535970721846",
-          "textSnippet": "Spain deployed thousands of troops to end the invasion of their country. 60,000 migrants stormed their border.\n\nShabana Mahmood thinks this can’t be done in Britain because it’s “trickier”. Instead, she’ll keep dumping them into an HMO or hotel near you.\n\nThis government is just"
-        }
-      ]
+      "tweets": []
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",

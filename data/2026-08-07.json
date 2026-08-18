@@ -51,20 +51,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085630654247510520",
-          "type": "original",
-          "timestamp": "2026-08-07T07:34:31.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2085630654247510520",
-          "textSnippet": "The Tories copy every policy of ours. They are frauds."
-        }
-      ]
+      "tweets": []
     },
     "zack-polanski": {
       "handle": "ZackPolanski",

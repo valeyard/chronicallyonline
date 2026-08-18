@@ -51,34 +51,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084922690620547529",
-          "type": "original",
-          "timestamp": "2026-08-05T08:41:20.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084922690620547529",
-          "textSnippet": "Do we really want these fighting-age men breaking into our country?"
-        },
-        {
-          "id": "2084995825495670811",
-          "type": "original",
-          "timestamp": "2026-08-05T13:31:56.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084995825495670811",
-          "textSnippet": "I’ll put this chap down as a maybe!"
-        },
-        {
-          "id": "2085013513752162626",
-          "type": "retweet",
-          "timestamp": "2026-08-05T14:42:14.000Z",
-          "url": "https://x.com/reformparty_uk/status/2085013513752162626",
-          "textSnippet": "This entire street will be sending the establishment a message on August 13th. "
-        }
-      ]
+      "tweets": []
     },
     "zack-polanski": {
       "handle": "ZackPolanski",

@@ -114,62 +114,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 7,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 7
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084187734738940351",
-          "type": "original",
-          "timestamp": "2026-08-03T08:00:52.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084187734738940351",
-          "textSnippet": "Reform UK will order the Royal Navy to intercept every dinghy and return illegal migrants back to France."
-        },
-        {
-          "id": "2084217098499199481",
-          "type": "original",
-          "timestamp": "2026-08-03T09:57:33.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084217098499199481",
-          "textSnippet": "Join me LIVE with Zia Yusuf as we lay out our plan to stop the boats once and for all."
-        },
-        {
-          "id": "2084237426369626562",
-          "type": "original",
-          "timestamp": "2026-08-03T11:18:20.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084237426369626562",
-          "textSnippet": "Europe is at breaking point."
-        },
-        {
-          "id": "2084243381853749327",
-          "type": "original",
-          "timestamp": "2026-08-03T11:42:00.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084243381853749327",
-          "textSnippet": "The Royal Navy is there to protect this country from invasion and that is what I intend to use it for."
-        },
-        {
-          "id": "2084280333986337213",
-          "type": "original",
-          "timestamp": "2026-08-03T14:08:50.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084280333986337213",
-          "textSnippet": "Extremely sad news that Rod Liddle is no longer with us.\n\nRod was one of the most prolific columnists Westminster has ever seen. \n\nHe will be missed."
-        },
-        {
-          "id": "2084328720471388192",
-          "type": "original",
-          "timestamp": "2026-08-03T17:21:06.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084328720471388192",
-          "textSnippet": "I will always stand up for the British people and their interests. \n\nHumanitarian missions do not violate maritime or international law."
-        },
-        {
-          "id": "2084381101712199785",
-          "type": "original",
-          "timestamp": "2026-08-03T20:49:15.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2084381101712199785",
-          "textSnippet": "Is this part of the “new generation” of Conservative candidates \n@KemiBadenoch\n is promising?"
-        }
-      ]
+      "tweets": []
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",

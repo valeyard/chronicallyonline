@@ -51,20 +51,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2086142392428536172",
-          "type": "original",
-          "timestamp": "2026-08-08T17:27:59.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2086142392428536172",
-          "textSnippet": "Family, community, country in Clacton! "
-        }
-      ]
+      "tweets": []
     },
     "zack-polanski": {
       "handle": "ZackPolanski",

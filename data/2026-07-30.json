@@ -311,62 +311,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 5,
-        "retweet": 2,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 7
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2082718328829682029",
-          "type": "original",
-          "timestamp": "2026-07-30T06:41:59.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082718328829682029",
-          "textSnippet": "Good luck today, \n@SianReform\n. "
-        },
-        {
-          "id": "2082727065455866321",
-          "type": "retweet",
-          "timestamp": "2026-07-30T07:16:42.000Z",
-          "url": "https://x.com/SianReform/status/2082727065455866321",
-          "textSnippet": "It’s polling day. This is your chance to set Greater Manchester in a new positive direction.\n\nMake sure you get to the polling station by 10pm, bring your ID and vote Reform!"
-        },
-        {
-          "id": "2082747638747684951",
-          "type": "original",
-          "timestamp": "2026-07-30T08:38:27.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082747638747684951",
-          "textSnippet": "Our new Prime Minister only likes devolution when power is devolved to him."
-        },
-        {
-          "id": "2082755419420623048",
-          "type": "retweet",
-          "timestamp": "2026-07-30T09:09:22.000Z",
-          "url": "https://x.com/reformparty_uk/status/2082755419420623048",
-          "textSnippet": "Watch LIVE as Robert Jenrick leads the fight against the universal death tax."
-        },
-        {
-          "id": "2082836494192910656",
-          "type": "original",
-          "timestamp": "2026-07-30T14:31:32.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082836494192910656",
-          "textSnippet": "The British people did not vote for a death tax."
-        },
-        {
-          "id": "2082871826632294613",
-          "type": "original",
-          "timestamp": "2026-07-30T16:51:56.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082871826632294613",
-          "textSnippet": "Football is for the people. UEFA are right to take a stand and Gianni Infantino must resign."
-        },
-        {
-          "id": "2082880424452207084",
-          "type": "original",
-          "timestamp": "2026-07-30T17:26:05.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2082880424452207084",
-          "textSnippet": "My response to viral footage from the Moroccan border.\n\nIt’s time to wake up everybody."
-        }
-      ]
+      "tweets": []
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",

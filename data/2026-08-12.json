@@ -51,48 +51,12 @@
       "party": "Reform UK",
       "status": "ok",
       "counts": {
-        "original": 5,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 5
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087450731456372868",
-          "type": "original",
-          "timestamp": "2026-08-12T08:06:51.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2087450731456372868",
-          "textSnippet": "The Conservatives have an Essex problem."
-        },
-        {
-          "id": "2087468699854712911",
-          "type": "original",
-          "timestamp": "2026-08-12T09:18:15.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2087468699854712911",
-          "textSnippet": "Today is the day we remember Ann Widdecombe. \n\nAnn was an extraordinary woman who left a serious mark on British politics.\n\nShe will be sorely missed. Rest in peace, Ann."
-        },
-        {
-          "id": "2087518484502573544",
-          "type": "original",
-          "timestamp": "2026-08-12T12:36:05.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2087518484502573544",
-          "textSnippet": "Catching up with an old friend."
-        },
-        {
-          "id": "2087633057838661646",
-          "type": "original",
-          "timestamp": "2026-08-12T20:11:21.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2087633057838661646",
-          "textSnippet": "In Jaywick to witness the solar eclipse."
-        },
-        {
-          "id": "2087645631414227116",
-          "type": "original",
-          "timestamp": "2026-08-12T21:01:19.000Z",
-          "url": "https://x.com/Nigel_Farage/status/2087645631414227116",
-          "textSnippet": "Tomorrow is the day to stick two fingers up to the establishment."
-        }
-      ]
+      "tweets": []
     },
     "zack-polanski": {
       "handle": "ZackPolanski",
