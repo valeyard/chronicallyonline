@@ -12,22 +12,15 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 2,
+        "original": 0,
         "retweet": 0,
-        "reply": 0,
-        "total": 2
+        "reply": 1,
+        "total": 1
       },
       "tweets": [
         {
-          "id": "2088283891366768644",
-          "type": "original",
-          "timestamp": "2026-08-14T15:17:32.000Z",
-          "url": "https://x.com/Jon4HighPeak/status/2088283891366768644",
-          "textSnippet": "This is all so welcome \n@andyburnham\n . The temporary ban on the sale of disposable barbecues is a huge step in the right direction to protect our precious countryside and communities from the risk of fires. Thank you "
-        },
-        {
           "id": "2088296383467926003",
-          "type": "original",
+          "type": "reply",
           "timestamp": "2026-08-14T16:07:11.000Z",
           "url": "https://x.com/andyburnham/status/2088296383467926003",
           "textSnippet": "Thanks for all the work you’ve done on this Jon "

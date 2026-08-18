@@ -75,48 +75,12 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 3,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 5
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083457509235265769",
-          "type": "original",
-          "timestamp": "2026-08-01T07:39:13.000Z",
-          "url": "https://x.com/andyburnham/status/2083457509235265769",
-          "textSnippet": "I couldn’t be happier to see \n@bevcraig\n elected as the next Mayor of Greater Manchester.\n\nWe’ve worked together for many years, and I’ve seen first-hand her intelligence, compassion and determination. I know she’ll bring people together and stand up for every part of our"
-        },
-        {
-          "id": "2083467917262295256",
-          "type": "retweet",
-          "timestamp": "2026-08-01T08:20:35.000Z",
-          "url": "https://x.com/itvnews/status/2083467917262295256",
-          "textSnippet": "Month of free bus travel for children in England starts"
-        },
-        {
-          "id": "2083482616599068754",
-          "type": "original",
-          "timestamp": "2026-08-01T09:18:59.000Z",
-          "url": "https://x.com/andyburnham/status/2083482616599068754",
-          "textSnippet": "Second week as Prime Minister "
-        },
-        {
-          "id": "2083609708703694883",
-          "type": "retweet",
-          "timestamp": "2026-08-01T17:44:00.000Z",
-          "url": "https://x.com/andyburnham/status/2083609708703694883",
-          "textSnippet": "I visited \n@AshtonBears\n during the by-election to hear about their plans and was glad to return last night with a small donation to the fund.\n\nGrassroots Rugby League, and sport in general, matters a lot to me. It will be a BIG priority in my time in office. \n\nI clearly need to"
-        },
-        {
-          "id": "2083628833505427567",
-          "type": "retweet",
-          "timestamp": "2026-08-01T19:00:00.000Z",
-          "url": "https://x.com/OpiniumResearch/status/2083628833505427567",
-          "textSnippet": " Latest Opinium \n@ObserverUK\n poll \n\nLabour surges into the lead for the first time in 15 months, and records its largest lead over Reform since January 2025.\n\n LAB 27%\n REF 23%\n CON 17% \n GRN 12%\n LD 12%"
-        }
-      ]
+      "tweets": []
     },
     "kemi-badenoch": {
       "handle": "KemiBadenoch",

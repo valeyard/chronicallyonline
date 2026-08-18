@@ -12,20 +12,12 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2086721277914427639",
-          "type": "original",
-          "timestamp": "2026-08-10T07:48:16.000Z",
-          "url": "https://x.com/andyburnham/status/2086721277914427639",
-          "textSnippet": "Too many people feel like modern life is designed to catch them out.\n\nIt should be just as easy to cancel a subscription as it is to start it. And if something is advertised as half price, it should actually be half price.\n\nSo I'm taking action. \n\nWe’re taking every opportunity"
-        }
-      ]
+      "tweets": []
     },
     "kemi-badenoch": {
       "handle": "KemiBadenoch",

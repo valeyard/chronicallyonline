@@ -12,20 +12,12 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084602406122274994",
-          "type": "original",
-          "timestamp": "2026-08-04T11:28:38.000Z",
-          "url": "https://x.com/andyburnham/status/2084602406122274994",
-          "textSnippet": "Britain’s prisons crisis has its roots in a failure to add sufficient new places between 2010 and 2024. Just 500 places were added and 23 prisons were closed. As a result, the system is now dangerously close to capacity and we are running the risk of new offenders not being"
-        }
-      ]
+      "tweets": []
     },
     "kemi-badenoch": {
       "handle": "KemiBadenoch",

@@ -75,27 +75,12 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 1,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084270772399317094",
-          "type": "original",
-          "timestamp": "2026-08-03T13:30:50.000Z",
-          "url": "https://x.com/andyburnham/status/2084270772399317094",
-          "textSnippet": "Two weeks ago today, I admitted that politics has not been working for you and that we all need to raise our game.\n\nI meant it.\n\nSo here's just some of what we've announced in the first fortnight:\n\n New national drive to end rough sleeping\n Tax cut on energy bills\n £2 cap"
-        },
-        {
-          "id": "2084295259970797989",
-          "type": "retweet",
-          "timestamp": "2026-08-03T15:08:08.000Z",
-          "url": "https://x.com/savechildrenuk/status/2084295259970797989",
-          "textSnippet": "We were delighted to welcome Prime Minister Andy Burnham to the Meadows Nursery in Sheffield, a pioneering partnership between Save the Children, Sheffield Hallam, Sheffield City Council and Watercliffe Meadow Primary School. \n\nAs well as meeting some of the feistiest toddlers"
-        }
-      ]
+      "tweets": []
     },
     "kemi-badenoch": {
       "handle": "KemiBadenoch",

@@ -40,32 +40,18 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 0,
         "retweet": 0,
-        "reply": 0,
-        "total": 3
+        "reply": 1,
+        "total": 1
       },
       "tweets": [
         {
-          "id": "2083846214642987446",
-          "type": "original",
-          "timestamp": "2026-08-02T09:23:48.000Z",
-          "url": "https://x.com/iamtomskinner/status/2083846214642987446",
-          "textSnippet": "Happy Sunday you lovely lot. I’ve got another idea for our Prime Minister \n@andyburnham\n , I recon you’ll like this one. \n\nLet’s get everyone growing. We could start a campaign where we send families who wanna take part a “Grow Pack”. Tomatoes, cucumbers, potatoes, carrots, herbs"
-        },
-        {
           "id": "2083868885103636663",
-          "type": "original",
+          "type": "reply",
           "timestamp": "2026-08-02T10:53:53.000Z",
           "url": "https://x.com/andyburnham/status/2083868885103636663",
           "textSnippet": "I like it, Tom."
-        },
-        {
-          "id": "2084012667807707143",
-          "type": "original",
-          "timestamp": "2026-08-02T20:25:13.000Z",
-          "url": "https://x.com/andyburnham/status/2084012667807707143",
-          "textSnippet": "My government will be relentless in tackling small boat crossings. \n\nWe can choose to play politics on this issue, or we can just get on with it and sort it out.\n\nI know which one I’m doing."
         }
       ]
     },

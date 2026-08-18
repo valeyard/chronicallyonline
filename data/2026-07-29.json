@@ -292,34 +292,12 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2082361964886478985",
-          "type": "original",
-          "timestamp": "2026-07-29T07:05:55.000Z",
-          "url": "https://x.com/andyburnham/status/2082361964886478985",
-          "textSnippet": "This is the issue governments keep putting off. That ends now."
-        },
-        {
-          "id": "2082508752087846986",
-          "type": "original",
-          "timestamp": "2026-07-29T16:49:12.000Z",
-          "url": "https://x.com/andyburnham/status/2082508752087846986",
-          "textSnippet": "I am doing this for my dad and the millions like him up and down the country."
-        },
-        {
-          "id": "2082561750981877838",
-          "type": "retweet",
-          "timestamp": "2026-07-29T20:19:48.000Z",
-          "url": "https://x.com/PolitlcsUK/status/2082561750981877838",
-          "textSnippet": " NEW: Andy Burnham has called for employers to stop conducting interviews on Zoom or Teams and using AI to filter through CVs\n\n\"How does a young person shine in that situation? How do you get over some of your personality, your passion?\""
-        }
-      ]
+      "tweets": []
     },
     "kemi-badenoch": {
       "handle": "KemiBadenoch",

@@ -12,34 +12,12 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087086365787726113",
-          "type": "original",
-          "timestamp": "2026-08-11T07:59:00.000Z",
-          "url": "https://x.com/andyburnham/status/2087086365787726113",
-          "textSnippet": "Vape shops. Betting shops. Dodgy businesses.\n\nIf you look at your high street these days and think ‘who asked for this?’, you’re not alone.\n\nI’m doing something about it. We’re giving local people and councils more control over what opens, and tougher powers to crack down on"
-        },
-        {
-          "id": "2087110590825173412",
-          "type": "original",
-          "timestamp": "2026-08-11T09:35:16.000Z",
-          "url": "https://x.com/andyburnham/status/2087110590825173412",
-          "textSnippet": "I understand the depth of public concern about the potential early release of those involved with the killing of PC Andrew Harper - and I share it.\n\nI fully appreciate the anguish of Andrew’s family and, more broadly, of all those victims and their families who may see those who"
-        },
-        {
-          "id": "2087205646978412965",
-          "type": "original",
-          "timestamp": "2026-08-11T15:52:59.000Z",
-          "url": "https://x.com/andyburnham/status/2087205646978412965",
-          "textSnippet": "Who is actually asking for more vape shops?"
-        }
-      ]
+      "tweets": []
     },
     "kemi-badenoch": {
       "handle": "KemiBadenoch",

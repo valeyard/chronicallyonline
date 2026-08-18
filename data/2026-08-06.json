@@ -12,34 +12,12 @@
       "party": "Labour",
       "status": "ok",
       "counts": {
-        "original": 3,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085266689415848004",
-          "type": "original",
-          "timestamp": "2026-08-06T07:28:15.000Z",
-          "url": "https://x.com/andyburnham/status/2085266689415848004",
-          "textSnippet": "We’ve all had some experience of struggles with mental health. Maybe you’ve stood by a loved one in a time of need. Maybe you’ve been through tough moments yourself.\n\nToo often, illness is only half the challenge, with people forced to wait too long and fight too hard to get the"
-        },
-        {
-          "id": "2085363072302993719",
-          "type": "original",
-          "timestamp": "2026-08-06T13:51:15.000Z",
-          "url": "https://x.com/andyburnham/status/2085363072302993719",
-          "textSnippet": "This is what bringing back hope means to me."
-        },
-        {
-          "id": "2085445572035543288",
-          "type": "original",
-          "timestamp": "2026-08-06T19:19:04.000Z",
-          "url": "https://x.com/andyburnham/status/2085445572035543288",
-          "textSnippet": "We’re changing the rules.\n\nWhen applying for a contract from the government there will now be one simple test: are you creating British jobs? And are you giving young people the skills they need for the future?\n\nThese new rules will ensure the £90 billion that is spent each year"
-        }
-      ]
+      "tweets": []
     },
     "kemi-badenoch": {
       "handle": "KemiBadenoch",
