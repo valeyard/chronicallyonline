@@ -65,31 +65,31 @@
       "status": "ok",
       "counts": {
         "original": 5,
-        "retweet": 5,
-        "reply": 0,
-        "total": 10
+        "retweet": 0,
+        "reply": 1,
+        "total": 6
       },
       "tweets": [
         {
-          "id": "2087594389140881505",
-          "type": "retweet",
-          "timestamp": "2026-08-12T17:37:42.000Z",
-          "url": "https://x.com/AngelaKDunning/status/2087594389140881505",
-          "textSnippet": "Wow just wow"
+          "id": "2087434478276730999",
+          "type": "original",
+          "timestamp": "2026-08-12T07:02:16.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087434478276730999",
+          "textSnippet": "Good. \n\nNow we need action. Tax fossil fuel giants to pay for firefighting helicopters. A cool space in every community. A maximum working temperature. \n\nAnd no new oil and gas extraction in the North Sea. We cannot negotiate with the science."
         },
         {
-          "id": "2087605742299746420",
-          "type": "retweet",
-          "timestamp": "2026-08-12T18:22:49.000Z",
-          "url": "https://x.com/ScottishCND/status/2087605742299746420",
-          "textSnippet": "Yes disposable BBQs are to blame for there being no rain in London for 45 days and drought across 70% of England.\n\nGood to see the adults REMAIN in the room!"
+          "id": "2087434488015884566",
+          "type": "original",
+          "timestamp": "2026-08-12T07:02:19.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087434488015884566",
+          "textSnippet": "Climate breakdown isn't just costing lives, it's scorching our economy. \n\nWe need to redesign our economy for a hotter climate, and make oil and gas firms pay."
         },
         {
-          "id": "2087615289496121479",
-          "type": "retweet",
-          "timestamp": "2026-08-12T19:00:45.000Z",
-          "url": "https://x.com/novaramedia/status/2087615289496121479",
-          "textSnippet": "A series of dodgy donations."
+          "id": "2087597602732716516",
+          "type": "reply",
+          "timestamp": "2026-08-12T17:50:28.000Z",
+          "url": "https://x.com/ZackPolanski/status/2087597602732716516",
+          "textSnippet": "What misinformation is there?"
         },
         {
           "id": "2087633322910310483",
@@ -111,34 +111,6 @@
           "timestamp": "2026-08-12T20:17:09.000Z",
           "url": "https://x.com/ZackPolanski/status/2087634516781223979",
           "textSnippet": "This is why Labour taking so much money  from companies linked with fossil fuel industry is so disastrous.\n\nRather than serve our communities & our planet - they allow climate destruction to continue.\n\nLabour don't even want to talk about the climate crisis - let alone tackle it."
-        },
-        {
-          "id": "2087635286662533600",
-          "type": "original",
-          "timestamp": "2026-08-12T20:20:13.000Z",
-          "url": "https://x.com/ZackPolanski/status/2087635286662533600",
-          "textSnippet": "If this makes you as angry as it should: take some action.\n\n\nhttp://\nJoin.greenparty.org.uk"
-        },
-        {
-          "id": "2087639709895852164",
-          "type": "retweet",
-          "timestamp": "2026-08-12T20:37:47.000Z",
-          "url": "https://x.com/ScotNational/status/2087639709895852164",
-          "textSnippet": "EXCLUSIVE: The BBC is 'failing' the public in its climate reporting, Green Party leader Zack Polanski has said\n\nIt comes after the broadcaster opted not to stream his press conference about people facing drought last week \n\n\n@BrawnJourno\n  "
-        },
-        {
-          "id": "2087641125603459523",
-          "type": "retweet",
-          "timestamp": "2026-08-12T20:43:25.000Z",
-          "url": "https://x.com/sp4rkl3jumpr0p3/status/2087641125603459523",
-          "textSnippet": "The right moment in time to halt oil and gas was 30 odd years ago \n\nWe have had DECADES in full knowledge that we need to stop using fossil fuels soon and invest in green infrastructure instead \n\nTimes up"
-        },
-        {
-          "id": "2087645565207150929",
-          "type": "original",
-          "timestamp": "2026-08-12T21:01:03.000Z",
-          "url": "https://x.com/ZackPolanski/status/2087645565207150929",
-          "textSnippet": "Water nationalisation for our water security?\n\nEnd north sea oil & gas - invest in renewables for our energy security?\n\nA maximum workplace temperature for worker security?\n\nNo. A request not to sell BBQs.\n\nThis is dire from Andy Burnham. Spectacularly mishandling the crisis."
         }
       ]
     },

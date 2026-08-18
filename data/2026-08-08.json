@@ -66,10 +66,25 @@
       "counts": {
         "original": 0,
         "retweet": 0,
-        "reply": 0,
-        "total": 0
+        "reply": 2,
+        "total": 2
       },
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2086010315007828454",
+          "type": "reply",
+          "timestamp": "2026-08-08T08:43:09.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086010315007828454",
+          "textSnippet": "You're gonna be amazed when you discover trains...."
+        },
+        {
+          "id": "2086215264341754276",
+          "type": "reply",
+          "timestamp": "2026-08-08T22:17:33.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086215264341754276",
+          "textSnippet": ""
+        }
+      ]
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",

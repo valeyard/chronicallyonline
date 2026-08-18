@@ -64,10 +64,10 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 6,
+        "original": 4,
         "retweet": 0,
-        "reply": 0,
-        "total": 6
+        "reply": 1,
+        "total": 5
       },
       "tweets": [
         {
@@ -99,15 +99,8 @@
           "textSnippet": "Drilling for oil and gas will absolutely not lower bills. It's sold on the international market.\n\nAnd the idea of this being for jobs is utter nonsense. Jackdaw would create about 27 jobs.\n\nSo when is the moment Andy Burnham will take the heatwaves & the climate crisis seriously?"
         },
         {
-          "id": "2087942577450266662",
-          "type": "original",
-          "timestamp": "2026-08-13T16:41:17.000Z",
-          "url": "https://x.com/Ed_Miliband/status/2087942577450266662",
-          "textSnippet": "These heatwaves are sending us a message."
-        },
-        {
           "id": "2087957199389954278",
-          "type": "original",
+          "type": "reply",
           "timestamp": "2026-08-13T17:39:23.000Z",
           "url": "https://x.com/ZackPolanski/status/2087957199389954278",
           "textSnippet": "Say no to more drilling for North Sea oil and gas."

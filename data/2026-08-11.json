@@ -64,34 +64,12 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 1,
-        "retweet": 2,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087234865317998653",
-          "type": "retweet",
-          "timestamp": "2026-08-11T17:49:05.000Z",
-          "url": "https://x.com/ScotNational/status/2087234865317998653",
-          "textSnippet": "Zack Polanski has called out the BBC’s coverage of Reform UK press conferences, but will it change the mainstream media's approach? \n\nIt's one of the topics reporters \n@BrawnJourno\n and \n@LucyAJackson_\n get their teeth into on this week's Media Watch podcast "
-        },
-        {
-          "id": "2087252912388936185",
-          "type": "retweet",
-          "timestamp": "2026-08-11T19:00:48.000Z",
-          "url": "https://x.com/BylineTimes/status/2087252912388936185",
-          "textSnippet": " ICYMI — Zack Polanski Promotes Radical Plan to Break Up Britain’s ‘Billionaire Media’ — \n@josiahmortimer\n\n\nGreen leader throws weight behind Media Sovereignty Act campaign to stop press barons \"literally buying democracy\"\n\n"
-        },
-        {
-          "id": "2087269080596140372",
-          "type": "original",
-          "timestamp": "2026-08-11T20:05:03.000Z",
-          "url": "https://x.com/ZackPolanski/status/2087269080596140372",
-          "textSnippet": "Genocide.\n\nCall it what it is and stop selling them arms licences."
-        }
-      ]
+      "tweets": []
     },
     "dave-doogan": {
       "handle": "DaveDooganSNP",

@@ -64,53 +64,53 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 0,
-        "retweet": 6,
+        "original": 6,
+        "retweet": 0,
         "reply": 0,
         "total": 6
       },
       "tweets": [
         {
-          "id": "2086822179694317968",
-          "type": "retweet",
-          "timestamp": "2026-08-10T14:29:13.000Z",
-          "url": "https://x.com/LeftieStats/status/2086822179694317968",
-          "textSnippet": " Norfolk PCC by-election in Norwich:\n\n Grn: 35% ( +6 )\n Lab: 20% ( -26 )\n Ref: 14% ( +14 )\n Ind: 12% ( +12 )\n Con: 8% ( -8 )\n Lib: 7% ( -3 )\n Res: 6% ( +6 )\n\nThis marks the first time that Greens have won the popular vote in a local authority in a PCC election."
+          "id": "2086719019369869522",
+          "type": "original",
+          "timestamp": "2026-08-10T07:39:18.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086719019369869522",
+          "textSnippet": "Government says they're focused on \"providing stability\" through oil and gas.\n\nAn absolute dereliction of first duty to keep us safe.\n\nIt won't boost the economy for the people but further obscene profits for fossil fuel companies & their shareholders."
         },
         {
-          "id": "2086838401353826370",
-          "type": "retweet",
-          "timestamp": "2026-08-10T15:33:41.000Z",
-          "url": "https://x.com/DanielKebedeNEU/status/2086838401353826370",
-          "textSnippet": "Schools have been left to find £460 million from existing budgets to cover teacher pay awards. \n\nThat means hard choices for schools. \n\nThe government still has time to do the right thing. Fully fund teacher pay, protect school budgets and give children and young people the"
+          "id": "2086719655926739393",
+          "type": "original",
+          "timestamp": "2026-08-10T07:41:50.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086719655926739393",
+          "textSnippet": "We're about to go into our fifth heatwave with already thousands of people dead.\n\nCalling a COBR meeting was not sufficient - just first necessary one to make a plan of action.\n\nThey're not even doing the basics to keep us safe. Yet are prepared to make everything much worse."
         },
         {
-          "id": "2086874404265279905",
-          "type": "retweet",
-          "timestamp": "2026-08-10T17:56:44.000Z",
-          "url": "https://x.com/Shambles151/status/2086874404265279905",
-          "textSnippet": "Andy Burnham has still not lifted Yvette Cooper's proscription which sees thousands of good people arrested as terrorists just for holding placards.  \n\nPlease RT this until the Labour Govt which inflicted it (but incredibly still expects our votes)  - lifts it.\n\nThank you."
+          "id": "2086720239224471656",
+          "type": "original",
+          "timestamp": "2026-08-10T07:44:09.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086720239224471656",
+          "textSnippet": "This is not something where we get many second chances.\n\nEvery moment of delay all mounts up to much bigger problems in future years that will make this summer look easy.\n\nWe must keep the pressure on for Andy Burnham and the Government to finally do the right thing."
         },
         {
-          "id": "2086891254906789930",
-          "type": "retweet",
-          "timestamp": "2026-08-10T19:03:42.000Z",
-          "url": "https://x.com/BareLeft/status/2086891254906789930",
-          "textSnippet": "Andy, let me put it this way:\n\nA £5 recurring subscription that's difficult to get out of is annoying.\n\nNearly 50% of my income going on rent alone is existential."
+          "id": "2086721002377994426",
+          "type": "original",
+          "timestamp": "2026-08-10T07:47:11.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086721002377994426",
+          "textSnippet": "I made clear in my press conference last week, this needs to be treated for the serious crisis it is, with financial support for homes to keep cool and for fossil fuel giants to pay the costs of extreme weather adaptation."
         },
         {
-          "id": "2086898747846328414",
-          "type": "retweet",
-          "timestamp": "2026-08-10T19:33:28.000Z",
-          "url": "https://x.com/DarrenBar88/status/2086898747846328414",
-          "textSnippet": "Sums up Burnham's vibes and nothing-much-else brand of politics."
+          "id": "2086851739207041195",
+          "type": "original",
+          "timestamp": "2026-08-10T16:26:41.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086851739207041195",
+          "textSnippet": "More unbelievable is that I've asked Sadiq Khan several times over years whether the government should nationalise Thames Water and he's never said \"Yes.\"\n\nSo less hand wringing and more change."
         },
         {
-          "id": "2086924503339159714",
-          "type": "retweet",
-          "timestamp": "2026-08-10T21:15:49.000Z",
-          "url": "https://x.com/TheCanaryUK/status/2086924503339159714",
-          "textSnippet": "Green Party leader \n@ZackPolanski\n blasts BBC's pro-Reform bias after a Newsnight ambush and press conference snub.\n\n\n@cjmbaillie\n reports."
+          "id": "2086851875442204720",
+          "type": "original",
+          "timestamp": "2026-08-10T16:27:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086851875442204720",
+          "textSnippet": "Here's my conversation with Fergal Sharkey who lays out how it can be done."
         }
       ]
     },

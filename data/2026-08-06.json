@@ -65,129 +65,24 @@
       "status": "ok",
       "counts": {
         "original": 2,
-        "retweet": 15,
+        "retweet": 0,
         "reply": 0,
-        "total": 17
+        "total": 2
       },
       "tweets": [
         {
-          "id": "2085349593286390188",
-          "type": "retweet",
-          "timestamp": "2026-08-06T12:57:41.000Z",
-          "url": "https://x.com/ProfBillMcGuire/status/2085349593286390188",
-          "textSnippet": "\"EVERY SINGLE English water body is polluted with toxic chemicals\"\n\nI knew things were bad, but this beggars belief\n\n\n@andyburnham\n you must take swift and immediate action to tackle this latest assault on English nature"
-        },
-        {
-          "id": "2085351995511030064",
-          "type": "retweet",
-          "timestamp": "2026-08-06T13:07:14.000Z",
-          "url": "https://x.com/greenheroaf/status/2085351995511030064",
-          "textSnippet": "Tripling fossil fuel investments while the planet burns. Well, that says it all really."
-        },
-        {
-          "id": "2085352318015332546",
-          "type": "retweet",
-          "timestamp": "2026-08-06T13:08:31.000Z",
-          "url": "https://x.com/HarrietLamb_/status/2085352318015332546",
-          "textSnippet": "We are so much more powerful than any billionaire. So need your support. Influencing politics, winning elections, running campaigns on key issues such as nature or wealth taxes - it all takes funding. \nPlease consider donating:"
-        },
-        {
-          "id": "2085352510231859616",
-          "type": "retweet",
-          "timestamp": "2026-08-06T13:09:17.000Z",
-          "url": "https://x.com/cels1952/status/2085352510231859616",
-          "textSnippet": "This Whatever your political persuasion or none, is worth serious discussions and action..."
-        },
-        {
-          "id": "2085370106180243628",
-          "type": "retweet",
-          "timestamp": "2026-08-06T14:19:12.000Z",
-          "url": "https://x.com/TheNewsAgents/status/2085370106180243628",
-          "textSnippet": "\"You could never concoct in your mind such an extreme and elaborate sting.\n\n\"When I found out, I was like, this is legal?\"\n\n\n@officialtulisa\n tells \n@maitlis\n about The Sun campaign that nearly destroyed her life - and her petition to change the way newspapers are regulated."
-        },
-        {
-          "id": "2085380454182531285",
-          "type": "retweet",
-          "timestamp": "2026-08-06T15:00:19.000Z",
-          "url": "https://x.com/TheGreenParty/status/2085380454182531285",
-          "textSnippet": "\"It's clear to me that climate change is the single greatest threat to human security that we face\" - Carl Benfield, Army Veteran and Military Engineer speaking at the Extreme Heat Emergency press conference"
-        },
-        {
-          "id": "2085403300258558104",
-          "type": "retweet",
-          "timestamp": "2026-08-06T16:31:06.000Z",
-          "url": "https://x.com/C_C_Ioannou/status/2085403300258558104",
-          "textSnippet": "It's amazing but it shouldn't be - a political leader actually putting country before party "
-        },
-        {
-          "id": "2085403366117548093",
-          "type": "retweet",
-          "timestamp": "2026-08-06T16:31:22.000Z",
-          "url": "https://x.com/MrMatthewTodd/status/2085403366117548093",
-          "textSnippet": "What is so ongoingly disturbing about this is that the stakes are so incredibly high and Tom is just saying this on a whim. \n\nHe’s not actually interviewing scientists and trying to find out what they’re actually saying. \nHe’s just saying ‘this isn’t true’.\n\nPeople would not say"
-        },
-        {
-          "id": "2085410841189306410",
-          "type": "retweet",
-          "timestamp": "2026-08-06T17:01:04.000Z",
-          "url": "https://x.com/TheGreenParty/status/2085410841189306410",
-          "textSnippet": "\"It's a lot of audacity for Kemi Badenoch to wade into this debate when she comes from a Conservative Party that for 14 years have pushed prisons into overcrowding, committed austerity and not protected prison officers.\"\n\nZack Polanski on LBC responding to the debate over the"
-        },
-        {
-          "id": "2085430072102523336",
+          "id": "2085372085426127276",
           "type": "original",
-          "timestamp": "2026-08-06T18:17:29.000Z",
-          "url": "https://x.com/ZackPolanski/status/2085430072102523336",
-          "textSnippet": "We won't just talk about the need to end neoliberalism - we have a plan to make it happen.\n\nHelp us end Rip Off Britain and tackle the climate crisis.\n\nTogether we can continue to  build our movement & send a message to Labour that tinkering isn’t enough \n\n\nhttp://\nJoin.greenpart"
+          "timestamp": "2026-08-06T14:27:04.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085372085426127276",
+          "textSnippet": "I'm not sure it's accurate to say I've \"claimed it.\"\n\nThe climate crisis is killing people and only on track to get much worse seems pretty big and worth having a plan to tackle.\n\nI'm calling on the Government to have an emergency meeting and create a plan - and carry it out."
         },
         {
-          "id": "2085440092932550916",
-          "type": "retweet",
-          "timestamp": "2026-08-06T18:57:18.000Z",
-          "url": "https://x.com/MrMatthewTodd/status/2085440092932550916",
-          "textSnippet": "Chris Packham and Zac Polanski are right.\n\nThe climate crisis may be the thing that derails \n@andyburnham\n because as far as I can see almost no one in parliament understands the climate crisis. \n\nAlmost none of them understand the risk of food shortages. If that happens, the"
-        },
-        {
-          "id": "2085442129384616355",
-          "type": "retweet",
-          "timestamp": "2026-08-06T19:05:23.000Z",
-          "url": "https://x.com/sallonsax/status/2085442129384616355",
-          "textSnippet": "Zack did a whole press conference on it yesterday."
-        },
-        {
-          "id": "2085443816119808043",
-          "type": "retweet",
-          "timestamp": "2026-08-06T19:12:06.000Z",
-          "url": "https://x.com/DarrenBar88/status/2085443816119808043",
-          "textSnippet": "Let's do it!\n\n\nhttp://\nJoin.greenparty.org.uk"
-        },
-        {
-          "id": "2085455508266160303",
-          "type": "retweet",
-          "timestamp": "2026-08-06T19:58:33.000Z",
-          "url": "https://x.com/Vonni2/status/2085455508266160303",
-          "textSnippet": "Profiteering over life itself, not anymore. More people care about our planet than their greed. The strength of feeling in general is beyond politics we need real solutions. #Peopleandplanetfirst"
-        },
-        {
-          "id": "2085458753449828554",
-          "type": "retweet",
-          "timestamp": "2026-08-06T20:11:27.000Z",
-          "url": "https://x.com/McrGreenParty/status/2085458753449828554",
-          "textSnippet": "End Neoliberal Nonsense.\n\nBuild the Green Movement \n\n\nhttp://\njoin.greenparty.org.uk"
-        },
-        {
-          "id": "2085476025920581913",
+          "id": "2085373262586900851",
           "type": "original",
-          "timestamp": "2026-08-06T21:20:05.000Z",
-          "url": "https://x.com/ZackPolanski/status/2085476025920581913",
-          "textSnippet": "The Green Party stands for people over profit. \n\nOur natural assets are for us all.\n\nEnd the rip off. Water into public ownership. Now."
-        },
-        {
-          "id": "2085482202968547562",
-          "type": "retweet",
-          "timestamp": "2026-08-06T21:44:38.000Z",
-          "url": "https://x.com/joecguinan/status/2085482202968547562",
-          "textSnippet": "Burnham is already catastrophically failing the leadership test posed by climate crisis."
+          "timestamp": "2026-08-06T14:31:44.000Z",
+          "url": "https://x.com/ZackPolanski/status/2085373262586900851",
+          "textSnippet": "And that plan starts with taxing the fossil fuel giants who are making excess profits, cool spaces in every community to protect people and to nationalise the water companies to protect our vital water supply."
         }
       ]
     },

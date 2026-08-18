@@ -12,62 +12,12 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 3,
-        "retweet": 4,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 7
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083507464012505144",
-          "type": "original",
-          "timestamp": "2026-08-01T10:57:43.000Z",
-          "url": "https://x.com/ZackPolanski/status/2083507464012505144",
-          "textSnippet": "Loved this weeks episode with journalist & presenter Natasha Devon \n\nShe's just written a book called The Nuance Drought.\n\nDoes our politics still have space for nuance?"
-        },
-        {
-          "id": "2083630295362756850",
-          "type": "original",
-          "timestamp": "2026-08-01T19:05:49.000Z",
-          "url": "https://x.com/ZackPolanski/status/2083630295362756850",
-          "textSnippet": "The real question we should be asking about AI regulation is who benefits?\n\n Because right now it looks like it’s tech billionaires winning and not people & communities."
-        },
-        {
-          "id": "2083633653205103014",
-          "type": "retweet",
-          "timestamp": "2026-08-01T19:19:09.000Z",
-          "url": "https://x.com/Gabriel_Pogrund/status/2083633653205103014",
-          "textSnippet": "EXCLUSIVE\n\nNigel Farage struck secret deal for return as Reform leader months before election — challenging claim he wasn't involved in politics so didn't need to report gifts.\n\nIn May 24 he showed deal to treasurer, who tonight acknowledged its existence"
-        },
-        {
-          "id": "2083633852543619395",
-          "type": "original",
-          "timestamp": "2026-08-01T19:19:57.000Z",
-          "url": "https://x.com/ZackPolanski/status/2083633852543619395",
-          "textSnippet": "Been at Green Gathering the last few days - the atmosphere has been amazing!\n\nI've loved answering questions on the climate crisis, hope and how we grow our movement even further \n\nThanks for the amazing turnout, and sorry not everyone could get in!\n\n\nhttp://\nJoin.greenparty.org."
-        },
-        {
-          "id": "2083654138143952907",
-          "type": "retweet",
-          "timestamp": "2026-08-01T20:40:33.000Z",
-          "url": "https://x.com/Cornish_Rebel/status/2083654138143952907",
-          "textSnippet": "I’ve never felt anything like it. The anticipation was electric. We needed a bigger tent. The applause was deafening. And Zack blew us away! What a speaker! A speech full of hope and inspiration. \n\nVote Green for a better future.\n\n(That’s me in the corner!)\n#zackpolanski #GG"
-        },
-        {
-          "id": "2083656095126757864",
-          "type": "retweet",
-          "timestamp": "2026-08-01T20:48:20.000Z",
-          "url": "https://x.com/LizWebsterSBF/status/2083656095126757864",
-          "textSnippet": " SIGNIFICANT new Sun Times report! \n\nNigel Farage struck a secret deal to return as leader of Reform UK months before the general election. \n\nFarage has repeatedly argued that, until 3 June 2024, he was a broadcaster not a politician, and that this is why the £5m Harborne gift"
-        },
-        {
-          "id": "2083658934737342623",
-          "type": "retweet",
-          "timestamp": "2026-08-01T20:59:37.000Z",
-          "url": "https://x.com/implausibleblog/status/2083658934737342623",
-          "textSnippet": "Natasha Devon, \"If you look at GB News for example. Five people watch that channel. But, it's watched a lot online. Often by people who disagree with the content\"\n\n\"That is what they'll take to their shareholders as evidence of their reach\"\n\n\"What that means is, there's an"
-        }
-      ]
+      "tweets": []
     },
     "andy-burnham": {
       "handle": "andyburnham",

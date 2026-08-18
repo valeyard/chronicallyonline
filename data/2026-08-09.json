@@ -79,12 +79,26 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 2,
+        "original": 4,
         "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 4
       },
       "tweets": [
+        {
+          "id": "2086378396943081880",
+          "type": "original",
+          "timestamp": "2026-08-09T09:05:47.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086378396943081880",
+          "textSnippet": "A reality check to the Government on the climate crisis.\n\nHeatwaves this year estimated to have killed thousands of people.\n\nThe BBC didn't stream this emergency conference at all despite the urgency & their constant coverage of Reform - thank you to Sky."
+        },
+        {
+          "id": "2086379007591821784",
+          "type": "original",
+          "timestamp": "2026-08-09T09:08:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086379007591821784",
+          "textSnippet": "You can't help but wonder if the BBC's politics and news coverage is in a increasingly dire place when they can give days and days over to nonsense and Reforms demands - but don't cover the biggest threat to our national security that we have faced in our lifetimes."
+        },
         {
           "id": "2086521597519597917",
           "type": "original",
@@ -93,11 +107,11 @@
           "textSnippet": "I’ll keep pushing Sadiq Khan.\n\nHopefully he’ll keep pushing Andy Burnham.\n\nBut frankly, we’re about to have another heatwave, it’s ridiculous we’re still having this conversation.\n\nStop Rosebank & Jackdaw.\n\nLeave fossil fuels in the ground.\n\nInvest in renewables.\n\nLower bills."
         },
         {
-          "id": "2086526995274281443",
+          "id": "2086522040031252898",
           "type": "original",
-          "timestamp": "2026-08-09T18:56:16.000Z",
-          "url": "https://x.com/ZackPolanski/status/2086526995274281443",
-          "textSnippet": "The Labour Government have refused Green Party calls for a COBR meeting saying \"supply chains are resilient.\"\n\nThis is gross negligence.\n\nWe need to act now."
+          "timestamp": "2026-08-09T18:36:34.000Z",
+          "url": "https://x.com/ZackPolanski/status/2086522040031252898",
+          "textSnippet": "This is one of several conversations we've had about Rosebank & Jackdaw where the Mayor has refused to commit to pushing the Government.\n\nYou can't claim to want to tackle the climate crisis but endorse implicitly or explicitly drilling for oil & gas.\n\n\nhttps://\nlondon.gov.uk/who"
         }
       ]
     },

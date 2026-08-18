@@ -12,41 +12,12 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 2,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 4
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083100440921526543",
-          "type": "retweet",
-          "timestamp": "2026-07-31T08:00:21.000Z",
-          "url": "https://x.com/TheGreenParty/status/2083100440921526543",
-          "textSnippet": "As Europe burns, Shell has banked £7.4 billion in just three months.\n\nIt's time to make the biggest polluters pay."
-        },
-        {
-          "id": "2083181753041047694",
-          "type": "original",
-          "timestamp": "2026-07-31T13:23:28.000Z",
-          "url": "https://x.com/ZackPolanski/status/2083181753041047694",
-          "textSnippet": "A glimmer of hope. But hope isn't enough.\n\nThe UK must stop standing by while international law is torn apart. We must use every lever to end the genocide, end the occupation, stop illegal settlements, and deliver justice for Palestinians.\n\nWords don't save lives. Actions do."
-        },
-        {
-          "id": "2083182487086252291",
-          "type": "original",
-          "timestamp": "2026-07-31T13:26:23.000Z",
-          "url": "https://x.com/ZackPolanski/status/2083182487086252291",
-          "textSnippet": "Everywhere I look today I keep seeing: \n\n1) deadly wildfires ripping through our communities\n2) people desperately trying to get by as energy costs soar\n3) record oil & gas profits\n\nWhen will we see that these three things are connected?"
-        },
-        {
-          "id": "2083274836986433778",
-          "type": "retweet",
-          "timestamp": "2026-07-31T19:33:21.000Z",
-          "url": "https://x.com/TheGreenParty/status/2083274836986433778",
-          "textSnippet": "\"There is so much to celebrate. We've got some really impressive results in so many places, and a lot to be proud of.\"\n\nHannah Spencer MP on the Greater Manchester mayoral election."
-        }
-      ]
+      "tweets": []
     },
     "andy-burnham": {
       "handle": "andyburnham",
