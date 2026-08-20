@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-19",
+  "scrapedAt": "2026-08-20T05:20:21.991Z",
+  "range": {
+    "start": "2026-08-18T23:00:00.000Z",
+    "end": "2026-08-19T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2090111029543858671",
+          "type": "original",
+          "timestamp": "2026-08-19T16:17:56.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2090111029543858671",
+          "textSnippet": "Britain’s Net Zero experiment isn't working. \n\nHigher bills, more subsidies and British jobs sent to China, while ministers keep demanding more and more of the same.\n\nMy Shadow Energy Secretary \n@ClaireCoutinho\n is doing the work to show how you actually deliver lower bills, not"
+        },
+        {
+          "id": "2090111031846596685",
+          "type": "original",
+          "timestamp": "2026-08-19T16:17:57.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2090111031846596685",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 3,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2090070820231987445",
+          "type": "reply",
+          "timestamp": "2026-08-19T13:38:09.000Z",
+          "url": "https://x.com/ZackPolanski/status/2090070820231987445",
+          "textSnippet": "The image used is from June 2017.\n\nMay have escaped your notice but it's August 2026 and the country is scorched.\n\n(H/t \n@ta_mills\n)"
+        },
+        {
+          "id": "2090084788803674448",
+          "type": "reply",
+          "timestamp": "2026-08-19T14:33:40.000Z",
+          "url": "https://x.com/ZackPolanski/status/2090084788803674448",
+          "textSnippet": "That doesn't even make any sense."
+        },
+        {
+          "id": "2090092076775899161",
+          "type": "reply",
+          "timestamp": "2026-08-19T15:02:37.000Z",
+          "url": "https://x.com/ZackPolanski/status/2090092076775899161",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
