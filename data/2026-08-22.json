@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-22",
+  "scrapedAt": "2026-08-23T05:18:40.008Z",
+  "range": {
+    "start": "2026-08-21T23:00:00.000Z",
+    "end": "2026-08-22T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2091184293506629718",
+          "type": "original",
+          "timestamp": "2026-08-22T15:22:42.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2091184293506629718",
+          "textSnippet": "While our Prime Minister was making videos about which pork scratchings he likes best, Sir Jim Ratcliffe was rescuing Runcorn from the effects of the government’s own energy policy.\n\nThis plant helps keep our drinking water safe and supplies the chemicals used in medicines, power"
+        },
+        {
+          "id": "2091184296228790723",
+          "type": "original",
+          "timestamp": "2026-08-22T15:22:43.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2091184296228790723",
+          "textSnippet": "Today I'm launching the most detailed energy analysis ever produced in British politics.\n\nIt compares the cost of a Net Zero electricity grid to one that prioritises cheap power.\n\nThe Cheap Power system saves consumers £320 billion and is still 80% clean."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
