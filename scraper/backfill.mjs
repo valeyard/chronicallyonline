@@ -59,6 +59,15 @@ async function loadPoliticians() {
   return JSON.parse(raw);
 }
 
+async function pageMetrics(page) {
+  return page.evaluate(() => ({
+    scrollTop: Math.round(window.scrollY),
+    scrollHeight: document.documentElement.scrollHeight,
+    innerHeight: window.innerHeight,
+    articlesOnPage: document.querySelectorAll('article[data-testid="tweet"]').length,
+  }));
+}
+
 async function scrapeRange(page, url, { start, end }, expectedHandle) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
   await sleep(2000 + Math.random() * 1000);
@@ -111,6 +120,13 @@ async function scrapeRange(page, url, { start, end }, expectedHandle) {
     // skipping it for good since nothing re-checks that range later.
     await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.7));
     await sleep(1400 + Math.random() * 1000);
+
+    if (process.env.DEBUG_SCRAPE_DIR) {
+      const m = await pageMetrics(page);
+      console.log(
+        `  [scroll ${i + 1}] scrollTop=${m.scrollTop} scrollHeight=${m.scrollHeight} articlesOnPage=${m.articlesOnPage} newThisBatch=${newCount} uniqueSoFar=${seen.size}`,
+      );
+    }
   }
 
   if (process.env.DEBUG_SCRAPE_DIR) {
