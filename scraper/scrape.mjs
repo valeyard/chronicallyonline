@@ -109,13 +109,25 @@ async function scrapeTimeline(page, url, { start, end }, debugLabel) {
       consecutiveEmpty = 0;
     }
 
-    // page.mouse.wheel scrolls whatever is under the cursor, which defaults
-    // to (0,0) — not the timeline. Scroll the document directly instead.
-    // Step less than one full viewport so consecutive views overlap — X's
-    // timeline is virtualized (only renders near the viewport), and a big
-    // jump can land past content that hasn't finished loading yet, silently
-    // skipping it for good since nothing re-checks that range later.
-    await page.evaluate(() => window.scrollBy(0, window.innerHeight * 0.7));
+    // Fixed-pixel scrollBy assumes scrollTop means the same thing across
+    // consecutive polls, which breaks on this virtualized timeline: loading
+    // a new page of data causes X to correct earlier items' estimated
+    // heights, which can shift the whole layout under a stationary scrollTop
+    // value — confirmed via debug runs where scrollTop advanced by its usual
+    // ~630px between two polls, but the mounted window's timestamps jumped
+    // from Aug 6 straight to Jul 29, silently skipping ~9 days including
+    // 61 known retweets. Anchoring to the last article we actually saw
+    // instead of an absolute pixel offset makes each step relative to known
+    // content, so a layout shift elsewhere can't skip us past anything.
+    await page.evaluate(() => {
+      const articles = document.querySelectorAll('article[data-testid="tweet"]');
+      const last = articles[articles.length - 1];
+      if (last) {
+        last.scrollIntoView({ block: "end" });
+      } else {
+        window.scrollBy(0, window.innerHeight * 0.7);
+      }
+    });
     await sleep(1600 + Math.random() * 1200);
 
     const m = await pageMetrics(page);
