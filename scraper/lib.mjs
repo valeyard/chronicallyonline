@@ -65,6 +65,13 @@ export async function collectArticles(page, expectedHandle) {
       // reposts are exempted here and checked by their socialContext label
       // downstream (isRepostRecord) instead.
       const isRepost = Boolean(socialContextText && /repost/i.test(socialContextText));
+      // Diagnostic only: does the word "repost" appear ANYWHERE in a much
+      // wider ancestor than what socialContext actually searches? If this
+      // is ever true while isRepost is false, the label exists but has
+      // moved somewhere our selector doesn't reach — narrows down whether
+      // X changed the DOM location vs. changed the wording/testid entirely.
+      const wideAncestor = (cell && cell.parentElement) || cell || article;
+      const wideRepostTextFound = /repost/i.test(wideAncestor.innerText || "");
       const isOwn = expectedHandle
         ? isRepost || (Boolean(authorHandle) && authorHandle.toLowerCase() === expectedHandle.toLowerCase())
         : true;
@@ -99,6 +106,12 @@ export async function collectArticles(page, expectedHandle) {
             ? "parentElement"
             : "none",
         scopeTextSnippet: scopeText.slice(0, 200),
+        wideRepostTextFound,
+        // Diagnostic only: raw markup, to see what the current DOM actually
+        // looks like near the top of a timeline cell (attribute names,
+        // nesting) rather than inferring it through our own selectors,
+        // which may be stale if X changed something here.
+        cellHtmlSnippet: (cell ? cell.outerHTML : article.outerHTML || "").slice(0, 500),
       });
 
       // A repost's DOM author (the original poster) isn't a meaningful

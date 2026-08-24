@@ -114,6 +114,7 @@ async function scrapeRange(page, url, { start, end }, expectedHandle) {
   }
 
   if (process.env.DEBUG_SCRAPE_DIR) {
+    let htmlDumps = 0;
     for (const rec of seen.values()) {
       const kind = isPinnedRecord(rec)
         ? "pinned"
@@ -123,8 +124,12 @@ async function scrapeRange(page, url, { start, end }, expectedHandle) {
             ? "other-author"
             : "own";
       console.log(
-        `  [item] id=${rec.id} kind=${kind} author=${rec.authorHandle} isReply=${rec.isReply} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))} cellSrc=${rec.cellSource} scope=${JSON.stringify(rec.scopeTextSnippet)}`,
+        `  [item] id=${rec.id} kind=${kind} author=${rec.authorHandle} isReply=${rec.isReply} ts=${rec.timestamp} sc=${JSON.stringify((rec.socialContext || "").slice(0, 40))} cellSrc=${rec.cellSource} wideRepost=${rec.wideRepostTextFound} scope=${JSON.stringify(rec.scopeTextSnippet)}`,
       );
+      if (rec.wideRepostTextFound || htmlDumps < 5) {
+        console.log(`  [html] id=${rec.id} ${JSON.stringify(rec.cellHtmlSnippet)}`);
+        htmlDumps++;
+      }
     }
   }
 
