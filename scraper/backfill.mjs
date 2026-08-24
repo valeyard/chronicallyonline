@@ -82,6 +82,18 @@ async function scrapeRange(page, url, { start, end }, expectedHandle) {
 
   for (let i = 0; i < MAX_SCROLLS && Date.now() < deadline; i++) {
     const batch = await collectArticles(page, expectedHandle);
+
+    if (process.env.DEBUG_SCRAPE_DIR) {
+      // What's actually mounted in the DOM right now, before this
+      // iteration's scroll — lets us see whether a whole timestamp range
+      // ever appears at all (vs. mounting then getting virtualized away
+      // before the next poll) by comparing consecutive [poll] lines.
+      const tsList = batch.map((r) => r.timestamp).filter(Boolean).sort();
+      console.log(
+        `  [poll ${i + 1}] batchSize=${batch.length} tsMin=${tsList[0] || "-"} tsMax=${tsList[tsList.length - 1] || "-"}`,
+      );
+    }
+
     let newCount = 0;
     let hitOlder = false;
 
