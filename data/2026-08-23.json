@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-23",
+  "scrapedAt": "2026-08-24T05:28:36.216Z",
+  "range": {
+    "start": "2026-08-22T23:00:00.000Z",
+    "end": "2026-08-23T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2091599538368782594",
+          "type": "original",
+          "timestamp": "2026-08-23T18:52:44.000Z",
+          "url": "https://x.com/ZackPolanski/status/2091599538368782594",
+          "textSnippet": "This summer of hope, I’ve spoken to some epic crowds!\n\nAnd I keep hearing the same things:\n\nPeople want a party that will fight for wealth taxes, rent controls and our environment.\n\nAmazing to meet so many new members who signed up this weekend.\n\n\nhttp://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2091600712912519470",
+          "type": "original",
+          "timestamp": "2026-08-23T18:57:24.000Z",
+          "url": "https://x.com/ZackPolanski/status/2091600712912519470",
+          "textSnippet": "And a great time on \n@IainDale\n podcast All Talk up in Edinburgh - episode out soon!"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
