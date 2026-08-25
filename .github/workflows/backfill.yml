@@ -3,26 +3,42 @@ name: Historical backfill
 on:
   workflow_dispatch:
     inputs:
-      days:
-        description: "Number of days back from yesterday (ignored if 'since' is set)"
-        type: string
-        default: "7"
-      since:
-        description: "Start date YYYY-MM-DD (optional, overrides 'days')"
-        type: string
-        default: ""
-      until:
-        description: "End date YYYY-MM-DD (optional, defaults to yesterday)"
-        type: string
-        default: ""
-      only:
-        description: "Politician id or handle to limit to (optional, default: everyone)"
-        type: string
-        default: ""
+      andy_burnham:
+        description: "Andy Burnham (Labour)"
+        type: boolean
+        default: true
+      kemi_badenoch:
+        description: "Kemi Badenoch (Conservative)"
+        type: boolean
+        default: true
+      ed_davey:
+        description: "Ed Davey (Liberal Democrats)"
+        type: boolean
+        default: true
+      nigel_farage:
+        description: "Nigel Farage (Reform UK)"
+        type: boolean
+        default: true
+      zack_polanski:
+        description: "Zack Polanski (Green)"
+        type: boolean
+        default: true
+      dave_doogan:
+        description: "Dave Doogan (SNP)"
+        type: boolean
+        default: true
       force:
         description: "Re-scrape days that already have data"
         type: boolean
         default: false
+      since:
+        description: "Start date, YYYY-MM-DD (blank defaults to 14 days before 'until')"
+        type: string
+        default: ""
+      until:
+        description: "End date, YYYY-MM-DD (blank defaults to yesterday)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -58,11 +74,30 @@ jobs:
           if [ -n "${{ inputs.since }}" ]; then
             ARGS="--since=${{ inputs.since }}"
             if [ -n "${{ inputs.until }}" ]; then ARGS="$ARGS --until=${{ inputs.until }}"; fi
-          else
-            ARGS="--days=${{ inputs.days }}"
           fi
-          if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only=${{ inputs.only }}"; fi
           if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+
+          ONLY=""
+          if [ "${{ inputs.andy_burnham }}" = "true" ]; then ONLY="$ONLY,andyburnham"; fi
+          if [ "${{ inputs.kemi_badenoch }}" = "true" ]; then ONLY="$ONLY,KemiBadenoch"; fi
+          if [ "${{ inputs.ed_davey }}" = "true" ]; then ONLY="$ONLY,EdwardJDavey"; fi
+          if [ "${{ inputs.nigel_farage }}" = "true" ]; then ONLY="$ONLY,Nigel_Farage"; fi
+          if [ "${{ inputs.zack_polanski }}" = "true" ]; then ONLY="$ONLY,ZackPolanski"; fi
+          if [ "${{ inputs.dave_doogan }}" = "true" ]; then ONLY="$ONLY,DaveDooganSNP"; fi
+          ONLY="${ONLY#,}"
+
+          if [ -z "$ONLY" ]; then
+            echo "No politicians selected — nothing to do."
+            exit 1
+          fi
+
+          # Only pass --only when it's a strict subset — omitting it entirely
+          # for "everyone selected" keeps behavior identical to no filter.
+          SELECTED_COUNT=$(echo "$ONLY" | tr ',' '\n' | wc -l)
+          if [ "$SELECTED_COUNT" -lt 6 ]; then
+            ARGS="$ARGS --only=$ONLY"
+          fi
+
           echo "Running: node scraper/backfill.mjs $ARGS"
           node scraper/backfill.mjs $ARGS
         env:

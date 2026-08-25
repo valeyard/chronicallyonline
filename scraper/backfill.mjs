@@ -51,7 +51,10 @@ function parseArgs() {
   );
   const until = args.until || yesterdayLondonDateStr();
   const since = args.since || addDaysToDateStr(until, -(Number(args.days || 14) - 1));
-  return { since, until, force: args.force === "true", only: args.only || null };
+  const only = args.only
+    ? args.only.split(",").map((s) => s.trim()).filter(Boolean)
+    : null;
+  return { since, until, force: args.force === "true", only };
 }
 
 async function loadPoliticians() {
@@ -200,9 +203,9 @@ async function main() {
 
   let politicians = await loadPoliticians();
   if (only) {
-    politicians = politicians.filter((p) => p.id === only || p.handle === only);
+    politicians = politicians.filter((p) => only.includes(p.id) || only.includes(p.handle));
     if (politicians.length === 0) {
-      console.error(`[backfill] --only=${only} matched no one in config/politicians.json`);
+      console.error(`[backfill] --only=${only.join(",")} matched no one in config/politicians.json`);
       process.exit(1);
     }
   }
