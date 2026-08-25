@@ -81,6 +81,7 @@ async function scrapeRange(page, url, { start, end }, expectedHandle) {
 
   const seen = new Map();
   let consecutiveEmpty = 0;
+  let consecutiveHitOlder = 0;
   const deadline = Date.now() + MAX_MINUTES_PER_ACCOUNT * 60 * 1000;
 
   for (let i = 0; i < MAX_SCROLLS && Date.now() < deadline; i++) {
@@ -115,7 +116,18 @@ async function scrapeRange(page, url, { start, end }, expectedHandle) {
       }
     }
 
-    if (hitOlder) break;
+    // A low-volume account's very first, unscrolled DOM snapshot can already
+    // span a much wider date range than what's actually on screen — X
+    // appears to pre-render a batch of context (reply-thread parents,
+    // quoted posts) well beyond the viewport, and for a sparse poster that
+    // batch alone can reach back a month or more. Trusting hitOlder on that
+    // first poll breaks the loop before a single scroll has happened,
+    // silently dropping any in-window content that hadn't rendered yet —
+    // confirmed via a re-backfill that lost a known, previously-recorded
+    // retweet this way. Requiring it to hold for two consecutive polls
+    // gives scrolling a chance to surface that content first.
+    consecutiveHitOlder = hitOlder ? consecutiveHitOlder + 1 : 0;
+    if (consecutiveHitOlder >= 2) break;
     if (newCount === 0) {
       consecutiveEmpty++;
       if (consecutiveEmpty >= MAX_CONSECUTIVE_EMPTY_SCROLLS) break;
