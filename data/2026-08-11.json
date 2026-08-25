@@ -77,27 +77,12 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 1,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087149521390236076",
-          "type": "retweet",
-          "timestamp": "2026-08-11T12:09:57.000Z",
-          "url": "https://x.com/theSNP/status/2087149521390236076",
-          "textSnippet": "The UK no longer offers strength and stability, instead it offers a new Prime Minister every 1.5 years.\n\nNo wonder a majority of Scots now support real constitutional change - independence for Scotland."
-        },
-        {
-          "id": "2087174118525341798",
-          "type": "original",
-          "timestamp": "2026-08-11T13:47:42.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2087174118525341798",
-          "textSnippet": "“If Andy Burnham is actually serious about listening, he should start by living up to all the promises the Labour Party made to the public – and then rapidly broke – to get themselves into Downing Street.”"
-        }
-      ]
+      "tweets": []
     }
   }
 }

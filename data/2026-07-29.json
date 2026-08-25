@@ -107,20 +107,12 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2082455720079876238",
-          "type": "original",
-          "timestamp": "2026-07-29T13:18:28.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2082455720079876238",
-          "textSnippet": " \"All around us, small independent nations of a similar size are thriving in comparison to broken Britain – it’s time we took our place amongst them as an independent nation in the EU.\""
-        }
-      ]
+      "tweets": []
     }
   }
 }

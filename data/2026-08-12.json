@@ -121,19 +121,11 @@
       "status": "ok",
       "counts": {
         "original": 0,
-        "retweet": 1,
+        "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2087459261789900931",
-          "type": "retweet",
-          "timestamp": "2026-08-12T08:40:45.000Z",
-          "url": "https://x.com/StephenFlynnSNP/status/2087459261789900931",
-          "textSnippet": "Thanks for sharing the link Andrew.\n\nIt’s important that locals, businesses and commuters alike know that we are giving improvements to the A83 the attention it rightly deserves. \n\nThe Glen was looking spectacular. Not sure when you last got up so here’s a video for you ."
-        }
-      ]
+      "tweets": []
     }
   }
 }

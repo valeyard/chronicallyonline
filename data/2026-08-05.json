@@ -77,20 +77,12 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085031346288673133",
-          "type": "original",
-          "timestamp": "2026-08-05T15:53:05.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2085031346288673133",
-          "textSnippet": " Health Secretary Yvette Cooper has received £165,439 from donors linked to private healthcare, second only to Wes Streeting.\n\nAre Labour putting patients or private healthcare interests first?\n\n \n@TheSNP\n will always stand for an NHS based on need, not the ability to pay."
-        }
-      ]
+      "tweets": []
     }
   }
 }

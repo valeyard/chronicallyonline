@@ -77,34 +77,12 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 2,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 3
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2083138651333050393",
-          "type": "original",
-          "timestamp": "2026-07-31T10:32:11.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2083138651333050393",
-          "textSnippet": " \"𝘞𝘦𝘴𝘵𝘮𝘪𝘯𝘴𝘵𝘦𝘳 𝘮𝘶𝘴𝘵 𝘧𝘪𝘯𝘢𝘭𝘭𝘺 𝘭𝘪𝘴𝘵𝘦𝘯 - 𝘦𝘯𝘥 𝘵𝘩𝘦 𝘴𝘶𝘱𝘦𝘳𝘵𝘢𝘹 𝘰𝘯 𝘚𝘤𝘰𝘵𝘭𝘢𝘯𝘥’𝘴 𝘦𝘯𝘦𝘳𝘨𝘺 𝘢𝘯𝘥 𝘥𝘳𝘪𝘷𝘦 𝘪𝘯𝘷𝘦𝘴𝘵𝘮𝘦𝘯𝘵 𝘪𝘯 𝘵𝘩𝘦 𝘕𝘰𝘳𝘵𝘩 𝘚𝘦𝘢.”"
-        },
-        {
-          "id": "2083152177338417657",
-          "type": "original",
-          "timestamp": "2026-07-31T11:25:56.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2083152177338417657",
-          "textSnippet": " The Chinese super-embassy in central London has now been cleared for construction.\n\n Earlier this year, Labour blocked a £1.5bn turbine plant in the Highlands, costing up to 1,500 jobs, claiming it was about \"national security\".\n\n If one is too risky, why isn't the other?"
-        },
-        {
-          "id": "2083156273386659869",
-          "type": "retweet",
-          "timestamp": "2026-07-31T11:42:13.000Z",
-          "url": "https://x.com/StephenFlynnSNP/status/2083156273386659869",
-          "textSnippet": "Few in Aberdeen will be shocked by this, but there will be fury that more uncertainty is being piled on to our city and its world class workforce. \n\nThe workforce, our collective energy security and our economy needs protected by those who hold the levers of power in London."
-        }
-      ]
+      "tweets": []
     }
   }
 }

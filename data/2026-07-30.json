@@ -100,27 +100,12 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 2,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 2
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2082737963281346872",
-          "type": "original",
-          "timestamp": "2026-07-30T08:00:00.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2082737963281346872",
-          "textSnippet": " I’m holding surgeries in 𝗙𝗼𝘄𝗹𝗶𝘀, 𝗞𝗶𝗿𝗿𝗶𝗲𝗺𝘂𝗶𝗿, 𝗠𝗲𝗶𝗴𝗹𝗲 𝗮𝗻𝗱 𝗕𝗹𝗮𝗶𝗿𝗴𝗼𝘄𝗿𝗶𝗲 today!\n\n To book an appointment or for more info email: dave.doogan.mp@parliament.uk\n\nOr call: 01307 804185"
-        },
-        {
-          "id": "2082866310124368032",
-          "type": "original",
-          "timestamp": "2026-07-30T16:30:00.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2082866310124368032",
-          "textSnippet": " Another busy (and blustery!) day out and about in Angus and the Perthshire Glens today, meeting constituents and holding surgeries today in Fowlis, Kirriemuir, Meigle and Blairgowrie."
-        }
-      ]
+      "tweets": []
     }
   }
 }

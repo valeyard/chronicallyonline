@@ -92,20 +92,12 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 1,
+        "original": 0,
         "retweet": 0,
         "reply": 0,
-        "total": 1
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2085394194995048897",
-          "type": "original",
-          "timestamp": "2026-08-06T15:54:55.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2085394194995048897",
-          "textSnippet": " \n@theSNP\n Scottish Government is reopening its care worker recruitment scheme, helping experienced displaced workers return to the sector and delivering up to 45,000 additional hours of care to communities every month."
-        }
-      ]
+      "tweets": []
     }
   }
 }

@@ -12,34 +12,12 @@
       "party": "Green",
       "status": "ok",
       "counts": {
-        "original": 2,
+        "original": 0,
         "retweet": 0,
-        "reply": 1,
-        "total": 3
+        "reply": 0,
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084297036950581288",
-          "type": "original",
-          "timestamp": "2026-08-03T15:15:12.000Z",
-          "url": "https://x.com/ZackPolanski/status/2084297036950581288",
-          "textSnippet": "Thank you to Green Gathering - such a wonderful weekend!\n\nI'll be at lots of other festivals this summer - we're building our movement and creating an alternative to the old party politics.\n\n\nhttp://\nJoin.greenparty.org.uk"
-        },
-        {
-          "id": "2084298211649261579",
-          "type": "original",
-          "timestamp": "2026-08-03T15:19:52.000Z",
-          "url": "https://x.com/ZackPolanski/status/2084298211649261579",
-          "textSnippet": "Up next this weekend is the Edinburgh Fringe where you can catch me live in conversation with Iain Dale.\n\n\nhttps://\nedfringe.com/tickets/whats-\non/iain-dale-all-talk-with-zack-polanski\n…"
-        },
-        {
-          "id": "2084298499915411769",
-          "type": "reply",
-          "timestamp": "2026-08-03T15:21:01.000Z",
-          "url": "https://x.com/ZackPolanski/status/2084298499915411769",
-          "textSnippet": "Great to meet you! "
-        }
-      ]
+      "tweets": []
     },
     "andy-burnham": {
       "handle": "andyburnham",
@@ -99,41 +77,12 @@
       "party": "SNP",
       "status": "ok",
       "counts": {
-        "original": 3,
-        "retweet": 1,
+        "original": 0,
+        "retweet": 0,
         "reply": 0,
-        "total": 4
+        "total": 0
       },
-      "tweets": [
-        {
-          "id": "2084315129097728373",
-          "type": "original",
-          "timestamp": "2026-08-03T16:27:06.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2084315129097728373",
-          "textSnippet": " Scotland is a world-class tourist destination!\n\nInternational visitors spent more than £4bil here in 2024.\n\n\n@TheSNP\n will continue to promote Brand Scotland whilst championing our outstanding hospitality and tourism sector by calling for UK Gov VAT on hospitality to be reduced."
-        },
-        {
-          "id": "2084322374086742285",
-          "type": "retweet",
-          "timestamp": "2026-08-03T16:55:53.000Z",
-          "url": "https://x.com/theSNP/status/2084322374086742285",
-          "textSnippet": " What is the point in writing a constitution for a union of nations if it doesn't set out the way for a nation to leave? Make it make sense.."
-        },
-        {
-          "id": "2084323350579441957",
-          "type": "original",
-          "timestamp": "2026-08-03T16:59:46.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2084323350579441957",
-          "textSnippet": " If Andy Burnham wants to talk about rewriting the rules, he cannot ignore the democratic right of the people of Scotland to choose their own future.\n\n You cannot claim to believe in devolution whilst declaring Scotland’s constitutional future as “off limits”."
-        },
-        {
-          "id": "2084338508408472040",
-          "type": "original",
-          "timestamp": "2026-08-03T18:00:00.000Z",
-          "url": "https://x.com/DaveDooganSNP/status/2084338508408472040",
-          "textSnippet": " We can only achieve Scotland’s full potential when we achieve full control, and we can only achieve full control with independence!"
-        }
-      ]
+      "tweets": []
     }
   }
 }
