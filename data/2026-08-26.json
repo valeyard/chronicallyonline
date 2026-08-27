@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-26",
+  "scrapedAt": "2026-08-27T15:57:19.930Z",
+  "range": {
+    "start": "2026-08-25T23:00:00.000Z",
+    "end": "2026-08-26T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 1,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2092497510833033489",
+          "type": "original",
+          "timestamp": "2026-08-26T06:20:57.000Z",
+          "url": "https://x.com/ZackPolanski/status/2092497510833033489",
+          "textSnippet": "The Green Party is reconnecting with its roots.\n\nThe same system that is poisoning our rivers is poisoning our minds.\n\nWe can & must: protect the planet while lowering people’s bills.\n\nInteresting discussion on where we’ve come from & where we grow next."
+        },
+        {
+          "id": "2092497762226934003",
+          "type": "original",
+          "timestamp": "2026-08-26T06:21:57.000Z",
+          "url": "https://x.com/ZackPolanski/status/2092497762226934003",
+          "textSnippet": "Join us and end Rip Off Britain:"
+        },
+        {
+          "id": "2092499282255364248",
+          "type": "reply",
+          "timestamp": "2026-08-26T06:28:00.000Z",
+          "url": "https://x.com/ZackPolanski/status/2092499282255364248",
+          "textSnippet": "You're welcome."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
