@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-28",
+  "scrapedAt": "2026-08-29T11:23:39.572Z",
+  "range": {
+    "start": "2026-08-27T23:00:00.000Z",
+    "end": "2026-08-28T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2093421151490126079",
+          "type": "reply",
+          "timestamp": "2026-08-28T19:31:11.000Z",
+          "url": "https://x.com/ZackPolanski/status/2093421151490126079",
+          "textSnippet": "Just like the Labour Government - this isn't going to go well for you..."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2093403402416099524",
+          "type": "original",
+          "timestamp": "2026-08-28T18:20:39.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2093403402416099524",
+          "textSnippet": "No. Unlike the Labour Party and the Tories, the SNP would never do a deal with Reform. \n\nMy point is we will demand Westminster respects Scotland’s democratic right to choose our own future whoever is in government."
+        },
+        {
+          "id": "2093407172868673888",
+          "type": "original",
+          "timestamp": "2026-08-28T18:35:38.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2093407172868673888",
+          "textSnippet": "The very real threat of a Nigel Farage Reform UK government makes it all the more important that Scotland has a choice over our future with an independence referendum.\n\nIndeed, voting SNP is the only way to lock Nigel Farage out of power in Scotland & secure indyref"
+        }
+      ]
+    }
+  }
+}
