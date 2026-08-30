@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-29",
+  "scrapedAt": "2026-08-30T10:09:52.995Z",
+  "range": {
+    "start": "2026-08-28T23:00:00.000Z",
+    "end": "2026-08-29T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2093617508863316085",
+          "type": "original",
+          "timestamp": "2026-08-29T08:31:26.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2093617508863316085",
+          "textSnippet": "Parliament returns next week, and we'll see if Andy Burnham is a man of action or just vibes.  Either way, I'll be there to hold him to account.\n\nHe can start on Tuesday by stopping Labour’s early-release programme.  The horrific A66 crash shows what happens when criminals"
+        },
+        {
+          "id": "2093617511094718839",
+          "type": "original",
+          "timestamp": "2026-08-29T08:31:26.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2093617511094718839",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2093620982346903750",
+          "type": "reply",
+          "timestamp": "2026-08-29T08:45:14.000Z",
+          "url": "https://x.com/ZackPolanski/status/2093620982346903750",
+          "textSnippet": "Maybe you need to tweak yours. "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
