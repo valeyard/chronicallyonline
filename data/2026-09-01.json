@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-01",
+  "scrapedAt": "2026-09-02T09:09:44.042Z",
+  "range": {
+    "start": "2026-08-31T23:00:00.000Z",
+    "end": "2026-09-01T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 0,
+        "reply": 0,
+        "total": 5
+      },
+      "tweets": [
+        {
+          "id": "2094730752327860303",
+          "type": "original",
+          "timestamp": "2026-09-01T10:15:04.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2094730752327860303",
+          "textSnippet": "I've written to the Prime Minister ahead of his first statement later today, with a clear message:\n\nOur politics is broken and we can’t fix our country until we fix our politics."
+        },
+        {
+          "id": "2094730754450239733",
+          "type": "original",
+          "timestamp": "2026-09-01T10:15:04.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2094730754450239733",
+          "textSnippet": "Over the past decade how many “ten year plans” have we had? We’ve had PM after PM.\n\nSome even had good intentions, but all of them were trapped in a system that rewards failure, and stops them from taking the tough decisions to actually change things for the better."
+        },
+        {
+          "id": "2094730755855290588",
+          "type": "original",
+          "timestamp": "2026-09-01T10:15:05.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2094730755855290588",
+          "textSnippet": "We will do everything in our power - including supporting rebel Labour MPs – to make the PM remember what he said just a few years ago: “I don’t see how anyone could call this a properly functioning democratic system. It’s actually a national embarrassment.”"
+        },
+        {
+          "id": "2094730757352644784",
+          "type": "original",
+          "timestamp": "2026-09-01T10:15:05.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2094730757352644784",
+          "textSnippet": "We need to get corruption out of our system. We need to get big money out too. We desperately need electoral reform to get rid of a voting system that often protects the very politicians who broke our system in the first place."
+        },
+        {
+          "id": "2094730758883570171",
+          "type": "original",
+          "timestamp": "2026-09-01T10:15:05.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2094730758883570171",
+          "textSnippet": "But electoral reform is just one thread of what a Liberal vision means for this country. It is part of a wider change that gives power to the powerless and holds the already powerful to account."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
