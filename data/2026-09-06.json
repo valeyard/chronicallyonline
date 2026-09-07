@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-06",
+  "scrapedAt": "2026-09-07T09:48:53.345Z",
+  "range": {
+    "start": "2026-09-05T23:00:00.000Z",
+    "end": "2026-09-06T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2096631077699784806",
+          "type": "reply",
+          "timestamp": "2026-09-06T16:06:17.000Z",
+          "url": "https://x.com/andyburnham/status/2096631077699784806",
+          "textSnippet": "👌🏼"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2096516642750582841",
+          "type": "original",
+          "timestamp": "2026-09-06T08:31:33.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2096516642750582841",
+          "textSnippet": "14 years of Conservative failure. 2 years of broken promises from Starmer. Now Andy Burnham, with no mandate, wants you to wait another 10 years.\n\nTen years. That's Labour's offer.\n\nI'm asking for 100 days to turn our country around.\n\nRead Reform's plan to fix broken Britain. 👇"
+        },
+        {
+          "id": "2096516920719638616",
+          "type": "original",
+          "timestamp": "2026-09-06T08:32:39.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2096516920719638616",
+          "textSnippet": "Read the full plan here.\n\n👉 \nhttps://\nnigelfarage.substack.com/p/the-first-10\n0-days-of-a-reform-uk\n…"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 3,
+        "total": 5
+      },
+      "tweets": [
+        {
+          "id": "2096639261374050667",
+          "type": "reply",
+          "timestamp": "2026-09-06T16:38:48.000Z",
+          "url": "https://x.com/ZackPolanski/status/2096639261374050667",
+          "textSnippet": "Thank you!!! 💚"
+        },
+        {
+          "id": "2096666349179129886",
+          "type": "original",
+          "timestamp": "2026-09-06T18:26:26.000Z",
+          "url": "https://x.com/ZackPolanski/status/2096666349179129886",
+          "textSnippet": "I knew today was going to be big.\n\nI didn’t know we’d have so many volunteers that we’d leaflet the ENTIRE constituency in just two hours (!!) - 80,000 leaflets.\n\nAnd we got to speak to so many people on their doorsteps.\n\nThis is how we win this campaign.\n\nThank you, everyone. 🙏"
+        },
+        {
+          "id": "2096667980163871021",
+          "type": "original",
+          "timestamp": "2026-09-06T18:32:55.000Z",
+          "url": "https://x.com/ZackPolanski/status/2096667980163871021",
+          "textSnippet": "A full list of action days coming out very soon - in the meantime our donation link is live!\n\nRent controls. Water nationalisation. No new oil and gas."
+        },
+        {
+          "id": "2096710782486483063",
+          "type": "reply",
+          "timestamp": "2026-09-06T21:23:00.000Z",
+          "url": "https://x.com/ZackPolanski/status/2096710782486483063",
+          "textSnippet": "Thank you! 💚🙏🏽"
+        },
+        {
+          "id": "2096710950426673416",
+          "type": "reply",
+          "timestamp": "2026-09-06T21:23:40.000Z",
+          "url": "https://x.com/ZackPolanski/status/2096710950426673416",
+          "textSnippet": "Thank you!!! 💚🙏🏽"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
