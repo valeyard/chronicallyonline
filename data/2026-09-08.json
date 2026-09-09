@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-08",
+  "scrapedAt": "2026-09-09T09:16:41.256Z",
+  "range": {
+    "start": "2026-09-07T23:00:00.000Z",
+    "end": "2026-09-08T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2097245848971129209",
+          "type": "original",
+          "timestamp": "2026-09-08T08:49:09.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2097245848971129209",
+          "textSnippet": "Thuggery is never the answer. But the public is right to be angry about the Government’s inability to stop illegal immigration.\n\nBritain needs a serious deterrent and a serious plan to take back control of our borders.\n\nI set out my BORDERS plan in the Express 👇"
+        },
+        {
+          "id": "2097245850934141107",
+          "type": "original",
+          "timestamp": "2026-09-08T08:49:10.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2097245850934141107",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2097279838834868700",
+          "type": "original",
+          "timestamp": "2026-09-08T11:04:13.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2097279838834868700",
+          "textSnippet": "If my ministers fail, they will resign. If they refuse, I’ll sack them anyway.\n\nJeopardy breeds success. Failure will not be tolerated by a Reform government."
+        },
+        {
+          "id": "2097280050559115359",
+          "type": "original",
+          "timestamp": "2026-09-08T11:05:04.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2097280050559115359",
+          "textSnippet": "Watch my full interview here. 👇"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
