@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-09",
+  "scrapedAt": "2026-09-10T09:15:20.390Z",
+  "range": {
+    "start": "2026-09-08T23:00:00.000Z",
+    "end": "2026-09-09T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2097625890528047398",
+          "type": "original",
+          "timestamp": "2026-09-09T09:59:18.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2097625890528047398",
+          "textSnippet": "Burnham needs to decide which comes first - his party or his country.\n\nBy sanctioning Israel to appease Labour activists, he is putting our country’s security, alliances and medical supplies at risk.\n\nA Prime Minister’s first duty must be the safety of the British people.\n\nMore"
+        },
+        {
+          "id": "2097625892600094819",
+          "type": "original",
+          "timestamp": "2026-09-09T09:59:19.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2097625892600094819",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2097737046844412034",
+          "type": "original",
+          "timestamp": "2026-09-09T17:21:00.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2097737046844412034",
+          "textSnippet": "A big step forward for disabled young people and their carers today: the House of Lords passed our law to make it easier for them to access their Child Trust Funds.\n\nThis has been a long battle for me and many parents. I really hope Labour MPs don’t overturn our amendment."
+        },
+        {
+          "id": "2097737048463425896",
+          "type": "original",
+          "timestamp": "2026-09-09T17:21:01.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2097737048463425896",
+          "textSnippet": "I wrote about our 8-month fight to get John the money from his Child Trust Fund. No parents should have to go through this for their children, on top of all the other stresses and strains of caring."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
