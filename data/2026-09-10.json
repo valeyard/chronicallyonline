@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-10",
+  "scrapedAt": "2026-09-11T09:13:30.707Z",
+  "range": {
+    "start": "2026-09-09T23:00:00.000Z",
+    "end": "2026-09-10T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2097973252219965450",
+          "type": "original",
+          "timestamp": "2026-09-10T08:59:36.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2097973252219965450",
+          "textSnippet": "Yesterday Andy Burnham said the quiet part out loud: Labour puts welfare before national security.\n\nHe is going to tax workers to pay more benefits while neglecting our Armed Forces.\n\nMy plan reforms welfare and raises defence spending to 3% of GDP by 2030.\n\nHere’s how "
+        },
+        {
+          "id": "2097973254749094023",
+          "type": "original",
+          "timestamp": "2026-09-10T08:59:37.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2097973254749094023",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
