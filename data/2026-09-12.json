@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-12",
+  "scrapedAt": "2026-09-13T09:49:01.063Z",
+  "range": {
+    "start": "2026-09-11T23:00:00.000Z",
+    "end": "2026-09-12T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 5,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2098647292584530116",
+          "type": "original",
+          "timestamp": "2026-09-12T05:38:00.000Z",
+          "url": "https://x.com/ZackPolanski/status/2098647292584530116",
+          "textSnippet": "First big weekend starts today!\n\nThe Daily Mail being completely normal about the pressure Greens are putting on Labour.\n\nVote Green on October 8th "
+        },
+        {
+          "id": "2098648195714760966",
+          "type": "original",
+          "timestamp": "2026-09-12T05:41:35.000Z",
+          "url": "https://x.com/ZackPolanski/status/2098648195714760966",
+          "textSnippet": "All the ways to get involved here!"
+        },
+        {
+          "id": "2098802809969725582",
+          "type": "reply",
+          "timestamp": "2026-09-12T15:55:58.000Z",
+          "url": "https://x.com/ZackPolanski/status/2098802809969725582",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2098812939159433284",
+          "type": "reply",
+          "timestamp": "2026-09-12T16:36:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2098812939159433284",
+          "textSnippet": "Thank you and great to see you! "
+        },
+        {
+          "id": "2098829064593195242",
+          "type": "reply",
+          "timestamp": "2026-09-12T17:40:18.000Z",
+          "url": "https://x.com/ZackPolanski/status/2098829064593195242",
+          "textSnippet": "Thanks Jane! "
+        },
+        {
+          "id": "2098842603093418139",
+          "type": "reply",
+          "timestamp": "2026-09-12T18:34:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2098842603093418139",
+          "textSnippet": "Thank you, Andrew!"
+        },
+        {
+          "id": "2098875375182823909",
+          "type": "reply",
+          "timestamp": "2026-09-12T20:44:19.000Z",
+          "url": "https://x.com/ZackPolanski/status/2098875375182823909",
+          "textSnippet": "Thanks guys! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
