@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-13",
+  "scrapedAt": "2026-09-14T10:10:39.028Z",
+  "range": {
+    "start": "2026-09-12T23:00:00.000Z",
+    "end": "2026-09-13T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2099054539022229610",
+          "type": "original",
+          "timestamp": "2026-09-13T08:36:15.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2099054539022229610",
+          "textSnippet": "For weeks, we were told Andy Burnham would be “pragmatic” and approve Rosebank and Jackdaw.\n\nAs sure as night follows day, he delayed again. North Sea workers are back in limbo.\n\nBurnham must get serious and approve the licences now.\n\nMy piece in the Mail "
+        },
+        {
+          "id": "2099054540536303946",
+          "type": "original",
+          "timestamp": "2026-09-13T08:36:15.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2099054540536303946",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 4,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2099047028739256778",
+          "type": "reply",
+          "timestamp": "2026-09-13T08:06:24.000Z",
+          "url": "https://x.com/ZackPolanski/status/2099047028739256778",
+          "textSnippet": ""
+        },
+        {
+          "id": "2099051625935471070",
+          "type": "reply",
+          "timestamp": "2026-09-13T08:24:40.000Z",
+          "url": "https://x.com/ZackPolanski/status/2099051625935471070",
+          "textSnippet": "Thanks for your support, Ali!"
+        },
+        {
+          "id": "2099209243291508930",
+          "type": "reply",
+          "timestamp": "2026-09-13T18:50:59.000Z",
+          "url": "https://x.com/ZackPolanski/status/2099209243291508930",
+          "textSnippet": "Yes. I'll see you there!"
+        },
+        {
+          "id": "2099227507190890943",
+          "type": "reply",
+          "timestamp": "2026-09-13T20:03:34.000Z",
+          "url": "https://x.com/ZackPolanski/status/2099227507190890943",
+          "textSnippet": "Thanks you guys!!! "
+        },
+        {
+          "id": "2099252483235164347",
+          "type": "original",
+          "timestamp": "2026-09-13T21:42:48.000Z",
+          "url": "https://x.com/ZackPolanski/status/2099252483235164347",
+          "textSnippet": "This is utterly unacceptable.\n\nLabour said they were going to bring the feudal system of leasehold to an end.\n\nAnd now it all \"very much depends.\"\n\nLabour have a huge majority. What does it depend on?"
+        },
+        {
+          "id": "2099252976879534265",
+          "type": "original",
+          "timestamp": "2026-09-13T21:44:46.000Z",
+          "url": "https://x.com/ZackPolanski/status/2099252976879534265",
+          "textSnippet": "And yes -  to the tens of thousands of leaseholders in Holborn and St Pancras if you want an MP who will fight for you to push the Government to do what they promised in the first place - vote Green on October 8th."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
