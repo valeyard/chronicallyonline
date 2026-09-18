@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-17",
+  "scrapedAt": "2026-09-18T09:17:10.359Z",
+  "range": {
+    "start": "2026-09-16T23:00:00.000Z",
+    "end": "2026-09-17T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2100547894562447756",
+          "type": "original",
+          "timestamp": "2026-09-17T11:30:19.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2100547894562447756",
+          "textSnippet": "The threats we face here in the UK – from populism, from Trump, from Putin – are shared by our friends around the world.\n\nIt was great to join fellow leaders at Liberal International's Security Conference to discuss how we work together to defend liberal values."
+        },
+        {
+          "id": "2100547896143659088",
+          "type": "original",
+          "timestamp": "2026-09-17T11:30:19.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2100547896143659088",
+          "textSnippet": "You can read my speech in full here \n\nhttps://\nlibdems.substack.com/p/the-global-f\night-for-liberal-values\n…"
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 4,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2100580991102312470",
+          "type": "reply",
+          "timestamp": "2026-09-17T13:41:49.000Z",
+          "url": "https://x.com/ZackPolanski/status/2100580991102312470",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2100669418246172866",
+          "type": "reply",
+          "timestamp": "2026-09-17T19:33:12.000Z",
+          "url": "https://x.com/ZackPolanski/status/2100669418246172866",
+          "textSnippet": "Legends! "
+        },
+        {
+          "id": "2100669597955555588",
+          "type": "reply",
+          "timestamp": "2026-09-17T19:33:55.000Z",
+          "url": "https://x.com/ZackPolanski/status/2100669597955555588",
+          "textSnippet": ""
+        },
+        {
+          "id": "2100676842063593975",
+          "type": "reply",
+          "timestamp": "2026-09-17T20:02:42.000Z",
+          "url": "https://x.com/ZackPolanski/status/2100676842063593975",
+          "textSnippet": "Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
