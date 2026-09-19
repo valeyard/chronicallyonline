@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-18",
+  "scrapedAt": "2026-09-19T09:02:28.346Z",
+  "range": {
+    "start": "2026-09-17T23:00:00.000Z",
+    "end": "2026-09-18T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2100984138148782562",
+          "type": "original",
+          "timestamp": "2026-09-18T16:23:47.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2100984138148782562",
+          "textSnippet": "The establishment is attempting, by any means necessary, to starve Reform of funds.\n\nRead my latest Substack on the money that props up Labour and the Tories. "
+        },
+        {
+          "id": "2100984151415345530",
+          "type": "original",
+          "timestamp": "2026-09-18T16:23:50.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2100984151415345530",
+          "textSnippet": "Read all about it here.\n\n \nhttps://\nnigelfarage.substack.com/p/british-poli\ntics-is-awash-with-dirty\n…"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 3,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2100895779820904774",
+          "type": "reply",
+          "timestamp": "2026-09-18T10:32:41.000Z",
+          "url": "https://x.com/ZackPolanski/status/2100895779820904774",
+          "textSnippet": "Welcome! "
+        },
+        {
+          "id": "2100901088509460557",
+          "type": "reply",
+          "timestamp": "2026-09-18T10:53:47.000Z",
+          "url": "https://x.com/ZackPolanski/status/2100901088509460557",
+          "textSnippet": "Thank you Thelma! "
+        },
+        {
+          "id": "2101045590712836367",
+          "type": "reply",
+          "timestamp": "2026-09-18T20:27:59.000Z",
+          "url": "https://x.com/ZackPolanski/status/2101045590712836367",
+          "textSnippet": "Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2100971075299352900",
+          "type": "original",
+          "timestamp": "2026-09-18T15:31:53.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2100971075299352900",
+          "textSnippet": " 12 years since Indyref. 12 years of broken promises from the London establishment & their apologists in Scotland.\n\n Scotland’s future must be decided by Scotland. NOT Westminster.\n\n1/4"
+        },
+        {
+          "id": "2100971078998774175",
+          "type": "original",
+          "timestamp": "2026-09-18T15:31:54.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2100971078998774175",
+          "textSnippet": "2/4"
+        },
+        {
+          "id": "2100971083247567033",
+          "type": "original",
+          "timestamp": "2026-09-18T15:31:55.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2100971083247567033",
+          "textSnippet": "3/4"
+        },
+        {
+          "id": "2100971087559360823",
+          "type": "original",
+          "timestamp": "2026-09-18T15:31:56.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2100971087559360823",
+          "textSnippet": "4/4"
+        }
+      ]
+    }
+  }
+}
