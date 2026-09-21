@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-20",
+  "scrapedAt": "2026-09-21T10:16:16.423Z",
+  "range": {
+    "start": "2026-09-19T23:00:00.000Z",
+    "end": "2026-09-20T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2101598428081864712",
+          "type": "original",
+          "timestamp": "2026-09-20T09:04:45.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2101598428081864712",
+          "textSnippet": "Saudi Arabia's East-West oil pipeline has been damaged by drone attacks.  The strait of Hormuz is restricted, Houthi bandits threaten shipping routes into the Red Sea. Another oil shock is coming.\n\nYet our Prime Minister and his Cabinet are behaving like a flock of ostriches,"
+        },
+        {
+          "id": "2101598430342594889",
+          "type": "original",
+          "timestamp": "2026-09-20T09:04:46.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2101598430342594889",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2101693170048250031",
+          "type": "reply",
+          "timestamp": "2026-09-20T15:21:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2101693170048250031",
+          "textSnippet": "Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
