@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-22",
+  "scrapedAt": "2026-09-23T09:36:55.317Z",
+  "range": {
+    "start": "2026-09-21T23:00:00.000Z",
+    "end": "2026-09-22T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 2,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2102308971843387410",
+          "type": "original",
+          "timestamp": "2026-09-22T08:08:12.000Z",
+          "url": "https://x.com/ZackPolanski/status/2102308971843387410",
+          "textSnippet": "The language of 'defensive' support is a smokescreen: the PM has committed the UK to this conflict.\n\nThousands have been killed by the Saudi-led coalition. Weddings hit, markets destroyed. International Humanitarian Law breached.\n\nThe UK must not back the murderous Saudi regime."
+        },
+        {
+          "id": "2102308974758379826",
+          "type": "original",
+          "timestamp": "2026-09-22T08:08:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2102308974758379826",
+          "textSnippet": "Expansion of the UK's longstanding support for Saudi Arabia risks escalating the regional conflict - meaning more bloodshed, and making life less affordable at home as costs soar.\n\nThis Government should be seeking to cut the cost of living, not fuelling wars abroad."
+        },
+        {
+          "id": "2102494012498145646",
+          "type": "reply",
+          "timestamp": "2026-09-22T20:23:29.000Z",
+          "url": "https://x.com/ZackPolanski/status/2102494012498145646",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2102494352060649544",
+          "type": "reply",
+          "timestamp": "2026-09-22T20:24:50.000Z",
+          "url": "https://x.com/ZackPolanski/status/2102494352060649544",
+          "textSnippet": "Amazing job guys! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
