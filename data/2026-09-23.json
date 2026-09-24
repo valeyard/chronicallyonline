@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-23",
+  "scrapedAt": "2026-09-24T09:36:41.905Z",
+  "range": {
+    "start": "2026-09-22T23:00:00.000Z",
+    "end": "2026-09-23T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2102727304963137661",
+          "type": "original",
+          "timestamp": "2026-09-23T11:50:30.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2102727304963137661",
+          "textSnippet": "Piddington is not an immigration issue, it's a women's issue.\n\nEveryone should feel safe in their home. But the women I spoke to in Piddington are terrified, and the Government isn't listening.\n\nEnough is enough. We need to leave the ECHR, deport all illegal arrivals and protect"
+        },
+        {
+          "id": "2102775300526309736",
+          "type": "original",
+          "timestamp": "2026-09-23T15:01:13.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2102775300526309736",
+          "textSnippet": "Just spotted a missing word above. The first line should have said \"Piddington is not JUST an immigration issue\". This most definitely IS an immigration issue.... that's why I mention the ECHR and illegal arrivals in the same tweet.\n\nIt's ALSO a women's issue."
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2102878290604105743",
+          "type": "reply",
+          "timestamp": "2026-09-23T21:50:28.000Z",
+          "url": "https://x.com/ZackPolanski/status/2102878290604105743",
+          "textSnippet": "Thank you!  "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
