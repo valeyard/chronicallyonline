@@ -1,0 +1,174 @@
+{
+  "date": "2026-09-24",
+  "scrapedAt": "2026-09-25T09:53:36.163Z",
+  "range": {
+    "start": "2026-09-23T23:00:00.000Z",
+    "end": "2026-09-24T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2103052283583791323",
+          "type": "original",
+          "timestamp": "2026-09-24T09:21:51.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2103052283583791323",
+          "textSnippet": "Welfare should be a safety net for those in genuine need. It is not meant to be a comfortable option for people who can work.\n\nRead more in my piece in the \n@DailyMail"
+        },
+        {
+          "id": "2103052287438463288",
+          "type": "original",
+          "timestamp": "2026-09-24T09:21:52.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2103052287438463288",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 8,
+        "total": 10
+      },
+      "tweets": [
+        {
+          "id": "2103027830271381892",
+          "type": "reply",
+          "timestamp": "2026-09-24T07:44:41.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103027830271381892",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2103027881509036453",
+          "type": "reply",
+          "timestamp": "2026-09-24T07:44:53.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103027881509036453",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2103121782639120665",
+          "type": "reply",
+          "timestamp": "2026-09-24T13:58:01.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103121782639120665",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2103220258488328543",
+          "type": "original",
+          "timestamp": "2026-09-24T20:29:20.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103220258488328543",
+          "textSnippet": "We can win in Holborn & St Pancras\n\nBut we need your help on the streets to help make history. "
+        },
+        {
+          "id": "2103221558462312668",
+          "type": "reply",
+          "timestamp": "2026-09-24T20:34:30.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103221558462312668",
+          "textSnippet": "Thank you!  "
+        },
+        {
+          "id": "2103221591433953327",
+          "type": "reply",
+          "timestamp": "2026-09-24T20:34:38.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103221591433953327",
+          "textSnippet": "Yes! "
+        },
+        {
+          "id": "2103223607111381447",
+          "type": "reply",
+          "timestamp": "2026-09-24T20:42:38.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103223607111381447",
+          "textSnippet": "Thank you so much. See you there! "
+        },
+        {
+          "id": "2103223812204761379",
+          "type": "original",
+          "timestamp": "2026-09-24T20:43:27.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103223812204761379",
+          "textSnippet": "We need people every single day for the next two weeks *and* that final weekend is crucial!\n\nSign up and see you there!"
+        },
+        {
+          "id": "2103225370040250795",
+          "type": "reply",
+          "timestamp": "2026-09-24T20:49:38.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103225370040250795",
+          "textSnippet": "Thank you!  Rest up, well! "
+        },
+        {
+          "id": "2103230341993382087",
+          "type": "reply",
+          "timestamp": "2026-09-24T21:09:24.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103230341993382087",
+          "textSnippet": "Thank you so much! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
