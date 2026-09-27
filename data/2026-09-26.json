@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-26",
+  "scrapedAt": "2026-09-27T10:15:40.905Z",
+  "range": {
+    "start": "2026-09-25T23:00:00.000Z",
+    "end": "2026-09-26T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 7,
+        "total": 11
+      },
+      "tweets": [
+        {
+          "id": "2103829101299601532",
+          "type": "original",
+          "timestamp": "2026-09-26T12:48:39.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103829101299601532",
+          "textSnippet": "Thank you to the hundreds of volunteers for spreading our great energy across Holborn & St Pancras.\n\nThis election could not be closer and every single volunteer brings us  closer to electing our 6th Green MP.\n\nWe can win this election - but only together. Sunday sign up below!"
+        },
+        {
+          "id": "2103829106685051154",
+          "type": "original",
+          "timestamp": "2026-09-26T12:48:40.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103829106685051154",
+          "textSnippet": ""
+        },
+        {
+          "id": "2103840058927161691",
+          "type": "reply",
+          "timestamp": "2026-09-26T13:32:12.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103840058927161691",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2103881401607032951",
+          "type": "original",
+          "timestamp": "2026-09-26T16:16:29.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103881401607032951",
+          "textSnippet": "We're having the best time in Holborn & St Pancras!\n\nThe opportunity to win and push the Government on housing costs, tackling the climate crisis and for international justice. And so much more.\n\nWe can't stop now. This is it. Sign up for the final 12 days below "
+        },
+        {
+          "id": "2103881406061433287",
+          "type": "original",
+          "timestamp": "2026-09-26T16:16:30.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103881406061433287",
+          "textSnippet": "Sign up here "
+        },
+        {
+          "id": "2103885116644753737",
+          "type": "reply",
+          "timestamp": "2026-09-26T16:31:14.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103885116644753737",
+          "textSnippet": "Thank you!!! "
+        },
+        {
+          "id": "2103886364433358970",
+          "type": "reply",
+          "timestamp": "2026-09-26T16:36:12.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103886364433358970",
+          "textSnippet": "Voting Green in this election means you won't have a Labour MP, with a Labour council and a Labour Government.\n\nVote Green and I'll keep the Labour Government in check pushing them on rent controls, water nationalisation and tackling the climate crisis."
+        },
+        {
+          "id": "2103891034392473705",
+          "type": "reply",
+          "timestamp": "2026-09-26T16:54:45.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103891034392473705",
+          "textSnippet": "Have you been on the ground? The energy is amazing! "
+        },
+        {
+          "id": "2103934235908420075",
+          "type": "reply",
+          "timestamp": "2026-09-26T19:46:25.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103934235908420075",
+          "textSnippet": "Thank you so much. Such a trooper!! "
+        },
+        {
+          "id": "2103967394565677420",
+          "type": "reply",
+          "timestamp": "2026-09-26T21:58:11.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103967394565677420",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2103967556872675644",
+          "type": "reply",
+          "timestamp": "2026-09-26T21:58:50.000Z",
+          "url": "https://x.com/ZackPolanski/status/2103967556872675644",
+          "textSnippet": "Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
