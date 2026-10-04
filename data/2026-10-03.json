@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-03",
+  "scrapedAt": "2026-10-04T10:47:50.310Z",
+  "range": {
+    "start": "2026-10-02T23:00:00.000Z",
+    "end": "2026-10-03T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 8,
+        "total": 10
+      },
+      "tweets": [
+        {
+          "id": "2106299704870891668",
+          "type": "reply",
+          "timestamp": "2026-10-03T08:25:57.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106299704870891668",
+          "textSnippet": "Thanks Mark! "
+        },
+        {
+          "id": "2106302926918410412",
+          "type": "reply",
+          "timestamp": "2026-10-03T08:38:45.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106302926918410412",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2106303066387476597",
+          "type": "reply",
+          "timestamp": "2026-10-03T08:39:18.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106303066387476597",
+          "textSnippet": "Thank you!!! "
+        },
+        {
+          "id": "2106305916786094551",
+          "type": "reply",
+          "timestamp": "2026-10-03T08:50:38.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106305916786094551",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2106416131439276051",
+          "type": "original",
+          "timestamp": "2026-10-03T16:08:35.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106416131439276051",
+          "textSnippet": "Amazing day! Thanks everyone who came out to volunteer.\n\nIn Parliament I'll be pushing for Rent controls, water nationalisation, tackling the climate crisis and standing up for the people of Holborn & St Pancras.\n\nAnd the final picture wasn't on my bingo card but sure!"
+        },
+        {
+          "id": "2106417433263190471",
+          "type": "original",
+          "timestamp": "2026-10-03T16:13:46.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106417433263190471",
+          "textSnippet": "Join us on Sunday for our huge action day in Holborn & St Pancras:"
+        },
+        {
+          "id": "2106430894479233355",
+          "type": "reply",
+          "timestamp": "2026-10-03T17:07:15.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106430894479233355",
+          "textSnippet": "Thank you!!!  "
+        },
+        {
+          "id": "2106431895538172023",
+          "type": "reply",
+          "timestamp": "2026-10-03T17:11:14.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106431895538172023",
+          "textSnippet": "Thanks guys! "
+        },
+        {
+          "id": "2106480613435830724",
+          "type": "reply",
+          "timestamp": "2026-10-03T20:24:49.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106480613435830724",
+          "textSnippet": "Thank you!!! "
+        },
+        {
+          "id": "2106484019722346962",
+          "type": "reply",
+          "timestamp": "2026-10-03T20:38:21.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106484019722346962",
+          "textSnippet": "Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
