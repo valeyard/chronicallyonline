@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-04",
+  "scrapedAt": "2026-10-05T11:54:18.885Z",
+  "range": {
+    "start": "2026-10-03T23:00:00.000Z",
+    "end": "2026-10-04T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2106693121845154219",
+          "type": "original",
+          "timestamp": "2026-10-04T10:29:15.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2106693121845154219",
+          "textSnippet": "A government that doesn’t know what it believes will be buffeted by events and achieve little.\n\nBritain has been heading in the wrong direction because governments keep treating symptoms rather than causes - often trying to correct problems they themselves created.\n\nThe Right Way"
+        },
+        {
+          "id": "2106693125339230527",
+          "type": "original",
+          "timestamp": "2026-10-04T10:29:16.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2106693125339230527",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 4,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2106661924083486960",
+          "type": "reply",
+          "timestamp": "2026-10-04T08:25:17.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106661924083486960",
+          "textSnippet": "Thank you! See you soon! "
+        },
+        {
+          "id": "2106795560116076725",
+          "type": "reply",
+          "timestamp": "2026-10-04T17:16:18.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106795560116076725",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2106829422573527067",
+          "type": "reply",
+          "timestamp": "2026-10-04T19:30:51.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106829422573527067",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2106860898992160779",
+          "type": "reply",
+          "timestamp": "2026-10-04T21:35:56.000Z",
+          "url": "https://x.com/ZackPolanski/status/2106860898992160779",
+          "textSnippet": "Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
