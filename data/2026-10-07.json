@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-07",
+  "scrapedAt": "2026-10-08T11:40:04.985Z",
+  "range": {
+    "start": "2026-10-06T23:00:00.000Z",
+    "end": "2026-10-07T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2107751360712286683",
+          "type": "original",
+          "timestamp": "2026-10-07T08:34:19.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2107751360712286683",
+          "textSnippet": "3 years ago today, we witnessed the worst terror attack in Israeli history. \n\nHamas terrorists carried out a pogrom, murdering people because they were Jewish. \n\nWe must confront radical Islam and the antisemitism it spreads. \n\nMy thoughts are with the victims and their families."
+        },
+        {
+          "id": "2107751365456068646",
+          "type": "original",
+          "timestamp": "2026-10-07T08:34:20.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2107751365456068646",
+          "textSnippet": "October 7th revealed a darkness in Britain. We must fight it at every turn. \n\n \nhttps://\nnigelfarage.substack.com/p/october-7-re\nvealed-a-darkness-in\n…"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 4,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2107839463745327451",
+          "type": "original",
+          "timestamp": "2026-10-07T14:24:24.000Z",
+          "url": "https://x.com/ZackPolanski/status/2107839463745327451",
+          "textSnippet": "Previously unseen lobbying shows the oil and gas industry is misleading government on North Sea drilling.\n\nFor now, it looks like Burnham is listening to them. \n\nOnly a Green win tomorrow will force them to listen to us.\n\nNew analysis from \n@InfluenceMap\n "
+        },
+        {
+          "id": "2107839466215813478",
+          "type": "original",
+          "timestamp": "2026-10-07T14:24:25.000Z",
+          "url": "https://x.com/ZackPolanski/status/2107839466215813478",
+          "textSnippet": "Details here:"
+        },
+        {
+          "id": "2107844449187279356",
+          "type": "reply",
+          "timestamp": "2026-10-07T14:44:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2107844449187279356",
+          "textSnippet": "Thank you for your support and all you do! "
+        },
+        {
+          "id": "2107852112436634028",
+          "type": "reply",
+          "timestamp": "2026-10-07T15:14:40.000Z",
+          "url": "https://x.com/ZackPolanski/status/2107852112436634028",
+          "textSnippet": "Appreciated! "
+        },
+        {
+          "id": "2107873578083336347",
+          "type": "reply",
+          "timestamp": "2026-10-07T16:39:58.000Z",
+          "url": "https://x.com/ZackPolanski/status/2107873578083336347",
+          "textSnippet": "Really appreciated Richard. Thank you! "
+        },
+        {
+          "id": "2107919889440579788",
+          "type": "reply",
+          "timestamp": "2026-10-07T19:43:59.000Z",
+          "url": "https://x.com/ZackPolanski/status/2107919889440579788",
+          "textSnippet": "Thank you!!!  "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
