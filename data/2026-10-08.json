@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-08",
+  "scrapedAt": "2026-10-09T11:33:23.416Z",
+  "range": {
+    "start": "2026-10-07T23:00:00.000Z",
+    "end": "2026-10-08T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2108191292333150397",
+          "type": "reply",
+          "timestamp": "2026-10-08T13:42:27.000Z",
+          "url": "https://x.com/andyburnham/status/2108191292333150397",
+          "textSnippet": "I know this isn’t a silver bullet. It might help some people find cheaper fuel, but it doesn’t mean that’s all we’re doing to help people with the cost of living. \n\nWe’re cutting VAT on electricity bills. Capping bus fares at £2 in England. Giving disabled people 24/7 free bus"
+        }
+      ]
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 6,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2108108052868034680",
+          "type": "reply",
+          "timestamp": "2026-10-08T08:11:41.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108108052868034680",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2108155308136661493",
+          "type": "reply",
+          "timestamp": "2026-10-08T11:19:27.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108155308136661493",
+          "textSnippet": "Thank you!!! "
+        },
+        {
+          "id": "2108201973837070531",
+          "type": "reply",
+          "timestamp": "2026-10-08T14:24:53.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108201973837070531",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2108203522399310042",
+          "type": "reply",
+          "timestamp": "2026-10-08T14:31:02.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108203522399310042",
+          "textSnippet": "Thank you!  "
+        },
+        {
+          "id": "2108299198521049310",
+          "type": "reply",
+          "timestamp": "2026-10-08T20:51:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108299198521049310",
+          "textSnippet": "Thank you!!!  "
+        },
+        {
+          "id": "2108305480594661845",
+          "type": "reply",
+          "timestamp": "2026-10-08T21:16:11.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108305480594661845",
+          "textSnippet": "Thank you!!!  "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
