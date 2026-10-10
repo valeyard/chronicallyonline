@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-09",
+  "scrapedAt": "2026-10-10T10:51:30.012Z",
+  "range": {
+    "start": "2026-10-08T23:00:00.000Z",
+    "end": "2026-10-09T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2108417692940018029",
+          "type": "original",
+          "timestamp": "2026-10-09T04:42:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108417692940018029",
+          "textSnippet": "Congratulations to \n@Sagal_AW\n. I wish her the very best in representing this amazing place. \n\nI'm proud of the campaign we fought. To go from 10% to 33% of the vote share during the PM's 'bounce' is good - but our ambitions are far higher."
+        },
+        {
+          "id": "2108417697176273175",
+          "type": "original",
+          "timestamp": "2026-10-09T04:42:06.000Z",
+          "url": "https://x.com/ZackPolanski/status/2108417697176273175",
+          "textSnippet": "My job now is to focus on the future and drive the change we know we can make.\n\nOne in three voters backed us here, and we know that many more considered it. \n\nWe have an amazing opportunity to build to the next election - and we'll relentlessly focus on ending Rip Off Britain."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
