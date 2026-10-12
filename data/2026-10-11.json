@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-11",
+  "scrapedAt": "2026-10-12T12:31:46.752Z",
+  "range": {
+    "start": "2026-10-10T23:00:00.000Z",
+    "end": "2026-10-11T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2109233417741050298",
+          "type": "original",
+          "timestamp": "2026-10-11T10:43:29.000Z",
+          "url": "https://x.com/ZackPolanski/status/2109233417741050298",
+          "textSnippet": "Here's something the media is hardly talking about. \n\nThis Government is set to oversee the steepest fall in living standards in modern times - unless they change course fast. \n\nIn less than two weeks Labour faces a stark choice - will they tax wealth and back the majority?"
+        },
+        {
+          "id": "2109233420832297247",
+          "type": "original",
+          "timestamp": "2026-10-11T10:43:29.000Z",
+          "url": "https://x.com/ZackPolanski/status/2109233420832297247",
+          "textSnippet": "New research from \n@jrf_uk"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
