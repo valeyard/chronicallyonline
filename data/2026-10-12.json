@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-12",
+  "scrapedAt": "2026-10-13T12:15:36.700Z",
+  "range": {
+    "start": "2026-10-11T23:00:00.000Z",
+    "end": "2026-10-12T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2109573233385132300",
+          "type": "original",
+          "timestamp": "2026-10-12T09:13:47.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2109573233385132300",
+          "textSnippet": "For too long, successive governments have turned a blind eye to the huge damage caused by the Johnson-Farage Brexit deal. \n\nI really hope this marks a real turning point."
+        },
+        {
+          "id": "2109573236732428571",
+          "type": "original",
+          "timestamp": "2026-10-12T09:13:48.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2109573236732428571",
+          "textSnippet": "The Liberal Democrats have set out a concrete plan to join the single market and a customs union, so we can grow the economy and put money back in people's pockets with tax cuts."
+        },
+        {
+          "id": "2109573238816677952",
+          "type": "original",
+          "timestamp": "2026-10-12T09:13:48.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2109573238816677952",
+          "textSnippet": "Andy Burnham should drop Labour’s red lines and take up our plan now. We are willing to engage with anyone who shares our vision of fixing the broken relationship with Europe so we can strengthen Britain's economy and defences."
+        },
+        {
+          "id": "2109573242545717337",
+          "type": "original",
+          "timestamp": "2026-10-12T09:13:49.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2109573242545717337",
+          "textSnippet": "Every day and month we delay starting serious talks with the EU, we do more damage to our economy. \n\nLet's restore our trading links, tear down new barriers like Made in Europe and give our economy the growth and jobs boost businesses and people are crying out for."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2109694333112770868",
+          "type": "reply",
+          "timestamp": "2026-10-12T17:14:59.000Z",
+          "url": "https://x.com/ZackPolanski/status/2109694333112770868",
+          "textSnippet": "Awwww. Thanks Chas! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
