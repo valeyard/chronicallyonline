@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-14",
+  "scrapedAt": "2026-10-15T09:30:04.983Z",
+  "range": {
+    "start": "2026-10-13T23:00:00.000Z",
+    "end": "2026-10-14T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2110277641726992695",
+          "type": "original",
+          "timestamp": "2026-10-14T07:52:51.000Z",
+          "url": "https://x.com/ZackPolanski/status/2110277641726992695",
+          "textSnippet": "The worst squeeze in living standards since 1961.\n\nThe cost of renting to rise by 4% or 5% a year\n\nHousehold energy prices set to jump by £276\n\nWe need serious action not tweaks or half measures. That means "
+        },
+        {
+          "id": "2110277644025540615",
+          "type": "original",
+          "timestamp": "2026-10-14T07:52:52.000Z",
+          "url": "https://x.com/ZackPolanski/status/2110277644025540615",
+          "textSnippet": "1) An emergency brake on rents - rising by the LOWEST of CPI inflation, wage growth, or 2%.\n\n2) A commitment to protecting social security - not pitting people on benefits against spending on weapons. \n\n3) A green energy revolution now - cutting bills for everyone, forever."
+        },
+        {
+          "id": "2110372778096418848",
+          "type": "original",
+          "timestamp": "2026-10-14T14:10:53.000Z",
+          "url": "https://x.com/ZackPolanski/status/2110372778096418848",
+          "textSnippet": "I'm the only Jewish leader of a political party.\n\nI'm a victim of Antisemitism every day and I've made it clear Jewish people are welcome in my party.\n\nYou're a Prime Minister who arms a genocide and locks pensioners up for opposing it."
+        },
+        {
+          "id": "2110372781019808208",
+          "type": "original",
+          "timestamp": "2026-10-14T14:10:54.000Z",
+          "url": "https://x.com/ZackPolanski/status/2110372781019808208",
+          "textSnippet": "The dangerous & irresponsible blurring of challenging Israel & Antisemitism is deeply revealing.\n\nA Labour Government who apologised over their actions over Gaza is demonstrating that it was all performative. Andy Burnham still stands with Israel whilst it kills innocent people."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2110399356105093336",
+          "type": "original",
+          "timestamp": "2026-10-14T15:56:30.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2110399356105093336",
+          "textSnippet": " We were told reducing bills would be Andy Burnham's main priority but every major household bill has risen since he became Prime Minister - leaving many families thousands of pounds worse off."
+        },
+        {
+          "id": "2110399362023194857",
+          "type": "original",
+          "timestamp": "2026-10-14T15:56:31.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2110399362023194857",
+          "textSnippet": ""
+        }
+      ]
+    }
+  }
+}
