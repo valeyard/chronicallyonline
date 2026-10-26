@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-25",
+  "scrapedAt": "2026-10-26T10:36:43.345Z",
+  "range": {
+    "start": "2026-10-24T23:00:00.000Z",
+    "end": "2026-10-25T23:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2114369761283027154",
+          "type": "original",
+          "timestamp": "2026-10-25T14:53:28.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2114369761283027154",
+          "textSnippet": "Andy Burnham has time for Gogglebox. Does he have time to govern?\n\nThe Budget is where we discover what he believes, what his plan costs and who is going to pay for it.\n\nBeing convivial is no substitute for being in charge.\n\nMy piece in The Times"
+        },
+        {
+          "id": "2114369764529414625",
+          "type": "original",
+          "timestamp": "2026-10-25T14:53:29.000Z",
+          "url": "https://x.com/KemiBadenoch/status/2114369764529414625",
+          "textSnippet": ""
+        }
+      ]
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
