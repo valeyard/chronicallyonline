@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-30",
+  "scrapedAt": "2026-10-31T10:39:50.487Z",
+  "range": {
+    "start": "2026-10-30T00:00:00.000Z",
+    "end": "2026-10-31T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 1,
+        "total": 1
+      },
+      "tweets": [
+        {
+          "id": "2116222258347639172",
+          "type": "reply",
+          "timestamp": "2026-10-30T17:34:38.000Z",
+          "url": "https://x.com/ZackPolanski/status/2116222258347639172",
+          "textSnippet": "Very lovely of you. Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2116099166493708307",
+          "type": "original",
+          "timestamp": "2026-10-30T09:25:31.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2116099166493708307",
+          "textSnippet": " Andy Burnham's decision to replace standing charges with higher gas unit prices will push up energy bill costs in Scotland.\n\n Labour tried to pull the wool over the eyes of Scots, but no amount of trickery can hide the sky-high bills that people will be paying this winter!"
+        },
+        {
+          "id": "2116113573542052276",
+          "type": "original",
+          "timestamp": "2026-10-30T10:22:46.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2116113573542052276",
+          "textSnippet": ""
+        }
+      ]
+    }
+  }
+}
