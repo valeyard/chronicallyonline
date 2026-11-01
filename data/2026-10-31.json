@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-31",
+  "scrapedAt": "2026-11-01T11:34:16.078Z",
+  "range": {
+    "start": "2026-10-31T00:00:00.000Z",
+    "end": "2026-11-01T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 3,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2116638040764428800",
+          "type": "reply",
+          "timestamp": "2026-10-31T21:06:48.000Z",
+          "url": "https://x.com/ZackPolanski/status/2116638040764428800",
+          "textSnippet": "Thanks New York bot....glad you left Zohran for a moment!"
+        },
+        {
+          "id": "2116643427719004628",
+          "type": "reply",
+          "timestamp": "2026-10-31T21:28:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2116643427719004628",
+          "textSnippet": "This bot really needs some work!"
+        },
+        {
+          "id": "2116644591193718946",
+          "type": "reply",
+          "timestamp": "2026-10-31T21:32:50.000Z",
+          "url": "https://x.com/ZackPolanski/status/2116644591193718946",
+          "textSnippet": "There's no environmental justice without social, racial and economic justice."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
