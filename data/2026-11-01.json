@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-01",
+  "scrapedAt": "2026-11-02T12:55:54.619Z",
+  "range": {
+    "start": "2026-11-01T00:00:00.000Z",
+    "end": "2026-11-02T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2116847661970059561",
+          "type": "original",
+          "timestamp": "2026-11-01T10:59:46.000Z",
+          "url": "https://x.com/ZackPolanski/status/2116847661970059561",
+          "textSnippet": "You might look at this story & just think 'that's just what happens' but a government run for the benefit of corporations is oligarchy & we need to call it out.\n\nUntil that changes we will continue to see decisions made for private profit rather than the pubilc good."
+        },
+        {
+          "id": "2116847664457187488",
+          "type": "original",
+          "timestamp": "2026-11-01T10:59:46.000Z",
+          "url": "https://x.com/ZackPolanski/status/2116847664457187488",
+          "textSnippet": "This summer we saw nearly 3000 people die from extreme heat while wildfires raged across the country.\n\nThis is the crucial decade for climate action - yet Labour ministers are still holding cozy meetings with oil and gas bosses with alarming frequency."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2116931923960619179",
+          "type": "original",
+          "timestamp": "2026-11-01T16:34:36.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2116931923960619179",
+          "textSnippet": " \"This week made it crystal clear that Brexit Britain is broken beyond repair. The UK is at crisis point and Andy Burnham is failing to deliver the change he promised.\""
+        },
+        {
+          "id": "2116931929085706506",
+          "type": "original",
+          "timestamp": "2026-11-01T16:34:37.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2116931929085706506",
+          "textSnippet": ""
+        }
+      ]
+    }
+  }
+}
