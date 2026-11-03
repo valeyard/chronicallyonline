@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-02",
+  "scrapedAt": "2026-11-03T12:28:04.230Z",
+  "range": {
+    "start": "2026-11-02T00:00:00.000Z",
+    "end": "2026-11-03T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 5,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2117165746308477222",
+          "type": "reply",
+          "timestamp": "2026-11-02T08:03:43.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117165746308477222",
+          "textSnippet": "https://\nJoin.greenparty.org.uk (and vote Twinks!)"
+        },
+        {
+          "id": "2117282192401342616",
+          "type": "original",
+          "timestamp": "2026-11-02T15:46:26.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117282192401342616",
+          "textSnippet": "Israel killed eight people including a child in Gaza this weekend as they continue their genocide.\n\nAfter a weekend of arresting pensioners for protesting against this horror,  Labour has today collapsed local agreements putting Israel far above serving our local communities."
+        },
+        {
+          "id": "2117283593093353540",
+          "type": "original",
+          "timestamp": "2026-11-02T15:52:00.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117283593093353540",
+          "textSnippet": "Labour are trying to bully everyone into defending Genocide.\n\nThey made a phony apology, continue to sell arms licences to Israel and whip their MPs to defend it at all costs.\n\nWe will not cower. We will not be bullied from speaking the truth.\n\n\nhttps://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2117319815815700595",
+          "type": "reply",
+          "timestamp": "2026-11-02T18:15:56.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117319815815700595",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2117388789479854118",
+          "type": "reply",
+          "timestamp": "2026-11-02T22:50:01.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117388789479854118",
+          "textSnippet": "Awwwww thanks guys!;"
+        },
+        {
+          "id": "2117389737627361650",
+          "type": "reply",
+          "timestamp": "2026-11-02T22:53:47.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117389737627361650",
+          "textSnippet": "Fact check: Labour are arming a genocide.\n\nAndy Burnham and Ed Miliband offer apologies over Gaza - but continue to arm a genocide.\n\nLabour call those who oppose the genocide - even those of us who are Jewish - antisemitic.\n\nMore and more people see through this absolute charade."
+        },
+        {
+          "id": "2117389848398958626",
+          "type": "reply",
+          "timestamp": "2026-11-02T22:54:13.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117389848398958626",
+          "textSnippet": "Thank you! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2117232777284538647",
+          "type": "original",
+          "timestamp": "2026-11-02T12:30:05.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2117232777284538647",
+          "textSnippet": "The £5billion banked in the Labour budget from Scotland’s offshore industry must be used to reverse Labour's carbon capture betrayal.\n\nOur energy has been robbed, hidden and squandered by Westminster while Scottish jobs are ruined while our energy bills go through the roof!"
+        },
+        {
+          "id": "2117232844858863858",
+          "type": "original",
+          "timestamp": "2026-11-02T12:30:21.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2117232844858863858",
+          "textSnippet": ""
+        },
+        {
+          "id": "2117315805306134962",
+          "type": "original",
+          "timestamp": "2026-11-02T18:00:00.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2117315805306134962",
+          "textSnippet": " I was delighted to visit the Enchanted Forest last week to present Karen, Chair of the Enchanted Forest Community Trust, with a framed copy of EDM 1002, which I tabled to mark the Forest's 25th anniversary."
+        },
+        {
+          "id": "2117315805700407587",
+          "type": "original",
+          "timestamp": "2026-11-02T18:00:00.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2117315805700407587",
+          "textSnippet": " For a quarter of a century, the Enchanted Forest has welcomed thousands of visitors to Highland Perthshire, supported local charities and community projects, and generated millions for the local economy. Congratulations to everyone involved in making their success possible!"
+        }
+      ]
+    }
+  }
+}
