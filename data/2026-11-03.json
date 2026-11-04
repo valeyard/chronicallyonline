@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-03",
+  "scrapedAt": "2026-11-04T12:39:33.593Z",
+  "range": {
+    "start": "2026-11-03T00:00:00.000Z",
+    "end": "2026-11-04T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2117686520178258429",
+          "type": "original",
+          "timestamp": "2026-11-03T18:33:05.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2117686520178258429",
+          "textSnippet": "Big news today!\n\nIt’s 6 years since I first spoke about Mikey at PMQs – a young disabled man locked out of the money in his own Child Trust Fund.\n\nNow after years of campaigning alongside Mikey’s dad and his MP John Milne, we’ve forced the government to change the law."
+        },
+        {
+          "id": "2117686575098450418",
+          "type": "original",
+          "timestamp": "2026-11-03T18:33:18.000Z",
+          "url": "https://x.com/EdwardJDavey/status/2117686575098450418",
+          "textSnippet": "The work isn’t done. We will hold the government’s feet to the fire to make sure they follow through and do this properly, so disabled young people like Mikey – and their parents and carers – can access their Child Trust Funds without pointless costs and bureaucracy."
+        }
+      ]
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 5,
+        "total": 7
+      },
+      "tweets": [
+        {
+          "id": "2117514861466763553",
+          "type": "reply",
+          "timestamp": "2026-11-03T07:10:59.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117514861466763553",
+          "textSnippet": "Thank you Larry! "
+        },
+        {
+          "id": "2117515182175859195",
+          "type": "reply",
+          "timestamp": "2026-11-03T07:12:15.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117515182175859195",
+          "textSnippet": "Thank you! "
+        },
+        {
+          "id": "2117521824095318471",
+          "type": "reply",
+          "timestamp": "2026-11-03T07:38:39.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117521824095318471",
+          "textSnippet": "Thank you!!"
+        },
+        {
+          "id": "2117524272805532045",
+          "type": "reply",
+          "timestamp": "2026-11-03T07:48:22.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117524272805532045",
+          "textSnippet": "Thanks Nicky! "
+        },
+        {
+          "id": "2117678614334333394",
+          "type": "original",
+          "timestamp": "2026-11-03T18:01:40.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117678614334333394",
+          "textSnippet": "Labour retrospectively kicking away the ladder from people who have come to this country in good faith to contribute and to bring massive benefits to all of us is cruel, cowardly, and un British."
+        },
+        {
+          "id": "2117679540507963395",
+          "type": "original",
+          "timestamp": "2026-11-03T18:05:21.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117679540507963395",
+          "textSnippet": "All of this is based on a pernicious lie that both media and political establishments have promoted in Britain: that immigration is responsible for our country’s problems. Not the financial sector, which plunged the country into a disaster from which we have never recovered."
+        },
+        {
+          "id": "2117725949055959463",
+          "type": "reply",
+          "timestamp": "2026-11-03T21:09:46.000Z",
+          "url": "https://x.com/ZackPolanski/status/2117725949055959463",
+          "textSnippet": "Welcome to the party! "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
