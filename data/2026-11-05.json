@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-05",
+  "scrapedAt": "2026-11-06T12:34:32.140Z",
+  "range": {
+    "start": "2026-11-05T00:00:00.000Z",
+    "end": "2026-11-06T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2118393232904139026",
+          "type": "original",
+          "timestamp": "2026-11-05T17:21:19.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2118393232904139026",
+          "textSnippet": "I hope the appointment of Angus MacIntyre as Reform UK’s shadow Armed Forces minister will one day be seen as a defining moment in British politics.\n\nFor too long, Westminster has been run by a self-serving political class. We have career politicians who move straight from"
+        },
+        {
+          "id": "2118393235664249037",
+          "type": "original",
+          "timestamp": "2026-11-05T17:21:19.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2118393235664249037",
+          "textSnippet": "Read my full thoughts in The Telegraph. "
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
