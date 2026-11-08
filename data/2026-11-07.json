@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-07",
+  "scrapedAt": "2026-11-08T11:36:12.499Z",
+  "range": {
+    "start": "2026-11-07T00:00:00.000Z",
+    "end": "2026-11-08T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2119019293182497201",
+          "type": "original",
+          "timestamp": "2026-11-07T10:49:03.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2119019293182497201",
+          "textSnippet": "This week I revealed our Shadow Armed Forces Minister, former RAF Wing Commander Angus MacIntyre.\n\nI can think of no-one better to start the hard work of fixing Britain’s broken defences, and to show how we intend to do politics differently."
+        },
+        {
+          "id": "2119019300958642444",
+          "type": "original",
+          "timestamp": "2026-11-07T10:49:05.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2119019300958642444",
+          "textSnippet": "Read my latest essay on how Reform is reshaping British politics. \n\n \nhttps://\nsubstack.com/home/post/p-22\n3827482\n…"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2119070911261278305",
+          "type": "original",
+          "timestamp": "2026-11-07T14:14:10.000Z",
+          "url": "https://x.com/ZackPolanski/status/2119070911261278305",
+          "textSnippet": "I am in a long line of antizionist Jews who political opponents try to make people hate.\n\nBut I wont be quiet, not on criticism of Israel, nor on tackling the extreme wealth and poverty pay that both the Tories and now Labour have overseen in office."
+        },
+        {
+          "id": "2119071842203828398",
+          "type": "original",
+          "timestamp": "2026-11-07T14:17:52.000Z",
+          "url": "https://x.com/ZackPolanski/status/2119071842203828398",
+          "textSnippet": "It's not just confined to Tories. Earlier in the session \n@KrupeshHirani\n had compared criticism of Zionism to racism of Tommy Robinson.\n\nAgain Labour seem completely unaware that Tommy Robinson is a Zionist as well as aligning with the Antisemitic right.\n\nLabour & Tories confuse"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
