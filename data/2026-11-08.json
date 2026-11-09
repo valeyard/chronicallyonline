@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-08",
+  "scrapedAt": "2026-11-09T13:27:44.048Z",
+  "range": {
+    "start": "2026-11-08T00:00:00.000Z",
+    "end": "2026-11-09T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2119475283958943850",
+          "type": "original",
+          "timestamp": "2026-11-08T17:01:00.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2119475283958943850",
+          "textSnippet": "‘WE WILL REMEMBER THEM.’\n\nBut are we?\n\nMy full documentary on the First World War. \n\nI’d be grateful if you could share it, particularly with younger Britons."
+        },
+        {
+          "id": "2119482685903036809",
+          "type": "original",
+          "timestamp": "2026-11-08T17:30:25.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2119482685903036809",
+          "textSnippet": "Watch my full documentary here. "
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
