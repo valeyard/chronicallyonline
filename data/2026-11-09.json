@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-09",
+  "scrapedAt": "2026-11-10T13:06:38.027Z",
+  "range": {
+    "start": "2026-11-09T00:00:00.000Z",
+    "end": "2026-11-10T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2119764246506451119",
+          "type": "original",
+          "timestamp": "2026-11-09T12:09:14.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2119764246506451119",
+          "textSnippet": "We owe a great debt of service to the young men who died for Britain.\n\nWe must ensure that the country they fought for continues, and that it remains a country that they could take pride in.\n\nThese brave men deserve better than to have the war they fought for us fade into the"
+        },
+        {
+          "id": "2119764252764307653",
+          "type": "original",
+          "timestamp": "2026-11-09T12:09:15.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2119764252764307653",
+          "textSnippet": "Read my full essay on the importance of remembering their great sacrifice. \n\nhttps://\nnigelfarage.substack.com/p/we-will-reme\nmber-them\n…"
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2119703983090528685",
+          "type": "original",
+          "timestamp": "2026-11-09T08:09:46.000Z",
+          "url": "https://x.com/ZackPolanski/status/2119703983090528685",
+          "textSnippet": "This week leaders meet for the UN climate summit. \n\nThe context? A summer of heat deaths. Scientists saying 2026 will be the hottest year ever. \n\nOur Government's contribution?\n\n To bend over backwards to the car industry, and scrap plans for rapid electrification."
+        },
+        {
+          "id": "2119703986978656767",
+          "type": "original",
+          "timestamp": "2026-11-09T08:09:47.000Z",
+          "url": "https://x.com/ZackPolanski/status/2119703986978656767",
+          "textSnippet": "This Government is building up a shocking record of backsliding and bad decisions on climate issues. \n\nAt a time when we desperately need leadership, they bend to the will of polluters by slashing key rules and pushing ahead with fossil fuel extraction."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2119826404191932455",
+          "type": "original",
+          "timestamp": "2026-11-09T16:16:13.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2119826404191932455",
+          "textSnippet": "Britain is broken. Families across Scotland face soaring energy bills, rising mortgage costs and another squeeze on living standards. Andy Burnham must wake up and act before households are left even worse off."
+        },
+        {
+          "id": "2119826408490860827",
+          "type": "original",
+          "timestamp": "2026-11-09T16:16:14.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2119826408490860827",
+          "textSnippet": ""
+        }
+      ]
+    }
+  }
+}
