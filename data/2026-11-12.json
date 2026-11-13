@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-12",
+  "scrapedAt": "2026-11-13T12:42:34.846Z",
+  "range": {
+    "start": "2026-11-12T00:00:00.000Z",
+    "end": "2026-11-13T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 1,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2120792485915922647",
+          "type": "reply",
+          "timestamp": "2026-11-12T08:15:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2120792485915922647",
+          "textSnippet": ""
+        },
+        {
+          "id": "2120957640863785120",
+          "type": "original",
+          "timestamp": "2026-11-12T19:11:21.000Z",
+          "url": "https://x.com/ZackPolanski/status/2120957640863785120",
+          "textSnippet": "Labour will work with Reform.\nLabour will work with the Tories.\n\nBut not the Greens, even when local people want it.\n\nStanding up for Palestinians is a red line. Working with Reform isn't.\n\nWant a party that won't pick on disabled people & taxes the rich?"
+        },
+        {
+          "id": "2120958074550931855",
+          "type": "original",
+          "timestamp": "2026-11-12T19:13:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2120958074550931855",
+          "textSnippet": "Think this is far fetched?\n\nThis is literally what Andy Burnham's Labour has demanded in Sheffield."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
