@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-13",
+  "scrapedAt": "2026-11-14T11:50:27.298Z",
+  "range": {
+    "start": "2026-11-13T00:00:00.000Z",
+    "end": "2026-11-14T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 1,
+        "total": 3
+      },
+      "tweets": [
+        {
+          "id": "2121261931772137818",
+          "type": "original",
+          "timestamp": "2026-11-13T15:20:30.000Z",
+          "url": "https://x.com/ZackPolanski/status/2121261931772137818",
+          "textSnippet": "Great to welcome Diane - our newest Green councillor in Leicester City!\n\nDiane's been a councillor for 9 years & is hugely welcome!\n\nWant to join Diane in the party fighting for environmental, social, racial and economic justice? (join link below!)"
+        },
+        {
+          "id": "2121261934280647136",
+          "type": "original",
+          "timestamp": "2026-11-13T15:20:30.000Z",
+          "url": "https://x.com/ZackPolanski/status/2121261934280647136",
+          "textSnippet": ""
+        },
+        {
+          "id": "2121316635583607211",
+          "type": "reply",
+          "timestamp": "2026-11-13T18:57:52.000Z",
+          "url": "https://x.com/ZackPolanski/status/2121316635583607211",
+          "textSnippet": "Amazing work team!  "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2121181182809530432",
+          "type": "original",
+          "timestamp": "2026-11-13T09:59:38.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2121181182809530432",
+          "textSnippet": " Andy Burnham is failing families and breaking his promises. He promised radical change but has presided over soaring prices and declining living standards - forcing families to cut back, or even skip meals, just to get by."
+        },
+        {
+          "id": "2121181187288846690",
+          "type": "original",
+          "timestamp": "2026-11-13T09:59:39.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2121181187288846690",
+          "textSnippet": ""
+        },
+        {
+          "id": "2121195111279210570",
+          "type": "original",
+          "timestamp": "2026-11-13T10:54:59.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2121195111279210570",
+          "textSnippet": " Temporary Email Disruption \n\nDue to the ongoing disruption affecting Microsoft Outlook services, my team and I are currently unable to access or respond to emails."
+        },
+        {
+          "id": "2121195113967694082",
+          "type": "original",
+          "timestamp": "2026-11-13T10:54:59.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2121195113967694082",
+          "textSnippet": "We apologise for any inconvenience this may cause and appreciate your patience and understanding.\n\nRest assured, we’ll endeavour to respond to all urgent emails as soon as services are restored."
+        }
+      ]
+    }
+  }
+}
