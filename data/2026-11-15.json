@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-15",
+  "scrapedAt": "2026-11-16T13:13:32.665Z",
+  "range": {
+    "start": "2026-11-15T00:00:00.000Z",
+    "end": "2026-11-16T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 2,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2122013256852132197",
+          "type": "reply",
+          "timestamp": "2026-11-15T17:06:00.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122013256852132197",
+          "textSnippet": "Approving a new gas field (Jackdaw) and not ruling out a new oil field (Rosebank) was bad enough without this kind of gaslighting."
+        },
+        {
+          "id": "2122016713168556399",
+          "type": "reply",
+          "timestamp": "2026-11-15T17:19:44.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122016713168556399",
+          "textSnippet": "Thank you for all that you do."
+        },
+        {
+          "id": "2122097879208612097",
+          "type": "original",
+          "timestamp": "2026-11-15T22:42:15.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122097879208612097",
+          "textSnippet": "Times Journalist continuing to behave like this after their online network is exposed through actual journalism is a choice.\n\nLet's wait and find out who this anonymous account is - and then there's a whole series of questions about who knew.\n\nExcellent work from @BylineTimes."
+        },
+        {
+          "id": "2122099207410495609",
+          "type": "original",
+          "timestamp": "2026-11-15T22:47:32.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122099207410495609",
+          "textSnippet": "It's important the relationship between anonymous accounts, our media and funded organisations is transparent.\n\nPart one in full detail here "
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
