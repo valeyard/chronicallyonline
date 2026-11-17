@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-16",
+  "scrapedAt": "2026-11-17T13:56:48.631Z",
+  "range": {
+    "start": "2026-11-16T00:00:00.000Z",
+    "end": "2026-11-17T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2122226866765324308",
+          "type": "original",
+          "timestamp": "2026-11-16T07:14:48.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122226866765324308",
+          "textSnippet": "We live in Rip Off Britain.\n\nPeople face soaring bills, rents and prices while wages remain low.\n\nLabour says it wants to give people breathing space.\n\nBy cutting benefits for disabled people to spend more on weapons?\n\nIt's offensively ridiculous."
+        },
+        {
+          "id": "2122227113411440707",
+          "type": "original",
+          "timestamp": "2026-11-16T07:15:47.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122227113411440707",
+          "textSnippet": "This week is really going to expose what \"ending neoliberalism\" really means.\n\nBut rather than despair - join the movement demanding better."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
