@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-17",
+  "scrapedAt": "2026-11-18T13:32:57.781Z",
+  "range": {
+    "start": "2026-11-17T00:00:00.000Z",
+    "end": "2026-11-18T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2122675301729575162",
+          "type": "original",
+          "timestamp": "2026-11-17T12:56:43.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122675301729575162",
+          "textSnippet": "Milburn's proposals are a flimsy sticking plaster that will do precious little to heal the damage inflicted on young people by successive governments over their lifetimes."
+        },
+        {
+          "id": "2122675303600320971",
+          "type": "original",
+          "timestamp": "2026-11-17T12:56:44.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122675303600320971",
+          "textSnippet": "Today’s young people are suffering some of the worst consequences of over a decade of economic rot, with a lack of meaningful job opportunities compounded by the sky-high cost of housing and essentials that puts dreams of living independently out of reach for millions."
+        },
+        {
+          "id": "2122675305290576058",
+          "type": "original",
+          "timestamp": "2026-11-17T12:56:44.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122675305290576058",
+          "textSnippet": "We have a genuine opportunity here - from building clean power tech to heat-proofing our homes to bring down bills, we need millions of skilled workers to fuel the booming green economy. We should be straining every sinew to train and support young people to take up these jobs."
+        },
+        {
+          "id": "2122675310483169644",
+          "type": "original",
+          "timestamp": "2026-11-17T12:56:46.000Z",
+          "url": "https://x.com/ZackPolanski/status/2122675310483169644",
+          "textSnippet": "Instead, what we’re seeing is a plan to slash support for disabled young people while subsidising big corporations to hire cheap labour. It’s simply not good enough."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2122755233441104085",
+          "type": "original",
+          "timestamp": "2026-11-17T18:14:21.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2122755233441104085",
+          "textSnippet": " \"Andy Burnham must stop dithering and get on with it. The only solution to Westminster's Brexit disaster is to abandon Brexit entirely and rejoin the EU without further delay.\""
+        },
+        {
+          "id": "2122755239548010540",
+          "type": "original",
+          "timestamp": "2026-11-17T18:14:22.000Z",
+          "url": "https://x.com/DaveDooganSNP/status/2122755239548010540",
+          "textSnippet": ""
+        }
+      ]
+    }
+  }
+}
