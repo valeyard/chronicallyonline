@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-19",
+  "scrapedAt": "2026-11-20T13:42:08.258Z",
+  "range": {
+    "start": "2026-11-19T00:00:00.000Z",
+    "end": "2026-11-20T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2123466216538780134",
+          "type": "original",
+          "timestamp": "2026-11-19T17:19:32.000Z",
+          "url": "https://x.com/ZackPolanski/status/2123466216538780134",
+          "textSnippet": "Labours climate credibility is in tatters.\n\nFunding renewable energy through making money on oil and gas is like burning the village to save the village."
+        },
+        {
+          "id": "2123466559511466168",
+          "type": "original",
+          "timestamp": "2026-11-19T17:20:54.000Z",
+          "url": "https://x.com/ZackPolanski/status/2123466559511466168",
+          "textSnippet": "And here's the vital report, \n@SadiqKhan\n from \n@GreenpeaceUK\n:"
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
