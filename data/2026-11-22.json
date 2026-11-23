@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-22",
+  "scrapedAt": "2026-11-23T15:29:54.153Z",
+  "range": {
+    "start": "2026-11-22T00:00:00.000Z",
+    "end": "2026-11-23T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 5,
+        "retweet": 0,
+        "reply": 1,
+        "total": 6
+      },
+      "tweets": [
+        {
+          "id": "2124469442402742376",
+          "type": "reply",
+          "timestamp": "2026-11-22T11:46:00.000Z",
+          "url": "https://x.com/ZackPolanski/status/2124469442402742376",
+          "textSnippet": ""
+        },
+        {
+          "id": "2124528035844010407",
+          "type": "original",
+          "timestamp": "2026-11-22T15:38:50.000Z",
+          "url": "https://x.com/ZackPolanski/status/2124528035844010407",
+          "textSnippet": "Such a hopeful weekend meeting leadership from Die Linke, Partito Democratico, La France Insoumise.\n\nGreat also to meet with Naomi Klein, Joseph Stiglitz & senior staff from Bernie Sanders & Zohran Mamdanis teams.\n\nThe movement to take on the oligarchy is building."
+        },
+        {
+          "id": "2124528045142708471",
+          "type": "original",
+          "timestamp": "2026-11-22T15:38:52.000Z",
+          "url": "https://x.com/ZackPolanski/status/2124528045142708471",
+          "textSnippet": "I'm proud the Green Party are part of a global movement that is taking on the oligarchy.\n\nRising bills, a climate crisis and inequality rife.\n\nIt doesn't have to be like this. Help us create the alternative:\n\n\nhttps://\nJoin.greenparty.org.uk"
+        },
+        {
+          "id": "2124567354604388465",
+          "type": "original",
+          "timestamp": "2026-11-22T18:15:04.000Z",
+          "url": "https://x.com/ZackPolanski/status/2124567354604388465",
+          "textSnippet": "COP has become the place where rich polluting nations simply start up the spin cycle and greenwash their reputations for another year. \n\nThe science is as clear as melted arctic ice water. We must keep fossil fuels in the ground. We must invest in renewables."
+        },
+        {
+          "id": "2124567356747735145",
+          "type": "original",
+          "timestamp": "2026-11-22T18:15:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2124567356747735145",
+          "textSnippet": "We must gain control of our energy production so we can lower household and business bills. \n\nForeign wars don’t just spike our energy bills at home, they also kill innocent civilians abroad."
+        },
+        {
+          "id": "2124567358610067737",
+          "type": "original",
+          "timestamp": "2026-11-22T18:15:05.000Z",
+          "url": "https://x.com/ZackPolanski/status/2124567358610067737",
+          "textSnippet": "Our government must show international leadership and stop Rosebank. Drilling for new oil and gas puts us on a path to mass destruction and must be called out for what it is, extremism."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
