@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-24",
+  "scrapedAt": "2026-11-25T15:05:07.427Z",
+  "range": {
+    "start": "2026-11-24T00:00:00.000Z",
+    "end": "2026-11-25T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 4,
+        "retweet": 0,
+        "reply": 0,
+        "total": 4
+      },
+      "tweets": [
+        {
+          "id": "2125209555739025886",
+          "type": "original",
+          "timestamp": "2026-11-24T12:46:57.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125209555739025886",
+          "textSnippet": "This isn't true - I said I back a proper conversation about national security. But i'm glad for the chance to be clear:\n\nNuclear weapons are a stain on our country's reputation, and we desperately need to seek security arrangements that don't solely rely on the USA."
+        },
+        {
+          "id": "2125209557978788248",
+          "type": "original",
+          "timestamp": "2026-11-24T12:46:57.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125209557978788248",
+          "textSnippet": "Look at what's happening in the world - the old institutions and assumptions are crumbling. \n\nIn the last year the USA has launched countless strikes on Iran from bases in the UK, aided by our government.\n\nThat war's cost innocent lives & driven up costs for households at home."
+        },
+        {
+          "id": "2125209559849431247",
+          "type": "original",
+          "timestamp": "2026-11-24T12:46:58.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125209559849431247",
+          "textSnippet": "We’re less safe, less secure and poorer if we stick our heads in the sand hoping that nuclear weapons that rely on the USA, or a NATO that's led by the USA, are fit for the future."
+        },
+        {
+          "id": "2125209561711685963",
+          "type": "original",
+          "timestamp": "2026-11-24T12:46:58.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125209561711685963",
+          "textSnippet": "At its core, national security is about food on the table, warm homes and safe communities. No amount of nuclear weapons will halt the climate crisis. \n\nI want a proper conversation about the clear and present threats to our national security, whatever form they take."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
