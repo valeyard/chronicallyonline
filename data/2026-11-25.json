@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-25",
+  "scrapedAt": "2026-11-26T14:34:54.098Z",
+  "range": {
+    "start": "2026-11-25T00:00:00.000Z",
+    "end": "2026-11-26T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2125560884407759043",
+          "type": "original",
+          "timestamp": "2026-11-25T12:03:00.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2125560884407759043",
+          "textSnippet": "Whether he wants to admit it or not, last week, the unelected Prime Minister Andy Burnham rejoined much of the European Union’s single market. \n\nUnable to address the major issues in people’s everyday lives, he’s retreating to an ideological position – globalism – and heaping all"
+        },
+        {
+          "id": "2125569424266584216",
+          "type": "original",
+          "timestamp": "2026-11-25T12:36:56.000Z",
+          "url": "https://x.com/Nigel_Farage/status/2125569424266584216",
+          "textSnippet": "Read my full article here. "
+        }
+      ]
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2125498990770671867",
+          "type": "original",
+          "timestamp": "2026-11-25T07:57:03.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125498990770671867",
+          "textSnippet": "We're paying the price for Trump's war in Iran & our failure to get off the fossil fuel rollercoaster coaster\n\nThe UK supported that war, with US bombers launching from here\n\nAnd early signs from Burnham (Jackdaw, warm home,  elec vehicles) are fossil fuels are here to stay."
+        },
+        {
+          "id": "2125498993039818885",
+          "type": "original",
+          "timestamp": "2026-11-25T07:57:04.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125498993039818885",
+          "textSnippet": "It doesn't have to be like this. We could transform our economy to be entirely based on clean, affordable energy.\n\nAnd we could ban the US from using our bases for good, and end our tacit support for their wars of aggression."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
