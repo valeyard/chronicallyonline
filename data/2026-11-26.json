@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-26",
+  "scrapedAt": "2026-11-27T14:29:15.923Z",
+  "range": {
+    "start": "2026-11-26T00:00:00.000Z",
+    "end": "2026-11-27T00:00:00.000Z"
+  },
+  "politicians": {
+    "andy-burnham": {
+      "handle": "andyburnham",
+      "name": "Andy Burnham",
+      "party": "Labour",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "kemi-badenoch": {
+      "handle": "KemiBadenoch",
+      "name": "Kemi Badenoch",
+      "party": "Conservative",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "ed-davey": {
+      "handle": "EdwardJDavey",
+      "name": "Ed Davey",
+      "party": "Liberal Democrats",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "nigel-farage": {
+      "handle": "Nigel_Farage",
+      "name": "Nigel Farage",
+      "party": "Reform UK",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    },
+    "zack-polanski": {
+      "handle": "ZackPolanski",
+      "name": "Zack Polanski",
+      "party": "Green",
+      "status": "ok",
+      "counts": {
+        "original": 2,
+        "retweet": 0,
+        "reply": 0,
+        "total": 2
+      },
+      "tweets": [
+        {
+          "id": "2125859958629519483",
+          "type": "original",
+          "timestamp": "2026-11-26T07:51:25.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125859958629519483",
+          "textSnippet": "Fossil fuels firms kept trying to silence us when we spoke up\n\nBut thanks to them and their friends in power we're now living in a changed world. Heatwaves, violent storms, out of control food prices - and it's only the beginning. \n\nWe can change course, but the window is narrow:"
+        },
+        {
+          "id": "2125859960890265964",
+          "type": "original",
+          "timestamp": "2026-11-26T07:51:25.000Z",
+          "url": "https://x.com/ZackPolanski/status/2125859960890265964",
+          "textSnippet": "3 things we can do now: \n\n1) Keep fossil fuels in the ground - no new extraction.\n\n2) Rapidly increase clean energy - treat the climate crisis like the national security threat that it is.\n\n3) Make polluters pay - levying new taxes on those who got us into this mess."
+        }
+      ]
+    },
+    "dave-doogan": {
+      "handle": "DaveDooganSNP",
+      "name": "Dave Doogan",
+      "party": "SNP",
+      "status": "ok",
+      "counts": {
+        "original": 0,
+        "retweet": 0,
+        "reply": 0,
+        "total": 0
+      },
+      "tweets": []
+    }
+  }
+}
